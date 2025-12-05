@@ -1,0 +1,202 @@
+[0.028s] Invoking command in '/home/tianbot/slash_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake /home/tianbot/slash_ws/src/slash_hardware/f1tenth_system/teleop_tools/teleop_tools_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/teleop_tools_msgs
+[0.300s] -- The C compiler identification is GNU 11.4.0
+[0.464s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.645s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.659s] -- Detecting C compile features
+[0.662s] -- Detecting C compile features - done
+[0.669s] -- Detecting CXX compiler ABI info
+[0.843s] -- Detecting CXX compiler ABI info - done
+[0.860s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.860s] -- Detecting CXX compile features
+[0.861s] -- Detecting CXX compile features - done
+[0.873s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.335s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.583s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.636s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.859s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.569s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.616s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.624s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.719s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.720s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.720s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.768s] -- Found PythonExtra: .so  
+[3.937s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.941s] -- Added test 'lint_cmake' to check CMake code style
+[3.944s] -- Added test 'xmllint' to check XML markup files
+[3.976s] -- Configuring done
+[4.052s] -- Generating done
+[4.072s] -- Build files have been written to: /home/tianbot/slash_ws/build/teleop_tools_msgs
+[4.096s] Invoked command in '/home/tianbot/slash_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake /home/tianbot/slash_ws/src/slash_hardware/f1tenth_system/teleop_tools/teleop_tools_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/teleop_tools_msgs
+[4.100s] Invoking command in '/home/tianbot/slash_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake --build /home/tianbot/slash_ws/build/teleop_tools_msgs -- -j4 -l4
+[4.205s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.206s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.249s] [  6%] Built target ament_cmake_python_symlink_teleop_tools_msgs
+[5.734s] [  6%] Built target teleop_tools_msgs__cpp
+[5.772s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.783s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.996s] running egg_info
+[5.996s] creating teleop_tools_msgs.egg-info
+[5.996s] writing teleop_tools_msgs.egg-info/PKG-INFO
+[6.004s] writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+[6.004s] writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+[6.004s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[6.011s] reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[6.011s] [ 16%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[6.013s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[6.212s] [ 16%] Built target ament_cmake_python_build_teleop_tools_msgs_egg
+[6.251s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.699s] [ 22%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[6.946s] [ 22%] Built target teleop_tools_msgs__rosidl_generator_c
+[6.952s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[7.007s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.581s] [ 32%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[8.117s] [ 35%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[9.495s] [ 38%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[10.517s] [ 41%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[10.820s] [ 41%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[10.844s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.104s] [ 48%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.380s] [ 51%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.728s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[11.765s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.862s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[12.875s] [ 58%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.938s] [ 61%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[13.123s] [ 64%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[13.205s] [ 67%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[13.334s] [ 67%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[13.334s] [ 67%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[13.446s] [ 70%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.548s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[13.606s] [ 70%] Built target teleop_tools_msgs
+[13.699s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.931s] [ 74%] Built target teleop_tools_msgs__py
+[17.000s] [ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[17.791s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so[0m
+[17.927s] [ 80%] Built target teleop_tools_msgs__rosidl_generator_py
+[17.969s] [ 83%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.377s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.508s] [ 87%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.568s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.851s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.111s] [ 93%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[19.188s] [ 96%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.362s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.419s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext
+[19.435s] Invoked command in '/home/tianbot/slash_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake --build /home/tianbot/slash_ws/build/teleop_tools_msgs -- -j4 -l4
+[19.454s] Invoking command in '/home/tianbot/slash_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake --install /home/tianbot/slash_ws/build/teleop_tools_msgs
+[19.468s] -- Install configuration: ""
+[19.471s] -- Execute custom install script
+[19.471s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs
+[19.483s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__functions.h
+[19.498s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.h
+[19.510s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.h
+[19.522s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.h
+[19.534s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.547s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh
+[19.559s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv
+[19.572s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h
+[19.584s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.604s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h
+[19.622s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.634s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__builder.hpp
+[19.645s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.hpp
+[19.659s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__traits.hpp
+[19.671s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.hpp
+[19.682s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.hpp
+[19.694s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.705s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp
+[19.718s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.728s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp
+[19.741s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh
+[19.754s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv
+[19.765s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[19.776s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[19.789s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[19.801s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[19.823s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/__init__.py
+[19.846s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c
+[19.863s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.878s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.893s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/__init__.py
+[19.909s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment.py
+[19.925s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment_s.c
+[19.957s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so
+[19.978s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.999s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.027s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.054s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.055s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.056s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.065s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl
+[20.075s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action
+[20.097s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs
+[20.120s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs
+[20.139s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh
+[20.152s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv
+[20.168s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh
+[20.189s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv
+[20.210s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash
+[20.231s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh
+[20.245s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh
+[20.257s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv
+[20.271s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv
+[20.286s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs
+[20.300s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake
+[20.311s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.324s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.334s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.345s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.358s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.372s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.381s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake
+[20.401s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake
+[20.418s] -- Symlinking: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml
+[20.436s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so
+[20.437s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so" to ""
+[20.438s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so
+[20.439s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[20.439s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so
+[20.442s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""
+[20.442s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so
+[20.442s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""
+[20.442s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.444s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.444s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so
+[20.445s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[20.446s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so
+[20.446s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""
+[20.517s] Listing '/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs'...
+[20.517s] Compiling '/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/__init__.py'...
+[20.517s] Listing '/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action'...
+[20.517s] Compiling '/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/__init__.py'...
+[20.517s] Compiling '/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment.py'...
+[20.526s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so
+[20.531s] -- Set runtime path of "/home/tianbot/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so" to ""
+[20.531s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport.cmake
+[20.531s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.531s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.532s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.533s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cppExport.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.535s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport.cmake
+[20.536s] -- Installing: /home/tianbot/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.536s] Invoked command in '/home/tianbot/slash_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux /usr/bin/cmake --install /home/tianbot/slash_ws/build/teleop_tools_msgs

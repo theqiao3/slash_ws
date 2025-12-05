@@ -1,0 +1,394 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000645] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000793] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000848] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000908] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000982] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001021] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001071] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001108] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001144] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001191] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001237] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001286] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001385] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.001423] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001475] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001511] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001547] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001593] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001630] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001666] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001716] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001767] (dll) JobQueued: {'identifier': 'dll', 'dependencies': OrderedDict()}
+[0.001808] (dll) JobStarted: {'identifier': 'dll'}
+[0.017187] (dll) JobProgress: {'identifier': 'dll', 'progress': 'cmake'}
+[0.018189] (dll) JobProgress: {'identifier': 'dll', 'progress': 'build'}
+[0.019130] (dll) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/dll', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/dll', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'x11'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1067'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548f81e53cdad93ab48e9aec692d3a58'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tianbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hcx:@/tmp/.ICE-unix/1067,unix/hcx:/tmp/.ICE-unix/1067'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6253afbf_4c87_4247_b0a3_3e1b1e6943c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TIANRACER_RGBD_CAMERA', 'none'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/tianbot/slash_ws/build/dll'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('TIANBOT_NAME', 'tianbot'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548f81e53cdad93ab48e9aec692d3a58'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.085485] (dll) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dll_node\x1b[0m\n'}
+[0.099743] (-) TimerEvent: {}
+[0.137539] (dll) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dll_node.dir/src/dll_node.cpp.o\x1b[0m\n'}
+[0.199839] (-) TimerEvent: {}
+[0.300125] (-) TimerEvent: {}
+[0.400419] (-) TimerEvent: {}
+[0.500731] (-) TimerEvent: {}
+[0.601020] (-) TimerEvent: {}
+[0.701549] (-) TimerEvent: {}
+[0.801852] (-) TimerEvent: {}
+[0.902159] (-) TimerEvent: {}
+[1.002761] (-) TimerEvent: {}
+[1.103047] (-) TimerEvent: {}
+[1.203339] (-) TimerEvent: {}
+[1.303650] (-) TimerEvent: {}
+[1.403936] (-) TimerEvent: {}
+[1.504225] (-) TimerEvent: {}
+[1.604480] (-) TimerEvent: {}
+[1.704780] (-) TimerEvent: {}
+[1.805122] (-) TimerEvent: {}
+[1.866112] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:18\x1b[m\x1b[K,\n'}
+[1.866368] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.866506] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.866611] (dll) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.866703] (dll) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.905222] (-) TimerEvent: {}
+[2.005489] (-) TimerEvent: {}
+[2.105781] (-) TimerEvent: {}
+[2.206082] (-) TimerEvent: {}
+[2.306387] (-) TimerEvent: {}
+[2.406664] (-) TimerEvent: {}
+[2.506986] (-) TimerEvent: {}
+[2.607826] (-) TimerEvent: {}
+[2.708220] (-) TimerEvent: {}
+[2.808560] (-) TimerEvent: {}
+[2.908901] (-) TimerEvent: {}
+[3.009215] (-) TimerEvent: {}
+[3.109487] (-) TimerEvent: {}
+[3.209791] (-) TimerEvent: {}
+[3.310100] (-) TimerEvent: {}
+[3.410453] (-) TimerEvent: {}
+[3.510779] (-) TimerEvent: {}
+[3.611094] (-) TimerEvent: {}
+[3.711416] (-) TimerEvent: {}
+[3.811739] (-) TimerEvent: {}
+[3.912046] (-) TimerEvent: {}
+[4.012351] (-) TimerEvent: {}
+[4.112645] (-) TimerEvent: {}
+[4.212967] (-) TimerEvent: {}
+[4.313278] (-) TimerEvent: {}
+[4.413624] (-) TimerEvent: {}
+[4.513933] (-) TimerEvent: {}
+[4.614239] (-) TimerEvent: {}
+[4.714594] (-) TimerEvent: {}
+[4.814913] (-) TimerEvent: {}
+[4.915223] (-) TimerEvent: {}
+[5.015555] (-) TimerEvent: {}
+[5.115954] (-) TimerEvent: {}
+[5.216273] (-) TimerEvent: {}
+[5.316600] (-) TimerEvent: {}
+[5.416907] (-) TimerEvent: {}
+[5.517247] (-) TimerEvent: {}
+[5.617565] (-) TimerEvent: {}
+[5.717873] (-) TimerEvent: {}
+[5.818232] (-) TimerEvent: {}
+[5.918575] (-) TimerEvent: {}
+[6.018887] (-) TimerEvent: {}
+[6.119196] (-) TimerEvent: {}
+[6.219482] (-) TimerEvent: {}
+[6.319769] (-) TimerEvent: {}
+[6.420060] (-) TimerEvent: {}
+[6.520386] (-) TimerEvent: {}
+[6.620944] (-) TimerEvent: {}
+[6.721249] (-) TimerEvent: {}
+[6.821587] (-) TimerEvent: {}
+[6.921903] (-) TimerEvent: {}
+[7.022206] (-) TimerEvent: {}
+[7.122495] (-) TimerEvent: {}
+[7.222818] (-) TimerEvent: {}
+[7.323136] (-) TimerEvent: {}
+[7.423466] (-) TimerEvent: {}
+[7.523777] (-) TimerEvent: {}
+[7.624077] (-) TimerEvent: {}
+[7.724386] (-) TimerEvent: {}
+[7.824730] (-) TimerEvent: {}
+[7.925041] (-) TimerEvent: {}
+[8.025368] (-) TimerEvent: {}
+[8.125703] (-) TimerEvent: {}
+[8.154362] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:28\x1b[m\x1b[K,\n'}
+[8.154617] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.154753] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DLLSolver::solve(std::vector<pcl::PointXYZ>&, double&, double&, double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.154856] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:139:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.154957] (dll) StderrLine: {'line': b'  139 |         for(int i=0; \x1b[01;35m\x1b[Ki<p.size()\x1b[m\x1b[K; i++)\n'}
+[8.155049] (dll) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.225811] (-) TimerEvent: {}
+[8.326120] (-) TimerEvent: {}
+[8.386652] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.386886] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DLLNode::pointcloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.386994] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:399:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.387098] (dll) StderrLine: {'line': b'  399 |             for(int i = 0; \x1b[01;35m\x1b[Ki < downCloud_vec.size()\x1b[m\x1b[K; i++)\n'}
+[8.387186] (dll) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.388518] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DLLNode::setInitialPose(tf2::Transform, rclcpp::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.388660] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:457:121:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.389117] (dll) StderrLine: {'line': b'  457 | nsform(m_odomFrameId, m_baseFrameId, timestamp, rclcpp::Duration(1.0\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[8.389236] (dll) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.389330] (dll) StderrLine: {'line': b'\n'}
+[8.389416] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[8.389510] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[8.389616] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[8.389698] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.389780] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.389859] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.389939] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.390019] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.390202] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.390316] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.390418] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.390518] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.390606] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:40\x1b[m\x1b[K,\n'}
+[8.390690] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:5\x1b[m\x1b[K,\n'}
+[8.390779] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.390859] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.392237] (dll) StderrLine: {'line': b'   48 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)\n'}
+[8.392493] (dll) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.392645] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.392735] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.392868] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:457:121:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.392955] (dll) StderrLine: {'line': b'  457 | nsform(m_odomFrameId, m_baseFrameId, timestamp, rclcpp::Duration(1.0\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[8.393038] (dll) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.393120] (dll) StderrLine: {'line': b'\n'}
+[8.393203] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[8.393286] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[8.393367] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[8.393564] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.393665] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.393761] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.393858] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.393956] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.394109] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.394205] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.394296] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.394610] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.394730] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:40\x1b[m\x1b[K,\n'}
+[8.394837] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:5\x1b[m\x1b[K,\n'}
+[8.394939] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.395041] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.395144] (dll) StderrLine: {'line': b'  151 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K() = default;\n'}
+[8.395244] (dll) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.395347] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[8.395467] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.395561] (dll) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const Duration & rhs);\n'}
+[8.395646] (dll) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.395724] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.395828] (dll) StderrLine: {'line': b'   61 |   Duration(\x1b[01;36m\x1b[Kconst Duration & rhs\x1b[m\x1b[K);\n'}
+[8.395914] (dll) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.395993] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rcl_duration_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.396082] (dll) StderrLine: {'line': b'   59 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const rcl_duration_t & duration);\n'}
+[8.396178] (dll) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.396270] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.396354] (dll) StderrLine: {'line': b'   59 |   explicit Duration(\x1b[01;36m\x1b[Kconst rcl_duration_t & duration\x1b[m\x1b[K);\n'}
+[8.396632] (dll) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.396833] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.396929] (dll) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)\n'}
+[8.397285] (dll) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.397565] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Duration&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.397657] (dll) StderrLine: {'line': b'   53 |   Duration(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Duration & duration_msg\x1b[m\x1b[K);  // NOLINT(runtime/explicit)\n'}
+[8.397738] (dll) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.397816] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(std::chrono::nanoseconds)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.397899] (dll) StderrLine: {'line': b'   42 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(std::chrono::nanoseconds nanoseconds);\n'}
+[8.397980] (dll) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.398058] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::nanoseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.398139] (dll) StderrLine: {'line': b'   42 |   explicit Duration(\x1b[01;36m\x1b[Kstd::chrono::nanoseconds nanoseconds\x1b[m\x1b[K);\n'}
+[8.398216] (dll) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.398295] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(int32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.398652] (dll) StderrLine: {'line': b'   39 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(int32_t seconds, uint32_t nanoseconds);\n'}
+[8.398775] (dll) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.398917] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[8.399004] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.399169] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DLLNode::PointCloud2_to_PointXYZ(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<pcl::PointXYZ>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.399254] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:508:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.399339] (dll) StderrLine: {'line': b'  508 |         for(int nIndex = 0; \x1b[01;35m\x1b[KnIndex < in->points.size ()\x1b[m\x1b[K; nIndex++)\n'}
+[8.399417] (dll) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.426209] (-) TimerEvent: {}
+[8.526489] (-) TimerEvent: {}
+[8.626809] (-) TimerEvent: {}
+[8.727150] (-) TimerEvent: {}
+[8.827469] (-) TimerEvent: {}
+[8.927780] (-) TimerEvent: {}
+[9.028116] (-) TimerEvent: {}
+[9.128514] (-) TimerEvent: {}
+[9.228917] (-) TimerEvent: {}
+[9.329354] (-) TimerEvent: {}
+[9.429757] (-) TimerEvent: {}
+[9.530121] (-) TimerEvent: {}
+[9.630473] (-) TimerEvent: {}
+[9.730864] (-) TimerEvent: {}
+[9.831252] (-) TimerEvent: {}
+[9.931694] (-) TimerEvent: {}
+[10.032026] (-) TimerEvent: {}
+[10.132342] (-) TimerEvent: {}
+[10.232659] (-) TimerEvent: {}
+[10.333015] (-) TimerEvent: {}
+[10.433355] (-) TimerEvent: {}
+[10.533988] (-) TimerEvent: {}
+[10.634326] (-) TimerEvent: {}
+[10.734677] (-) TimerEvent: {}
+[10.835041] (-) TimerEvent: {}
+[10.935367] (-) TimerEvent: {}
+[11.035689] (-) TimerEvent: {}
+[11.136002] (-) TimerEvent: {}
+[11.236305] (-) TimerEvent: {}
+[11.336652] (-) TimerEvent: {}
+[11.436999] (-) TimerEvent: {}
+[11.537320] (-) TimerEvent: {}
+[11.637646] (-) TimerEvent: {}
+[11.737952] (-) TimerEvent: {}
+[11.838248] (-) TimerEvent: {}
+[11.938555] (-) TimerEvent: {}
+[12.038895] (-) TimerEvent: {}
+[12.139209] (-) TimerEvent: {}
+[12.239552] (-) TimerEvent: {}
+[12.339847] (-) TimerEvent: {}
+[12.440140] (-) TimerEvent: {}
+[12.540446] (-) TimerEvent: {}
+[12.640788] (-) TimerEvent: {}
+[12.741110] (-) TimerEvent: {}
+[12.841406] (-) TimerEvent: {}
+[12.941720] (-) TimerEvent: {}
+[13.042031] (-) TimerEvent: {}
+[13.142349] (-) TimerEvent: {}
+[13.242771] (-) TimerEvent: {}
+[13.343100] (-) TimerEvent: {}
+[13.443414] (-) TimerEvent: {}
+[13.544284] (-) TimerEvent: {}
+[13.644671] (-) TimerEvent: {}
+[13.744976] (-) TimerEvent: {}
+[13.845367] (-) TimerEvent: {}
+[13.945810] (-) TimerEvent: {}
+[14.046130] (-) TimerEvent: {}
+[14.146443] (-) TimerEvent: {}
+[14.246879] (-) TimerEvent: {}
+[14.347285] (-) TimerEvent: {}
+[14.447620] (-) TimerEvent: {}
+[14.547930] (-) TimerEvent: {}
+[14.648249] (-) TimerEvent: {}
+[14.748884] (-) TimerEvent: {}
+[14.849225] (-) TimerEvent: {}
+[14.949658] (-) TimerEvent: {}
+[15.049961] (-) TimerEvent: {}
+[15.150265] (-) TimerEvent: {}
+[15.250695] (-) TimerEvent: {}
+[15.350979] (-) TimerEvent: {}
+[15.451309] (-) TimerEvent: {}
+[15.551666] (-) TimerEvent: {}
+[15.651977] (-) TimerEvent: {}
+[15.752285] (-) TimerEvent: {}
+[15.852617] (-) TimerEvent: {}
+[15.952922] (-) TimerEvent: {}
+[16.053239] (-) TimerEvent: {}
+[16.153574] (-) TimerEvent: {}
+[16.253884] (-) TimerEvent: {}
+[16.354203] (-) TimerEvent: {}
+[16.454493] (-) TimerEvent: {}
+[16.554803] (-) TimerEvent: {}
+[16.655111] (-) TimerEvent: {}
+[16.755422] (-) TimerEvent: {}
+[16.855753] (-) TimerEvent: {}
+[16.956069] (-) TimerEvent: {}
+[17.056555] (-) TimerEvent: {}
+[17.156869] (-) TimerEvent: {}
+[17.257239] (-) TimerEvent: {}
+[17.357704] (-) TimerEvent: {}
+[17.458166] (-) TimerEvent: {}
+[17.558552] (-) TimerEvent: {}
+[17.659112] (-) TimerEvent: {}
+[17.759448] (-) TimerEvent: {}
+[17.859758] (-) TimerEvent: {}
+[17.961403] (-) TimerEvent: {}
+[18.061754] (-) TimerEvent: {}
+[18.162055] (-) TimerEvent: {}
+[18.262362] (-) TimerEvent: {}
+[18.362708] (-) TimerEvent: {}
+[18.463138] (-) TimerEvent: {}
+[18.563829] (-) TimerEvent: {}
+[18.664188] (-) TimerEvent: {}
+[18.764908] (-) TimerEvent: {}
+[18.865594] (-) TimerEvent: {}
+[18.969242] (-) TimerEvent: {}
+[19.069570] (-) TimerEvent: {}
+[19.169986] (-) TimerEvent: {}
+[19.270605] (-) TimerEvent: {}
+[19.370928] (-) TimerEvent: {}
+[19.471256] (-) TimerEvent: {}
+[19.571618] (-) TimerEvent: {}
+[19.672386] (-) TimerEvent: {}
+[19.772933] (-) TimerEvent: {}
+[19.873246] (-) TimerEvent: {}
+[19.973636] (-) TimerEvent: {}
+[20.074120] (-) TimerEvent: {}
+[20.174436] (-) TimerEvent: {}
+[20.274760] (-) TimerEvent: {}
+[20.375169] (-) TimerEvent: {}
+[20.475688] (-) TimerEvent: {}
+[20.576022] (-) TimerEvent: {}
+[20.676441] (-) TimerEvent: {}
+[20.776782] (-) TimerEvent: {}
+[20.877271] (-) TimerEvent: {}
+[20.977989] (-) TimerEvent: {}
+[21.078359] (-) TimerEvent: {}
+[21.178872] (-) TimerEvent: {}
+[21.279189] (-) TimerEvent: {}
+[21.380799] (-) TimerEvent: {}
+[21.481103] (-) TimerEvent: {}
+[21.581439] (-) TimerEvent: {}
+[21.681883] (-) TimerEvent: {}
+[21.782188] (-) TimerEvent: {}
+[21.882533] (-) TimerEvent: {}
+[21.982874] (-) TimerEvent: {}
+[22.083473] (-) TimerEvent: {}
+[22.184210] (-) TimerEvent: {}
+[22.284490] (-) TimerEvent: {}
+[22.384791] (-) TimerEvent: {}
+[22.485135] (-) TimerEvent: {}
+[22.585450] (-) TimerEvent: {}
+[22.685903] (-) TimerEvent: {}
+[22.786231] (-) TimerEvent: {}
+[22.887037] (-) TimerEvent: {}
+[22.987473] (-) TimerEvent: {}
+[23.075503] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:27\x1b[m\x1b[K,\n'}
+[23.075845] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[23.075956] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Grid3d::loadGrid(std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.076083] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:615:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.076203] (dll) StderrLine: {'line': b'  615 |         \x1b[01;35m\x1b[Kfread(&version, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[23.076331] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.076445] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:621:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.076576] (dll) StderrLine: {'line': b'  621 |         \x1b[01;35m\x1b[Kfread(&m_gridSize, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[23.076663] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.076766] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:622:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.076868] (dll) StderrLine: {'line': b'  622 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeX, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[23.076965] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.077046] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:623:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.077139] (dll) StderrLine: {'line': b'  623 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeY, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[23.077223] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.077339] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:624:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.077475] (dll) StderrLine: {'line': b'  624 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeZ, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[23.077571] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.077661] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:625:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.077749] (dll) StderrLine: {'line': b'  625 |         \x1b[01;35m\x1b[Kfread(&m_offsetX, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[23.077829] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.077909] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:626:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.077992] (dll) StderrLine: {'line': b'  626 |         \x1b[01;35m\x1b[Kfread(&m_offsetY, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[23.078073] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.078153] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:627:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.078266] (dll) StderrLine: {'line': b'  627 |         \x1b[01;35m\x1b[Kfread(&m_offsetZ, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[23.078357] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.078681] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:635:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.078783] (dll) StderrLine: {'line': b'  635 |         \x1b[01;35m\x1b[Kfread(m_grid, sizeof(uint16_t), m_gridSize, pf)\x1b[m\x1b[K;\n'}
+[23.079072] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.087559] (-) TimerEvent: {}
+[23.187888] (-) TimerEvent: {}
+[23.213815] (dll) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dll_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/dll_node.dir/src/dll_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[23.214090] (dll) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/dll_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[23.214376] (dll) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[23.216358] (dll) CommandEnded: {'returncode': 2}
+[23.228055] (dll) JobEnded: {'identifier': 'dll', 'rc': 2}
+[23.238846] (-) EventReactorShutdown: {}

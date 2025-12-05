@@ -1,0 +1,4 @@
+/home/tianbot/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescState.idl
+/home/tianbot/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescStateStamped.idl
+/home/tianbot/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImu.idl
+/home/tianbot/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImuStamped.idl

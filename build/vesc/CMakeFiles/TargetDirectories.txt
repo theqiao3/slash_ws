@@ -1,0 +1,9 @@
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/uninstall.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/vesc_uninstall.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/test.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/edit_cache.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/rebuild_cache.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/list_install_components.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/install.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/install/local.dir
+/home/tianbot/slash_ws/build/vesc/CMakeFiles/install/strip.dir

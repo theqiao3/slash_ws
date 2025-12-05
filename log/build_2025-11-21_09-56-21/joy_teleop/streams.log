@@ -1,0 +1,29 @@
+[1.366s] Invoking command in '/home/tianbot/slash_ws/build/joy_teleop': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/joy_teleop/build --no-deps symlink_data
+[1.812s] running develop
+[2.138s] running egg_info
+[2.138s] creating joy_teleop.egg-info
+[2.138s] writing joy_teleop.egg-info/PKG-INFO
+[2.139s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[2.139s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[2.139s] writing requirements to joy_teleop.egg-info/requires.txt
+[2.140s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[2.140s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[2.142s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[2.143s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[2.199s] running build_ext
+[2.201s] Creating /home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages/joy-teleop.egg-link (link to .)
+[2.201s] Installing incrementer_server script to /home/tianbot/slash_ws/install/joy_teleop/lib/joy_teleop
+[2.202s] Installing joy_teleop script to /home/tianbot/slash_ws/install/joy_teleop/lib/joy_teleop
+[2.202s] 
+[2.202s] Installed /home/tianbot/slash_ws/build/joy_teleop
+[2.202s] running symlink_data
+[2.202s] symbolically linking /home/tianbot/slash_ws/build/joy_teleop/package.xml -> /home/tianbot/slash_ws/install/joy_teleop/share/joy_teleop
+[2.202s] creating /home/tianbot/slash_ws/install/joy_teleop/share/joy_teleop/config
+[2.203s] symbolically linking /home/tianbot/slash_ws/build/joy_teleop/config/joy_teleop_example.yaml -> /home/tianbot/slash_ws/install/joy_teleop/share/joy_teleop/config
+[2.203s] creating /home/tianbot/slash_ws/install/joy_teleop/share/joy_teleop/launch
+[2.203s] symbolically linking /home/tianbot/slash_ws/build/joy_teleop/launch/example.launch.py -> /home/tianbot/slash_ws/install/joy_teleop/share/joy_teleop/launch
+[2.203s] creating /home/tianbot/slash_ws/install/joy_teleop/share/ament_index
+[2.203s] creating /home/tianbot/slash_ws/install/joy_teleop/share/ament_index/resource_index
+[2.203s] creating /home/tianbot/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[2.203s] symbolically linking /home/tianbot/slash_ws/build/joy_teleop/resource/joy_teleop -> /home/tianbot/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[2.255s] Invoked command in '/home/tianbot/slash_ws/build/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/joy_teleop/build --no-deps symlink_data

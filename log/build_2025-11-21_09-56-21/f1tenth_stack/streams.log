@@ -1,0 +1,35 @@
+[1.383s] Invoking command in '/home/tianbot/slash_ws/build/f1tenth_stack': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/f1tenth_stack/build --no-deps symlink_data
+[1.910s] running develop
+[2.289s] running egg_info
+[2.289s] creating f1tenth_stack.egg-info
+[2.291s] writing f1tenth_stack.egg-info/PKG-INFO
+[2.292s] writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+[2.292s] writing entry points to f1tenth_stack.egg-info/entry_points.txt
+[2.293s] writing requirements to f1tenth_stack.egg-info/requires.txt
+[2.294s] writing top-level names to f1tenth_stack.egg-info/top_level.txt
+[2.294s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.297s] reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.302s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.388s] running build_ext
+[2.388s] Creating /home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages/f1tenth-stack.egg-link (link to .)
+[2.390s] Installing tf_publisher script to /home/tianbot/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.391s] Installing throttle_interpolator script to /home/tianbot/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.392s] 
+[2.392s] Installed /home/tianbot/slash_ws/build/f1tenth_stack
+[2.392s] running symlink_data
+[2.393s] creating /home/tianbot/slash_ws/install/f1tenth_stack/share/ament_index
+[2.393s] creating /home/tianbot/slash_ws/install/f1tenth_stack/share/ament_index/resource_index
+[2.394s] creating /home/tianbot/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.394s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/resource/f1tenth_stack -> /home/tianbot/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.394s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/package.xml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack
+[2.395s] creating /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.395s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/launch/bringup_launch.py -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.396s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/launch/no_lidar_bringup_launch.py -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.397s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/launch/sick_bringup_launch.py -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.397s] creating /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.397s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/config/f1tenth_online_async.yaml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.398s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/config/joy_teleop.yaml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.399s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/config/mux.yaml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.399s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/config/sensors.yaml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.403s] symbolically linking /home/tianbot/slash_ws/build/f1tenth_stack/config/vesc.yaml -> /home/tianbot/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.459s] Invoked command in '/home/tianbot/slash_ws/build/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/f1tenth_stack/build --no-deps symlink_data

@@ -1,0 +1,576 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000564] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000717] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000872] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000925] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000982] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001024] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001062] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001110] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001151] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001212] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001248] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001286] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001331] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.001377] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001412] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001458] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001493] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001537] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001573] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001607] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001654] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001706] (dll) JobQueued: {'identifier': 'dll', 'dependencies': OrderedDict()}
+[0.001737] (dll) JobStarted: {'identifier': 'dll'}
+[0.016690] (dll) JobProgress: {'identifier': 'dll', 'progress': 'cmake'}
+[0.017603] (dll) JobProgress: {'identifier': 'dll', 'progress': 'build'}
+[0.018460] (dll) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/dll', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/dll', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 57490 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0838309a-d46d-4174-8701-2c94284eac7d.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/tianbot/slash_ws/build/dll'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 57490 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.082594] (dll) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dll_node\x1b[0m\n'}
+[0.099739] (-) TimerEvent: {}
+[0.129146] (dll) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dll_node.dir/src/dll_node.cpp.o\x1b[0m\n'}
+[0.199847] (-) TimerEvent: {}
+[0.300161] (-) TimerEvent: {}
+[0.400491] (-) TimerEvent: {}
+[0.500834] (-) TimerEvent: {}
+[0.601181] (-) TimerEvent: {}
+[0.701478] (-) TimerEvent: {}
+[0.801791] (-) TimerEvent: {}
+[0.902096] (-) TimerEvent: {}
+[1.002394] (-) TimerEvent: {}
+[1.102721] (-) TimerEvent: {}
+[1.203033] (-) TimerEvent: {}
+[1.303373] (-) TimerEvent: {}
+[1.403674] (-) TimerEvent: {}
+[1.503970] (-) TimerEvent: {}
+[1.604289] (-) TimerEvent: {}
+[1.704630] (-) TimerEvent: {}
+[1.804949] (-) TimerEvent: {}
+[1.905288] (-) TimerEvent: {}
+[2.005608] (-) TimerEvent: {}
+[2.105924] (-) TimerEvent: {}
+[2.206294] (-) TimerEvent: {}
+[2.306632] (-) TimerEvent: {}
+[2.406947] (-) TimerEvent: {}
+[2.507311] (-) TimerEvent: {}
+[2.607613] (-) TimerEvent: {}
+[2.707931] (-) TimerEvent: {}
+[2.808303] (-) TimerEvent: {}
+[2.908634] (-) TimerEvent: {}
+[3.008963] (-) TimerEvent: {}
+[3.109313] (-) TimerEvent: {}
+[3.209610] (-) TimerEvent: {}
+[3.309904] (-) TimerEvent: {}
+[3.410185] (-) TimerEvent: {}
+[3.510486] (-) TimerEvent: {}
+[3.610805] (-) TimerEvent: {}
+[3.711154] (-) TimerEvent: {}
+[3.811481] (-) TimerEvent: {}
+[3.911804] (-) TimerEvent: {}
+[4.012152] (-) TimerEvent: {}
+[4.112488] (-) TimerEvent: {}
+[4.212766] (-) TimerEvent: {}
+[4.313074] (-) TimerEvent: {}
+[4.413407] (-) TimerEvent: {}
+[4.513746] (-) TimerEvent: {}
+[4.614080] (-) TimerEvent: {}
+[4.714892] (-) TimerEvent: {}
+[4.815209] (-) TimerEvent: {}
+[4.915518] (-) TimerEvent: {}
+[5.015861] (-) TimerEvent: {}
+[5.116193] (-) TimerEvent: {}
+[5.216505] (-) TimerEvent: {}
+[5.316837] (-) TimerEvent: {}
+[5.417159] (-) TimerEvent: {}
+[5.517494] (-) TimerEvent: {}
+[5.617801] (-) TimerEvent: {}
+[5.718140] (-) TimerEvent: {}
+[5.818455] (-) TimerEvent: {}
+[5.918759] (-) TimerEvent: {}
+[6.019064] (-) TimerEvent: {}
+[6.119425] (-) TimerEvent: {}
+[6.219762] (-) TimerEvent: {}
+[6.320064] (-) TimerEvent: {}
+[6.420392] (-) TimerEvent: {}
+[6.520700] (-) TimerEvent: {}
+[6.621170] (-) TimerEvent: {}
+[6.721484] (-) TimerEvent: {}
+[6.821836] (-) TimerEvent: {}
+[6.922194] (-) TimerEvent: {}
+[7.022535] (-) TimerEvent: {}
+[7.032904] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:29\x1b[m\x1b[K,\n'}
+[7.033147] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.033294] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DLLSolver::solve(std::vector<pcl::PointXYZ>&, double&, double&, double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.033389] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:139:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.033506] (dll) StderrLine: {'line': b'  139 |         for(int i=0; \x1b[01;35m\x1b[Ki<p.size()\x1b[m\x1b[K; i++)\n'}
+[7.033599] (dll) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.122639] (-) TimerEvent: {}
+[7.220098] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.220333] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DLLNode::pointcloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.220448] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:400:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.220538] (dll) StderrLine: {'line': b'  400 |             for(int i = 0; \x1b[01;35m\x1b[Ki < downCloud_vec.size()\x1b[m\x1b[K; i++)\n'}
+[7.220619] (dll) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.222717] (-) TimerEvent: {}
+[7.222910] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DLLNode::PointCloud2_to_PointXYZ(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<pcl::PointXYZ>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.223042] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:511:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.223149] (dll) StderrLine: {'line': b'  511 |         for(int nIndex = 0; \x1b[01;35m\x1b[KnIndex < in->points.size ()\x1b[m\x1b[K; nIndex++)\n'}
+[7.223235] (dll) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.322833] (-) TimerEvent: {}
+[7.423166] (-) TimerEvent: {}
+[7.523531] (-) TimerEvent: {}
+[7.623867] (-) TimerEvent: {}
+[7.724189] (-) TimerEvent: {}
+[7.824519] (-) TimerEvent: {}
+[7.924835] (-) TimerEvent: {}
+[8.025173] (-) TimerEvent: {}
+[8.125529] (-) TimerEvent: {}
+[8.225850] (-) TimerEvent: {}
+[8.326184] (-) TimerEvent: {}
+[8.426534] (-) TimerEvent: {}
+[8.526841] (-) TimerEvent: {}
+[8.627187] (-) TimerEvent: {}
+[8.727531] (-) TimerEvent: {}
+[8.827899] (-) TimerEvent: {}
+[8.928212] (-) TimerEvent: {}
+[9.028554] (-) TimerEvent: {}
+[9.128887] (-) TimerEvent: {}
+[9.229214] (-) TimerEvent: {}
+[9.329553] (-) TimerEvent: {}
+[9.429891] (-) TimerEvent: {}
+[9.530227] (-) TimerEvent: {}
+[9.630544] (-) TimerEvent: {}
+[9.730841] (-) TimerEvent: {}
+[9.831195] (-) TimerEvent: {}
+[9.931517] (-) TimerEvent: {}
+[10.031827] (-) TimerEvent: {}
+[10.132176] (-) TimerEvent: {}
+[10.232483] (-) TimerEvent: {}
+[10.332804] (-) TimerEvent: {}
+[10.433503] (-) TimerEvent: {}
+[10.533808] (-) TimerEvent: {}
+[10.634115] (-) TimerEvent: {}
+[10.734494] (-) TimerEvent: {}
+[10.834815] (-) TimerEvent: {}
+[10.935189] (-) TimerEvent: {}
+[11.035578] (-) TimerEvent: {}
+[11.135883] (-) TimerEvent: {}
+[11.236224] (-) TimerEvent: {}
+[11.336568] (-) TimerEvent: {}
+[11.436874] (-) TimerEvent: {}
+[11.537225] (-) TimerEvent: {}
+[11.637646] (-) TimerEvent: {}
+[11.738071] (-) TimerEvent: {}
+[11.838485] (-) TimerEvent: {}
+[11.938901] (-) TimerEvent: {}
+[12.039293] (-) TimerEvent: {}
+[12.139740] (-) TimerEvent: {}
+[12.240137] (-) TimerEvent: {}
+[12.340516] (-) TimerEvent: {}
+[12.440894] (-) TimerEvent: {}
+[12.541255] (-) TimerEvent: {}
+[12.641619] (-) TimerEvent: {}
+[12.741928] (-) TimerEvent: {}
+[12.842209] (-) TimerEvent: {}
+[12.942517] (-) TimerEvent: {}
+[13.042829] (-) TimerEvent: {}
+[13.143145] (-) TimerEvent: {}
+[13.243444] (-) TimerEvent: {}
+[13.343750] (-) TimerEvent: {}
+[13.444068] (-) TimerEvent: {}
+[13.544393] (-) TimerEvent: {}
+[13.644706] (-) TimerEvent: {}
+[13.745042] (-) TimerEvent: {}
+[13.845358] (-) TimerEvent: {}
+[13.945687] (-) TimerEvent: {}
+[14.045999] (-) TimerEvent: {}
+[14.146331] (-) TimerEvent: {}
+[14.246745] (-) TimerEvent: {}
+[14.347115] (-) TimerEvent: {}
+[14.447477] (-) TimerEvent: {}
+[14.547796] (-) TimerEvent: {}
+[14.648113] (-) TimerEvent: {}
+[14.748440] (-) TimerEvent: {}
+[14.848745] (-) TimerEvent: {}
+[14.949081] (-) TimerEvent: {}
+[15.049417] (-) TimerEvent: {}
+[15.149720] (-) TimerEvent: {}
+[15.250031] (-) TimerEvent: {}
+[15.350388] (-) TimerEvent: {}
+[15.450699] (-) TimerEvent: {}
+[15.551007] (-) TimerEvent: {}
+[15.651329] (-) TimerEvent: {}
+[15.751638] (-) TimerEvent: {}
+[15.851961] (-) TimerEvent: {}
+[15.952299] (-) TimerEvent: {}
+[16.052624] (-) TimerEvent: {}
+[16.152968] (-) TimerEvent: {}
+[16.253319] (-) TimerEvent: {}
+[16.353631] (-) TimerEvent: {}
+[16.453974] (-) TimerEvent: {}
+[16.554288] (-) TimerEvent: {}
+[16.654601] (-) TimerEvent: {}
+[16.754965] (-) TimerEvent: {}
+[16.855721] (-) TimerEvent: {}
+[16.956046] (-) TimerEvent: {}
+[17.056383] (-) TimerEvent: {}
+[17.156698] (-) TimerEvent: {}
+[17.257007] (-) TimerEvent: {}
+[17.357336] (-) TimerEvent: {}
+[17.457635] (-) TimerEvent: {}
+[17.557939] (-) TimerEvent: {}
+[17.658249] (-) TimerEvent: {}
+[17.758575] (-) TimerEvent: {}
+[17.858894] (-) TimerEvent: {}
+[17.959272] (-) TimerEvent: {}
+[18.059631] (-) TimerEvent: {}
+[18.159937] (-) TimerEvent: {}
+[18.260286] (-) TimerEvent: {}
+[18.360593] (-) TimerEvent: {}
+[18.460901] (-) TimerEvent: {}
+[18.561202] (-) TimerEvent: {}
+[18.661500] (-) TimerEvent: {}
+[18.761834] (-) TimerEvent: {}
+[18.862149] (-) TimerEvent: {}
+[18.962455] (-) TimerEvent: {}
+[19.062750] (-) TimerEvent: {}
+[19.163108] (-) TimerEvent: {}
+[19.263416] (-) TimerEvent: {}
+[19.363716] (-) TimerEvent: {}
+[19.464035] (-) TimerEvent: {}
+[19.564351] (-) TimerEvent: {}
+[19.652480] (dll) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:28\x1b[m\x1b[K,\n'}
+[19.652746] (dll) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1\x1b[m\x1b[K:\n'}
+[19.652869] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Grid3d::loadGrid(std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.652962] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:615:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.653053] (dll) StderrLine: {'line': b'  615 |         \x1b[01;35m\x1b[Kfread(&version, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[19.653143] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.653248] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:621:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.653340] (dll) StderrLine: {'line': b'  621 |         \x1b[01;35m\x1b[Kfread(&m_gridSize, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[19.653417] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.653495] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:622:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.653576] (dll) StderrLine: {'line': b'  622 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeX, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[19.653649] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.653736] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:623:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.653819] (dll) StderrLine: {'line': b'  623 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeY, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[19.653892] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.653976] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:624:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.654052] (dll) StderrLine: {'line': b'  624 |         \x1b[01;35m\x1b[Kfread(&m_gridSizeZ, sizeof(int), 1, pf)\x1b[m\x1b[K;\n'}
+[19.654136] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.654213] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:625:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.654291] (dll) StderrLine: {'line': b'  625 |         \x1b[01;35m\x1b[Kfread(&m_offsetX, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[19.654371] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.654448] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:626:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.654533] (dll) StderrLine: {'line': b'  626 |         \x1b[01;35m\x1b[Kfread(&m_offsetY, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[19.654604] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.654675] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:627:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.654762] (dll) StderrLine: {'line': b'  627 |         \x1b[01;35m\x1b[Kfread(&m_offsetZ, sizeof(float), 1, pf)\x1b[m\x1b[K;\n'}
+[19.654838] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.654912] (dll) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:635:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Ksize_t fread(void*, size_t, size_t, FILE*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.654987] (dll) StderrLine: {'line': b'  635 |         \x1b[01;35m\x1b[Kfread(m_grid, sizeof(uint16_t), m_gridSize, pf)\x1b[m\x1b[K;\n'}
+[19.655058] (dll) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.664443] (-) TimerEvent: {}
+[19.764742] (-) TimerEvent: {}
+[19.865076] (-) TimerEvent: {}
+[19.965398] (-) TimerEvent: {}
+[20.065716] (-) TimerEvent: {}
+[20.166035] (-) TimerEvent: {}
+[20.266380] (-) TimerEvent: {}
+[20.366710] (-) TimerEvent: {}
+[20.467018] (-) TimerEvent: {}
+[20.567350] (-) TimerEvent: {}
+[20.667649] (-) TimerEvent: {}
+[20.767983] (-) TimerEvent: {}
+[20.868286] (-) TimerEvent: {}
+[20.968586] (-) TimerEvent: {}
+[21.068888] (-) TimerEvent: {}
+[21.169221] (-) TimerEvent: {}
+[21.269517] (-) TimerEvent: {}
+[21.369847] (-) TimerEvent: {}
+[21.470162] (-) TimerEvent: {}
+[21.570504] (-) TimerEvent: {}
+[21.670809] (-) TimerEvent: {}
+[21.771118] (-) TimerEvent: {}
+[21.871470] (-) TimerEvent: {}
+[21.971767] (-) TimerEvent: {}
+[22.072109] (-) TimerEvent: {}
+[22.172443] (-) TimerEvent: {}
+[22.272747] (-) TimerEvent: {}
+[22.373072] (-) TimerEvent: {}
+[22.473411] (-) TimerEvent: {}
+[22.573727] (-) TimerEvent: {}
+[22.674022] (-) TimerEvent: {}
+[22.774335] (-) TimerEvent: {}
+[22.874643] (-) TimerEvent: {}
+[22.974959] (-) TimerEvent: {}
+[23.075277] (-) TimerEvent: {}
+[23.175592] (-) TimerEvent: {}
+[23.275898] (-) TimerEvent: {}
+[23.376188] (-) TimerEvent: {}
+[23.476502] (-) TimerEvent: {}
+[23.576806] (-) TimerEvent: {}
+[23.677112] (-) TimerEvent: {}
+[23.777535] (-) TimerEvent: {}
+[23.877840] (-) TimerEvent: {}
+[23.978141] (-) TimerEvent: {}
+[24.078436] (-) TimerEvent: {}
+[24.178741] (-) TimerEvent: {}
+[24.279070] (-) TimerEvent: {}
+[24.379426] (-) TimerEvent: {}
+[24.479727] (-) TimerEvent: {}
+[24.580052] (-) TimerEvent: {}
+[24.680382] (-) TimerEvent: {}
+[24.780691] (-) TimerEvent: {}
+[24.881020] (-) TimerEvent: {}
+[24.981326] (-) TimerEvent: {}
+[25.081643] (-) TimerEvent: {}
+[25.181983] (-) TimerEvent: {}
+[25.282313] (-) TimerEvent: {}
+[25.382657] (-) TimerEvent: {}
+[25.482972] (-) TimerEvent: {}
+[25.583339] (-) TimerEvent: {}
+[25.683841] (-) TimerEvent: {}
+[25.784188] (-) TimerEvent: {}
+[25.884520] (-) TimerEvent: {}
+[25.984843] (-) TimerEvent: {}
+[26.085175] (-) TimerEvent: {}
+[26.185501] (-) TimerEvent: {}
+[26.285795] (-) TimerEvent: {}
+[26.386117] (-) TimerEvent: {}
+[26.486419] (-) TimerEvent: {}
+[26.586713] (-) TimerEvent: {}
+[26.687046] (-) TimerEvent: {}
+[26.787403] (-) TimerEvent: {}
+[26.887733] (-) TimerEvent: {}
+[26.988020] (-) TimerEvent: {}
+[27.088332] (-) TimerEvent: {}
+[27.188635] (-) TimerEvent: {}
+[27.288940] (-) TimerEvent: {}
+[27.389239] (-) TimerEvent: {}
+[27.489548] (-) TimerEvent: {}
+[27.589890] (-) TimerEvent: {}
+[27.690224] (-) TimerEvent: {}
+[27.790525] (-) TimerEvent: {}
+[27.890855] (-) TimerEvent: {}
+[27.991184] (-) TimerEvent: {}
+[28.091508] (-) TimerEvent: {}
+[28.191799] (-) TimerEvent: {}
+[28.292085] (-) TimerEvent: {}
+[28.392435] (-) TimerEvent: {}
+[28.492725] (-) TimerEvent: {}
+[28.593050] (-) TimerEvent: {}
+[28.693393] (-) TimerEvent: {}
+[28.793684] (-) TimerEvent: {}
+[28.893989] (-) TimerEvent: {}
+[28.994331] (-) TimerEvent: {}
+[29.094619] (-) TimerEvent: {}
+[29.194939] (-) TimerEvent: {}
+[29.295278] (-) TimerEvent: {}
+[29.395590] (-) TimerEvent: {}
+[29.495903] (-) TimerEvent: {}
+[29.596234] (-) TimerEvent: {}
+[29.696574] (-) TimerEvent: {}
+[29.796867] (-) TimerEvent: {}
+[29.897184] (-) TimerEvent: {}
+[29.997474] (-) TimerEvent: {}
+[30.097756] (-) TimerEvent: {}
+[30.198064] (-) TimerEvent: {}
+[30.298400] (-) TimerEvent: {}
+[30.398687] (-) TimerEvent: {}
+[30.498975] (-) TimerEvent: {}
+[30.599271] (-) TimerEvent: {}
+[30.699567] (-) TimerEvent: {}
+[30.799880] (-) TimerEvent: {}
+[30.900176] (-) TimerEvent: {}
+[31.000473] (-) TimerEvent: {}
+[31.100807] (-) TimerEvent: {}
+[31.201142] (-) TimerEvent: {}
+[31.301446] (-) TimerEvent: {}
+[31.401737] (-) TimerEvent: {}
+[31.502053] (-) TimerEvent: {}
+[31.602461] (-) TimerEvent: {}
+[31.702794] (-) TimerEvent: {}
+[31.803143] (-) TimerEvent: {}
+[31.903447] (-) TimerEvent: {}
+[32.003753] (-) TimerEvent: {}
+[32.104073] (-) TimerEvent: {}
+[32.204381] (-) TimerEvent: {}
+[32.304719] (-) TimerEvent: {}
+[32.405035] (-) TimerEvent: {}
+[32.505336] (-) TimerEvent: {}
+[32.605626] (-) TimerEvent: {}
+[32.705948] (-) TimerEvent: {}
+[32.806243] (-) TimerEvent: {}
+[32.906545] (-) TimerEvent: {}
+[33.006839] (-) TimerEvent: {}
+[33.107156] (-) TimerEvent: {}
+[33.207463] (-) TimerEvent: {}
+[33.307759] (-) TimerEvent: {}
+[33.408110] (-) TimerEvent: {}
+[33.508416] (-) TimerEvent: {}
+[33.608737] (-) TimerEvent: {}
+[33.709063] (-) TimerEvent: {}
+[33.809375] (-) TimerEvent: {}
+[33.909689] (-) TimerEvent: {}
+[34.010067] (-) TimerEvent: {}
+[34.110391] (-) TimerEvent: {}
+[34.210737] (-) TimerEvent: {}
+[34.311059] (-) TimerEvent: {}
+[34.411388] (-) TimerEvent: {}
+[34.511698] (-) TimerEvent: {}
+[34.612039] (-) TimerEvent: {}
+[34.712374] (-) TimerEvent: {}
+[34.812683] (-) TimerEvent: {}
+[34.912986] (-) TimerEvent: {}
+[35.013297] (-) TimerEvent: {}
+[35.113578] (-) TimerEvent: {}
+[35.213924] (-) TimerEvent: {}
+[35.314179] (-) TimerEvent: {}
+[35.414481] (-) TimerEvent: {}
+[35.514823] (-) TimerEvent: {}
+[35.615144] (-) TimerEvent: {}
+[35.715464] (-) TimerEvent: {}
+[35.815759] (-) TimerEvent: {}
+[35.916071] (-) TimerEvent: {}
+[36.016416] (-) TimerEvent: {}
+[36.116715] (-) TimerEvent: {}
+[36.217023] (-) TimerEvent: {}
+[36.317347] (-) TimerEvent: {}
+[36.417657] (-) TimerEvent: {}
+[36.517975] (-) TimerEvent: {}
+[36.618306] (-) TimerEvent: {}
+[36.718586] (-) TimerEvent: {}
+[36.818929] (-) TimerEvent: {}
+[36.919257] (-) TimerEvent: {}
+[37.019565] (-) TimerEvent: {}
+[37.119888] (-) TimerEvent: {}
+[37.220206] (-) TimerEvent: {}
+[37.320506] (-) TimerEvent: {}
+[37.421321] (-) TimerEvent: {}
+[37.521635] (-) TimerEvent: {}
+[37.621953] (-) TimerEvent: {}
+[37.722282] (-) TimerEvent: {}
+[37.822604] (-) TimerEvent: {}
+[37.922910] (-) TimerEvent: {}
+[38.023193] (-) TimerEvent: {}
+[38.123506] (-) TimerEvent: {}
+[38.223845] (-) TimerEvent: {}
+[38.324191] (-) TimerEvent: {}
+[38.424547] (-) TimerEvent: {}
+[38.524864] (-) TimerEvent: {}
+[38.625182] (-) TimerEvent: {}
+[38.725509] (-) TimerEvent: {}
+[38.825844] (-) TimerEvent: {}
+[38.926168] (-) TimerEvent: {}
+[39.026589] (-) TimerEvent: {}
+[39.126921] (-) TimerEvent: {}
+[39.227199] (-) TimerEvent: {}
+[39.327550] (-) TimerEvent: {}
+[39.427861] (-) TimerEvent: {}
+[39.528194] (-) TimerEvent: {}
+[39.628495] (-) TimerEvent: {}
+[39.728836] (-) TimerEvent: {}
+[39.829162] (-) TimerEvent: {}
+[39.858939] (dll) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dll_node\x1b[0m\n'}
+[39.929293] (-) TimerEvent: {}
+[40.029639] (-) TimerEvent: {}
+[40.130012] (-) TimerEvent: {}
+[40.230358] (-) TimerEvent: {}
+[40.330696] (-) TimerEvent: {}
+[40.431022] (-) TimerEvent: {}
+[40.531379] (-) TimerEvent: {}
+[40.631739] (-) TimerEvent: {}
+[40.732093] (-) TimerEvent: {}
+[40.832436] (-) TimerEvent: {}
+[40.932780] (-) TimerEvent: {}
+[41.033155] (-) TimerEvent: {}
+[41.133515] (-) TimerEvent: {}
+[41.233866] (-) TimerEvent: {}
+[41.334230] (-) TimerEvent: {}
+[41.385931] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::updateNodeLogOdds(octomap::OcTreeNode*, float const&) const':\n"}
+[41.386348] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE17updateNodeLogOddsEPS1_RKf[_ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE17updateNodeLogOddsEPS1_RKf]+0x17): undefined reference to `octomap::OcTreeNode::addValue(float const&)'\n"}
+[41.386570] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::insertPointCloud(octomap::ScanNode const&, double, bool, bool)':\n"}
+[41.386808] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0x4a): undefined reference to `octomath::Pose6D::Pose6D(octomath::Pose6D const&)'\n"}
+[41.386979] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0x55): undefined reference to `octomath::Pose6D::inv() const'\n"}
+[41.387175] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0x68): undefined reference to `octomath::Pose6D::transform(octomath::Vector3 const&) const'\n"}
+[41.387327] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0x70): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.387464] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0x9f): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.387610] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0xdd): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.387758] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_8ScanNodeEdbb]+0xe5): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.387870] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::insertPointCloud(octomap::Pointcloud const&, octomath::Vector3 const&, octomath::Pose6D const&, double, bool, bool)':\n"}
+[41.387968] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x46): undefined reference to `octomap::Pointcloud::Pointcloud(octomap::Pointcloud const&)'\n"}
+[41.388053] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x51): undefined reference to `octomath::Pose6D::Pose6D(octomath::Pose6D const&)'\n"}
+[41.388142] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x5c): undefined reference to `octomap::Pointcloud::transform(octomath::Pose6D)'\n"}
+[41.388254] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x64): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.388377] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x72): undefined reference to `octomath::Pose6D::transform(octomath::Vector3 const&) const'\n"}
+[41.388470] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0x9b): undefined reference to `octomap::Pointcloud::~Pointcloud()'\n"}
+[41.388560] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0xdc): undefined reference to `octomath::Pose6D::~Pose6D()'\n"}
+[41.388641] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16insertPointCloudERKNS_10PointcloudERKN8octomath7Vector3ERKNS6_6Pose6DEdbb]+0xe4): undefined reference to `octomap::Pointcloud::~Pointcloud()'\n"}
+[41.388721] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::pruneNode(octomap::OcTreeNode*)':\n"}
+[41.388801] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE9pruneNodeEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE9pruneNodeEPS1_]+0x5d): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.390860] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::integrateHit(octomap::OcTreeNode*) const':\n"}
+[41.391169] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12integrateHitEPS1_[_ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12integrateHitEPS1_]+0x2c): undefined reference to `octomap::OcTreeNode::addValue(float const&)'\n"}
+[41.391318] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::integrateMiss(octomap::OcTreeNode*) const':\n"}
+[41.391419] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE13integrateMissEPS1_[_ZNK7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE13integrateMissEPS1_]+0x2c): undefined reference to `octomap::OcTreeNode::addValue(float const&)'\n"}
+[41.391628] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::pruneRecurs(octomap::OcTreeNode*, unsigned int, unsigned int, unsigned int&) [clone .part.0]':\n"}
+[41.391744] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj.part.0[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj]+0x25d): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.391852] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj.part.0[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj]+0x315): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.391937] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj.part.0[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE11pruneRecursEPS1_jjRj]+0x3f5): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.392971] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::expandNode(octomap::OcTreeNode*)':\n"}
+[41.393143] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE10expandNodeEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE10expandNodeEPS1_]+0x31): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.393736] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::expandRecurs(octomap::OcTreeNode*, unsigned int, unsigned int) [clone .part.0]':\n"}
+[41.393853] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE12expandRecursEPS1_jj.part.0[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE6expandEv]+0xa9): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.396435] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::deleteNodeRecurs(octomap::OcTreeNode*)':\n"}
+[41.396648] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x1ae): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.396825] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x1e9): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.397055] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x22b): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.397162] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x267): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.397250] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x2a9): undefined reference to `octomap::OcTreeNode::~OcTreeNode()'\n"}
+[41.397349] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o:dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE16deleteNodeRecursEPS1_]+0x2f6): more undefined references to `octomap::OcTreeNode::~OcTreeNode()' follow\n"}
+[41.398696] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::createNodeChild(octomap::OcTreeNode*, unsigned int)':\n"}
+[41.398871] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE15createNodeChildEPS1_j[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE15createNodeChildEPS1_j]+0x2d): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.399056] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::readBinaryNode(std::istream&, octomap::OcTreeNode*)':\n"}
+[41.399196] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x402): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.399350] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x422): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.399482] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x44a): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.399649] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x472): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.399803] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x49a): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.399945] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o:dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryNodeERSiPS1_]+0x4c2): more undefined references to `octomap::OcTreeNode::getMaxChildLogOdds() const' follow\n"}
+[41.400111] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::readBinaryData(std::istream&)':\n"}
+[41.400237] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryDataERSi[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE14readBinaryDataERSi]+0xf4): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.400319] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::readData(std::istream&)':\n"}
+[41.400426] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE8readDataERSi[_ZN7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE8readDataERSi]+0x121): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.400569] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OcTreeBaseImpl<octomap::OcTreeNode, octomap::AbstractOccupancyOcTree>::computeRayKeys(octomath::Vector3 const&, octomath::Vector3 const&, octomap::KeyRay&) const':\n"}
+[41.400702] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZNK7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE14computeRayKeysERKN8octomath7Vector3ES7_RNS_6KeyRayE[_ZNK7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE14computeRayKeysERKN8octomath7Vector3ES7_RNS_6KeyRayE]+0xfe): undefined reference to `octomath::operator<<(std::ostream&, octomath::Vector3 const&)'\n"}
+[41.400816] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZNK7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE14computeRayKeysERKN8octomath7Vector3ES7_RNS_6KeyRayE[_ZNK7octomap14OcTreeBaseImplINS_10OcTreeNodeENS_23AbstractOccupancyOcTreeEE14computeRayKeysERKN8octomath7Vector3ES7_RNS_6KeyRayE]+0x120): undefined reference to `octomath::operator<<(std::ostream&, octomath::Vector3 const&)'\n"}
+[41.400928] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::computeDiscreteUpdate(octomap::Pointcloud const&, octomath::Vector3 const&, std::tr1::unordered_set<octomap::OcTreeKey, octomap::OcTreeKey::KeyHash, std::equal_to<octomap::OcTreeKey>, std::allocator<octomap::OcTreeKey> >&, std::tr1::unordered_set<octomap::OcTreeKey, octomap::OcTreeKey::KeyHash, std::equal_to<octomap::OcTreeKey>, std::allocator<octomap::OcTreeKey> >&, double)':\n"}
+[41.401072] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d]+0x53): undefined reference to `octomap::Pointcloud::Pointcloud()'\n"}
+[41.401227] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d]+0x49c): undefined reference to `octomap::Pointcloud::~Pointcloud()'\n"}
+[41.401400] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE21computeDiscreteUpdateERKNS_10PointcloudERKN8octomath7Vector3ERNSt3tr113unordered_setINS_9OcTreeKeyENSC_7KeyHashESt8equal_toISC_ESaISC_EEESI_d]+0x70f): undefined reference to `octomap::Pointcloud::~Pointcloud()'\n"}
+[41.401557] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::updateNodeRecurs(octomap::OcTreeNode*, bool, octomap::OcTreeKey const&, unsigned int, float const&, bool)':\n"}
+[41.401732] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb]+0x179): undefined reference to `octomap::OcTreeNode::addValue(float const&)'\n"}
+[41.401867] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb]+0x264): undefined reference to `octomap::OcTreeNode::addValue(float const&)'\n"}
+[41.402000] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE16updateNodeRecursEPS1_bRKNS_9OcTreeKeyEjRKfb]+0x324): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.402143] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::updateNode(octomap::OcTreeKey const&, float, bool)':\n"}
+[41.402279] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE10updateNodeERKNS_9OcTreeKeyEfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE10updateNodeERKNS_9OcTreeKeyEfb]+0xb1): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.402361] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::insertPointCloudRays(octomap::Pointcloud const&, octomath::Vector3 const&, double, bool)':\n"}
+[41.402440] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE20insertPointCloudRaysERKNS_10PointcloudERKN8octomath7Vector3Edb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE20insertPointCloudRaysERKNS_10PointcloudERKN8octomath7Vector3Edb]+0x209): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.402520] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::setNodeValueRecurs(octomap::OcTreeNode*, bool, octomap::OcTreeKey const&, unsigned int, float const&, bool)':\n"}
+[41.402598] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE18setNodeValueRecursEPS1_bRKNS_9OcTreeKeyEjRKfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE18setNodeValueRecursEPS1_bRKNS_9OcTreeKeyEjRKfb]+0x274): undefined reference to `octomap::OcTreeNode::getMaxChildLogOdds() const'\n"}
+[41.402677] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::setNodeValue(octomap::OcTreeKey const&, float, bool)':\n"}
+[41.402755] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueERKNS_9OcTreeKeyEfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueERKNS_9OcTreeKeyEfb]+0x79): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.402867] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::setNodeValue(octomath::Vector3 const&, float, bool)':\n"}
+[41.403029] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueERKN8octomath7Vector3Efb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueERKN8octomath7Vector3Efb]+0x251): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.403179] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `octomap::OccupancyOcTreeBase<octomap::OcTreeNode>::setNodeValue(double, double, double, float, bool)':\n"}
+[41.403289] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueEdddfb[_ZN7octomap19OccupancyOcTreeBaseINS_10OcTreeNodeEE12setNodeValueEdddfb]+0x219): undefined reference to `octomap::OcTreeNode::OcTreeNode()'\n"}
+[41.403368] (dll) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/dll_node.dir/src/dll_node.cpp.o: in function `Grid3d::Grid3d(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, rclcpp::Node*)':\n"}
+[41.403445] (dll) StderrLine: {'line': b"dll_node.cpp:(.text._ZN6Grid3dC2ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE[_ZN6Grid3dC5ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE]+0xab3): undefined reference to `octomap::AbstractOcTree::read(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[41.403527] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN6Grid3dC2ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE[_ZN6Grid3dC5ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE]+0x12b6): undefined reference to `octomap::OcTree::OcTree(double)'\n"}
+[41.403606] (dll) StderrLine: {'line': b"/usr/bin/ld: dll_node.cpp:(.text._ZN6Grid3dC2ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE[_ZN6Grid3dC5ERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN6rclcpp4NodeE]+0x12c2): undefined reference to `octomap::AbstractOccupancyOcTree::readBinary(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[41.434331] (-) TimerEvent: {}
+[41.444287] (dll) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[41.445781] (dll) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dll_node.dir/build.make:428\xef\xbc\x9adll_node] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[41.446052] (dll) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/dll_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[41.446240] (dll) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[41.448428] (dll) CommandEnded: {'returncode': 2}
+[41.460580] (dll) JobEnded: {'identifier': 'dll', 'rc': 2}
+[41.472751] (-) EventReactorShutdown: {}

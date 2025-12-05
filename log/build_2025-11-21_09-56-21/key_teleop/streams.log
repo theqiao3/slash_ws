@@ -1,0 +1,26 @@
+[1.384s] Invoking command in '/home/tianbot/slash_ws/build/key_teleop': PYTHONPATH=/home/tianbot/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/key_teleop/build --no-deps symlink_data
+[1.885s] running develop
+[2.387s] running egg_info
+[2.387s] creating key_teleop.egg-info
+[2.390s] writing key_teleop.egg-info/PKG-INFO
+[2.392s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[2.393s] writing entry points to key_teleop.egg-info/entry_points.txt
+[2.393s] writing requirements to key_teleop.egg-info/requires.txt
+[2.393s] writing top-level names to key_teleop.egg-info/top_level.txt
+[2.393s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[2.401s] reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+[2.402s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[2.486s] running build_ext
+[2.486s] Creating /home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages/key-teleop.egg-link (link to .)
+[2.488s] Installing key_teleop script to /home/tianbot/slash_ws/install/key_teleop/lib/key_teleop
+[2.494s] 
+[2.494s] Installed /home/tianbot/slash_ws/build/key_teleop
+[2.495s] running symlink_data
+[2.495s] symbolically linking /home/tianbot/slash_ws/build/key_teleop/package.xml -> /home/tianbot/slash_ws/install/key_teleop/share/key_teleop
+[2.495s] creating /home/tianbot/slash_ws/install/key_teleop/share/key_teleop/config
+[2.495s] symbolically linking /home/tianbot/slash_ws/build/key_teleop/config/key_teleop.yaml -> /home/tianbot/slash_ws/install/key_teleop/share/key_teleop/config
+[2.495s] creating /home/tianbot/slash_ws/install/key_teleop/share/ament_index
+[2.495s] creating /home/tianbot/slash_ws/install/key_teleop/share/ament_index/resource_index
+[2.495s] creating /home/tianbot/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+[2.495s] symbolically linking /home/tianbot/slash_ws/build/key_teleop/resource/key_teleop -> /home/tianbot/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+[2.544s] Invoked command in '/home/tianbot/slash_ws/build/key_teleop' returned '0': PYTHONPATH=/home/tianbot/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tianbot/slash_ws/build/key_teleop/build --no-deps symlink_data

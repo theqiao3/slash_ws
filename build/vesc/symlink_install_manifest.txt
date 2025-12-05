@@ -1,0 +1,15 @@
+/home/tianbot/slash_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/tianbot/slash_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/tianbot/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/tianbot/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/tianbot/slash_ws/install/vesc/share/vesc/environment/path.sh
+/home/tianbot/slash_ws/install/vesc/share/vesc/environment/path.dsv
+/home/tianbot/slash_ws/install/vesc/share/vesc/local_setup.bash
+/home/tianbot/slash_ws/install/vesc/share/vesc/local_setup.sh
+/home/tianbot/slash_ws/install/vesc/share/vesc/local_setup.zsh
+/home/tianbot/slash_ws/install/vesc/share/vesc/local_setup.dsv
+/home/tianbot/slash_ws/install/vesc/share/vesc/package.dsv
+/home/tianbot/slash_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/tianbot/slash_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/tianbot/slash_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/tianbot/slash_ws/install/vesc/share/vesc/package.xml

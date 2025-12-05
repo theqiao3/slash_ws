@@ -1,0 +1,132 @@
+[35m[1mConsolidate compiler generated dependencies of target dll_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dll_node.dir/src/dll_node.cpp.o[0m
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:18[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:28[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:[m[K In member function ‘[01m[Kbool DLLSolver::solve(std::vector<pcl::PointXYZ>&, double&, double&, double&, double&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:139:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  139 |         for(int i=0; [01;35m[Ki<p.size()[m[K; i++)
+      |                      [01;35m[K~^~~~~~~~~[m[K
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:[m[K In member function ‘[01m[Kvoid DLLNode::pointcloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:399:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  399 |             for(int i = 0; [01;35m[Ki < downCloud_vec.size()[m[K; i++)
+      |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:[m[K In member function ‘[01m[Kvoid DLLNode::setInitialPose(tf2::Transform, rclcpp::Time)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:457:121:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(double)[m[K’
+  457 |          m_lastOdomTf_msg = m_tfBuffer->lookupTransform(m_odomFrameId, m_baseFrameId, timestamp, rclcpp::Duration(1.0[01;31m[K)[m[K);
+      |                                                                                                                      [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:40[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:5[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+   48 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:457:121:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+  457 |          m_lastOdomTf_msg = m_tfBuffer->lookupTransform(m_odomFrameId, m_baseFrameId, timestamp, rclcpp::Duration(1.0[01;36m[K)[m[K);
+      |                                                                                                                      [01;36m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:40[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:5[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration()[m[K’
+  151 |   [01;36m[KDuration[m[K() = default;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+   61 |   [01;36m[KDuration[m[K(const Duration & rhs);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+   61 |   Duration([01;36m[Kconst Duration & rhs[m[K);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+   59 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rcl_duration_t&[m[K’ {aka ‘[01m[Kconst rcl_duration_s&[m[K’}
+   59 |   explicit Duration([01;36m[Kconst rcl_duration_t & duration[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+   53 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Duration&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’}
+   53 |   Duration([01;36m[Kconst builtin_interfaces::msg::Duration & duration_msg[m[K);  // NOLINT(runtime/explicit)
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+   42 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+   42 |   explicit Duration([01;36m[Kstd::chrono::nanoseconds nanoseconds[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+   39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:[m[K In member function ‘[01m[Kbool DLLNode::PointCloud2_to_PointXYZ(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<pcl::PointXYZ>&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:508:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  508 |         for(int nIndex = 0; [01;35m[KnIndex < in->points.size ()[m[K; nIndex++)
+      |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:27[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:[m[K In member function ‘[01m[Kbool Grid3d::loadGrid(std::string&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:615:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  615 |         [01;35m[Kfread(&version, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:621:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  621 |         [01;35m[Kfread(&m_gridSize, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:622:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  622 |         [01;35m[Kfread(&m_gridSizeX, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:623:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  623 |         [01;35m[Kfread(&m_gridSizeY, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:624:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  624 |         [01;35m[Kfread(&m_gridSizeZ, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:625:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  625 |         [01;35m[Kfread(&m_offsetX, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:626:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  626 |         [01;35m[Kfread(&m_offsetY, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:627:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  627 |         [01;35m[Kfread(&m_offsetZ, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:635:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  635 |         [01;35m[Kfread(m_grid, sizeof(uint16_t), m_gridSize, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dll_node.dir/build.make:76：CMakeFiles/dll_node.dir/src/dll_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/dll_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,278 @@
+[0.023s] Invoking command in '/home/tianbot/slash_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tianbot/slash_ws/src/slash_localization/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/fast_lio
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.519s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[1.095s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[1.103s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.367s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.589s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.667s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.678s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.693s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.850s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.894s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.915s] -- Looking for pthread.h
+[2.046s] -- Looking for pthread.h - found
+[2.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.161s] -- Found Threads: TRUE  
+[2.254s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.303s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.325s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.351s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.378s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.393s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.427s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.493s] -- Checking for module 'eigen3'
+[2.523s] --   Found eigen3, version 3.4.0
+[2.594s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.594s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.667s] -- Checking for module 'flann'
+[2.688s] --   Found flann, version 1.9.1
+[2.758s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.758s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.265s] -- Checking for module 'libusb-1.0'
+[4.288s] --   Found libusb-1.0, version 1.0.25
+[4.354s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.356s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.447s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.692s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.702s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.713s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.949s] -- Found Qhull version 8.0.2
+[5.174s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.403s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.404s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.407s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.407s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.408s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.410s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.411s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.411s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.413s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.414s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.417s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.417s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.419s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.421s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.423s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.427s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.429s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.432s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.433s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.435s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.442s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.442s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.443s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.443s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.443s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.491s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.494s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.494s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.610s] -- Found livox_ros_driver2: 1.0.0 (/home/tianbot/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[5.646s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.106s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.972s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.978s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.018s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.018s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.018s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.018s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.055s] -- Found PythonExtra: .so  
+[7.219s] -- Configuring done
+[7.343s] -- Generating done
+[7.372s] -- Build files have been written to: /home/tianbot/slash_ws/build/fast_lio
+[7.401s] Invoked command in '/home/tianbot/slash_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tianbot/slash_ws/src/slash_localization/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/fast_lio
+[7.402s] Invoking command in '/home/tianbot/slash_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tianbot/slash_ws/build/fast_lio -- -j4 -l4
+[7.523s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.077s] [  2%] Built target fast_lio__cpp
+[8.121s] [  2%] Built target ament_cmake_python_symlink_fast_lio
+[8.137s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.661s] [  8%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[9.302s] [ 11%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.430s] [ 11%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[9.444s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.918s] [ 17%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[10.520s] [ 20%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[10.576s] [ 20%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[11.053s] running egg_info
+[11.054s] creating fast_lio.egg-info
+[11.054s] writing fast_lio.egg-info/PKG-INFO
+[11.055s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[11.055s] writing top-level names to fast_lio.egg-info/top_level.txt
+[11.055s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[11.061s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[11.062s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[11.107s] [ 20%] Built target ament_cmake_python_build_fast_lio_egg
+[11.122s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.562s] [ 25%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[11.941s] [ 28%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[11.999s] [ 28%] Built target fast_lio__rosidl_typesupport_cpp
+[12.013s] [ 31%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.546s] [ 34%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[12.685s] [ 37%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[12.740s] [ 37%] Built target fast_lio__rosidl_generator_c
+[12.770s] [ 40%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[116.049s] [ 42%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[121.183s] [ 45%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[136.651s] [ 48%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[139.215s] [ 48%] Built target fastlio_mapping
+[139.243s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[140.181s] [ 54%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[140.266s] [ 57%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[140.393s] [ 57%] Built target fast_lio__rosidl_typesupport_c
+[140.424s] [ 60%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[141.094s] [ 62%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[141.286s] [ 65%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[141.380s] [ 65%] Built target fast_lio__rosidl_typesupport_introspection_c
+[141.420s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[142.069s] [ 71%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[142.747s] [ 74%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[142.964s] [ 74%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[143.000s] [ 74%] Built target fast_lio
+[143.038s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[143.759s] [ 77%] Built target fast_lio__py
+[143.788s] [ 80%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[143.988s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[144.056s] [ 82%] Built target fast_lio__rosidl_generator_py
+[144.086s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[144.254s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[144.305s] [ 88%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[144.334s] [ 91%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[144.486s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[144.535s] [ 94%] Built target fast_lio__rosidl_typesupport_c__pyext
+[144.565s] [ 97%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[144.716s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[144.767s] [100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[144.784s] Invoked command in '/home/tianbot/slash_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tianbot/slash_ws/build/fast_lio -- -j4 -l4
+[144.786s] Invoking command in '/home/tianbot/slash_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tianbot/slash_ws/build/fast_lio
+[144.799s] -- Install configuration: "Release"
+[144.802s] -- Execute custom install script
+[144.802s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[144.816s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[144.829s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[144.841s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[144.857s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[144.869s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[144.882s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[144.895s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[144.909s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[144.922s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[144.936s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[144.948s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[144.964s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[144.974s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[144.992s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[145.008s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[145.022s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[145.038s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[145.048s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[145.061s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[145.075s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[145.088s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[145.101s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[145.115s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[145.128s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[145.142s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[145.154s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[145.169s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[145.182s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[145.195s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[145.207s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[145.226s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[145.260s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[145.274s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[145.289s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[145.304s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[145.318s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[145.333s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[145.347s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[145.347s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[145.347s] -- Up-to-date symlink: /home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[145.347s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[145.360s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[145.377s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[145.389s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[145.403s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[145.417s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[145.429s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[145.441s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[145.455s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[145.469s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[145.482s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[145.496s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[145.512s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[145.522s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[145.537s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[145.550s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[145.566s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[145.578s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[145.591s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[145.605s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[145.618s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[145.631s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/package.dsv
+[145.649s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[145.662s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[145.680s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[145.692s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[145.706s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[145.719s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[145.733s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[145.746s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[145.762s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[145.779s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[145.808s] -- Symlinking: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/package.xml
+[145.820s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[145.822s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[145.822s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[145.824s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[145.824s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[145.825s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[145.825s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[145.827s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[145.828s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[145.830s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[145.831s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[145.833s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[145.834s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[145.835s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[145.905s] Listing '/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[145.906s] Compiling '/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[145.906s] Listing '/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[145.906s] Compiling '/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[145.906s] Compiling '/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[145.913s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[145.917s] -- Set runtime path of "/home/tianbot/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[145.918s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[145.918s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[145.919s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[145.919s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[145.920s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[145.923s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[145.923s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[145.924s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[145.926s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[145.927s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[145.927s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[145.927s] -- Installing: /home/tianbot/slash_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[145.935s] Invoked command in '/home/tianbot/slash_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tianbot/slash_ws/build/fast_lio

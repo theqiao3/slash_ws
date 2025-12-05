@@ -1,0 +1,77 @@
+[35m[1mConsolidate compiler generated dependencies of target dll_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dll_node.dir/src/dll_node.cpp.o[0m
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:29[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:[m[K In member function ‘[01m[Kbool DLLSolver::solve(std::vector<pcl::PointXYZ>&, double&, double&, double&, double&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllsolver.hpp:139:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  139 |         for(int i=0; [01;35m[Ki<p.size()[m[K; i++)
+      |                      [01;35m[K~^~~~~~~~~[m[K
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:[m[K In member function ‘[01m[Kvoid DLLNode::pointcloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:400:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  400 |             for(int i = 0; [01;35m[Ki < downCloud_vec.size()[m[K; i++)
+      |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:[m[K In member function ‘[01m[Kbool DLLNode::PointCloud2_to_PointXYZ(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<pcl::PointXYZ>&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:511:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  511 |         for(int nIndex = 0; [01;35m[KnIndex < in->points.size ()[m[K; nIndex++)
+      |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dllnode.hpp:28[m[K,
+                 from [01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/dll_node.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:[m[K In member function ‘[01m[Kbool Grid3d::loadGrid(std::string&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:615:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  615 |         [01;35m[Kfread(&version, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:621:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  621 |         [01;35m[Kfread(&m_gridSize, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:622:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  622 |         [01;35m[Kfread(&m_gridSizeX, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:623:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  623 |         [01;35m[Kfread(&m_gridSizeY, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:624:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  624 |         [01;35m[Kfread(&m_gridSizeZ, sizeof(int), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:625:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  625 |         [01;35m[Kfread(&m_offsetX, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:626:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  626 |         [01;35m[Kfread(&m_offsetY, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:627:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  627 |         [01;35m[Kfread(&m_offsetZ, sizeof(float), 1, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/dll/src/grid3d.hpp:635:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksize_t fread(void*, size_t, size_t, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  635 |         [01;35m[Kfread(m_grid, sizeof(uint16_t), m_gridSize, pf)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable dll_node[0m
+[100%] Built target dll_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/launch/dll_localization.launch.py
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/133.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/133_out.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/3F.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/RMUC.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/airsim.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/bedroom.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/catec.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/mbzirc.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/maps/test1.bt
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/lib/dll/dll_node
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/ament_index/resource_index/package_run_dependencies/dll
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/ament_index/resource_index/parent_prefix_path/dll
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/environment/path.sh
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/environment/path.dsv
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/local_setup.bash
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/local_setup.sh
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/local_setup.zsh
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/dll/share/dll/package.dsv
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/ament_index/resource_index/packages/dll
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/cmake/dllConfig.cmake
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/cmake/dllConfig-version.cmake
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/dll/share/dll/package.xml
