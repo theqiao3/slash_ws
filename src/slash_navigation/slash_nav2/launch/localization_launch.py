@@ -32,6 +32,7 @@ def generate_launch_description():
 
     namespace = LaunchConfiguration('namespace')
     map_yaml_file = LaunchConfiguration('map')
+    map_posegraph_file = LaunchConfiguration('map_posegraph')  # SLAM Toolbox posegraph 地图
     use_sim_time = LaunchConfiguration('use_sim_time')
     autostart = LaunchConfiguration('autostart')
     params_file = LaunchConfiguration('params_file')
@@ -41,9 +42,10 @@ def generate_launch_description():
     use_respawn = LaunchConfiguration('use_respawn')
     log_level = LaunchConfiguration('log_level')
 
-    # 屏蔽AMCL，使用FAST_LIO2进行定位
-    lifecycle_nodes = ['map_server']  # 移除 'amcl'
-
+    # 使用 SLAM Toolbox 定位模式替代 AMCL
+    # lifecycle_nodes = ['map_server']  # 仅 map_server (FAST_LIO 模式)
+    #lifecycle_nodes = ['map_server', 'slam_toolbox']  # SLAM Toolbox 定位模式
+    lifecycle_nodes = ['map_server']
     # Map fully qualified names to relative ones so the node's namespace can be prepended.
     # In case of the transforms (tf), currently, there doesn't seem to be a better alternative
     # https://github.com/ros/geometry2/issues/32
@@ -54,9 +56,12 @@ def generate_launch_description():
                   ('/tf_static', 'tf_static')]
 
     # Create our own temporary YAML files that include substitutions
+    # yaml_filename: 给 map_server 使用的 2D yaml 地图
+    # map_file_name: 给 SLAM Toolbox 使用的 posegraph 地图 (不带扩展名)
     param_substitutions = {
         'use_sim_time': use_sim_time,
-        'yaml_filename': map_yaml_file}
+        'yaml_filename': map_yaml_file,
+        'map_file_name': map_posegraph_file}
 
     configured_params = RewrittenYaml(
         source_file=params_file,
@@ -75,6 +80,13 @@ def generate_launch_description():
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
         description='Full path to map yaml file to load')
+
+    # SLAM Toolbox posegraph 地图参数
+    default_posegraph = os.path.join(slash_nav2_dir, 'map', 'test1')  # 不带扩展名
+    declare_map_posegraph_cmd = DeclareLaunchArgument(
+        'map_posegraph',
+        default_value=default_posegraph,
+        description='Full path to SLAM Toolbox posegraph file (without extension)')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         'use_sim_time',
@@ -119,6 +131,17 @@ def generate_launch_description():
                 parameters=[configured_params],
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings),
+            # SLAM Toolbox 定位模式节点
+            Node(
+                package='slam_toolbox',
+                executable='localization_slam_toolbox_node',
+                name='slam_toolbox',
+                output='screen',
+                respawn=use_respawn,
+                respawn_delay=2.0,
+                parameters=[configured_params],
+                arguments=['--ros-args', '--log-level', log_level],
+                remappings=remappings),
             # AMCL节点已屏蔽
             # Node(
             #     package='nav2_amcl',
@@ -152,7 +175,14 @@ def generate_launch_description():
                 name='map_server',
                 parameters=[configured_params],
                 remappings=remappings),
-            # AMCL节点已屏蔽，使用FAST_LIO2进行定位
+            # SLAM Toolbox 定位模式 (组合节点)
+            ComposableNode(
+                package='slam_toolbox',
+                plugin='slam_toolbox::LocalizationSlamToolbox',
+                name='slam_toolbox',
+                parameters=[configured_params],
+                remappings=remappings),
+            # AMCL节点已屏蔽，使用SLAM Toolbox进行定位
             # ComposableNode(
             #     package='nav2_amcl',
             #     plugin='nav2_amcl::AmclNode',
@@ -178,6 +208,7 @@ def generate_launch_description():
     # Declare the launch options
     ld.add_action(declare_namespace_cmd)
     ld.add_action(declare_map_yaml_cmd)
+    ld.add_action(declare_map_posegraph_cmd)  # SLAM Toolbox posegraph 地图
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_params_file_cmd)
     ld.add_action(declare_autostart_cmd)

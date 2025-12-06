@@ -1,12 +1,12 @@
 amcl:
   ros__parameters:
     use_sim_time: False
-    alpha1: 0.2
-    alpha2: 0.2
-    alpha3: 0.2
-    alpha4: 0.2
-    alpha5: 0.2
-    base_frame_id: "base_footprint"
+    alpha1: 0.3
+    alpha2: 0.3
+    alpha3: 0.3
+    alpha4: 0.3
+    alpha5: 0.3
+    base_frame_id: "base_link"
     beam_skip_distance: 0.5
     beam_skip_error_threshold: 1.0
     beam_skip_threshold: 0.3
@@ -14,13 +14,13 @@ amcl:
     global_frame_id: "map"
     lambda_short: 0.1
     laser_likelihood_max_dist: 2.0
-    laser_max_range: 30.0
-    laser_min_range: -1.0
+    laser_max_range: 15.0
+    laser_min_range: -0.0
     laser_model_type: "likelihood_field"
     max_beams: 90
-    max_particles: 2000
-    min_particles: 300
-    odom_frame_id: "odom"
+    max_particles: 3000
+    min_particles: 1000
+    odom_frame_id: "lidar_odom"
     pf_err: 0.05
     pf_z: 0.99
     recovery_alpha_fast: 0.001
@@ -101,7 +101,7 @@ controller_server:
   ros__parameters:
     use_sim_time: False
     global_frame: map
-    odom_frame: odom
+    odom_frame: lidar_odom
     odom_topic: /odometry/filtered
     controller_frequency: 10.0
     min_x_velocity_threshold: 0.001
@@ -172,8 +172,8 @@ controller_server:
       weight_acc_lim_x: 1.0
       weight_acc_lim_theta: 1.0
       weight_kinematics_nh: 1000.0
-      weight_kinematics_forward_drive: 10.0
-      weight_kinematics_turning_radius: 5.0
+      weight_kinematics_forward_drive: 4.0
+      weight_kinematics_turning_radius: 4.0
       weight_optimaltime: 2.0
       weight_obstacle: 40.0
       weight_viapoint: 1.0
@@ -341,7 +341,7 @@ recoveries_server:
       speed: 0.3  # 降低后退速度
       acceleration: 0.1  # 降低加速度
       distance: 0.5  # 减少后退距离
-    global_frame: odom
+    global_frame: map
     robot_base_frame: base_link
     transform_timeout: 0.1
     use_sim_time: False

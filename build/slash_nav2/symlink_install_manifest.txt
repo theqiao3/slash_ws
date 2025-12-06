@@ -7,15 +7,19 @@
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/navigation_full.launch.cpython-310.pyc
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/tianracer_full_stack.launch.cpython-310.pyc
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_all.launch.py
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_all_mapping.launch.py
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_launch.py
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_real.launch.py
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_with_dll.launch.py
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_with_slam_toolbox.launch.py
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/localization_launch.py
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/navigation_launch.py
-/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params copy.yaml
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/mapping.yaml
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params (teb).yaml
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params(mppi).yaml
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params.yaml
-/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_dll.yaml
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_dll_mppi.yaml
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_dll_teb.yaml
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.data
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.pgm
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.posegraph
@@ -24,9 +28,9 @@
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.pgm
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.posegraph
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.yaml
-/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test.pgm
-/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test.yaml
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.data
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.pgm
+/home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.posegraph
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.yaml
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUC.pcd
 /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUL.pcd

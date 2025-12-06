@@ -633,7 +633,7 @@ void publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPt
                                 rclcpp::Logger logger_)
 {
     odomAftMapped.header.frame_id = "lidar_odom";
-    odomAftMapped.child_frame_id = "base_link";
+    odomAftMapped.child_frame_id = "map";
     odomAftMapped.header.stamp = get_ros_time(lidar_end_time);
     set_posestamp(odomAftMapped.pose);
     pubOdomAftMapped->publish(odomAftMapped);
@@ -667,7 +667,7 @@ void publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPt
   geometry_msgs::msg::TransformStamped transform_stamped;
     transform_stamped.header.stamp = odomAftMapped.header.stamp;
     transform_stamped.header.frame_id = "lidar_odom";  // Source frame
-    transform_stamped.child_frame_id = "base_link";    // Target frame
+    transform_stamped.child_frame_id = "map";    // Target frame
 
   // Calculate the transform from lidar_odom to base_link by multiplying the transforms
   tf2::Transform tf_lidar_odom_to_livox_frame;

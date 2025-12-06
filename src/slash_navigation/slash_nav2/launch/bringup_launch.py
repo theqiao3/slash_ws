@@ -40,6 +40,7 @@ def generate_launch_description():
     use_namespace = LaunchConfiguration('use_namespace')
     slam = LaunchConfiguration('slam')
     map_yaml_file = LaunchConfiguration('map')
+    map_posegraph_file = LaunchConfiguration('map_posegraph')  # SLAM Toolbox posegraph
     use_sim_time = LaunchConfiguration('use_sim_time')
     params_file = LaunchConfiguration('params_file')
     autostart = LaunchConfiguration('autostart')
@@ -88,6 +89,13 @@ def generate_launch_description():
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
         description='Full path to map yaml file to load')
+
+    # SLAM Toolbox posegraph 地图参数
+    default_posegraph = os.path.join(slash_nav2_dir, 'map', 'test1')  # 不带扩展名
+    declare_map_posegraph_cmd = DeclareLaunchArgument(
+        'map_posegraph',
+        default_value=default_posegraph,
+        description='Full path to SLAM Toolbox posegraph file (without extension)')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         'use_sim_time',
@@ -147,6 +155,7 @@ def generate_launch_description():
             condition=IfCondition(PythonExpression(['not ', slam])),
             launch_arguments={'namespace': namespace,
                               'map': map_yaml_file,
+                              'map_posegraph': map_posegraph_file,  # SLAM Toolbox posegraph 地图
                               'use_sim_time': use_sim_time,
                               'autostart': autostart,
                               'params_file': params_file,
@@ -177,6 +186,7 @@ def generate_launch_description():
     ld.add_action(declare_use_namespace_cmd)
     ld.add_action(declare_slam_cmd)
     ld.add_action(declare_map_yaml_cmd)
+    ld.add_action(declare_map_posegraph_cmd)  # SLAM Toolbox posegraph 地图
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_params_file_cmd)
     ld.add_action(declare_autostart_cmd)

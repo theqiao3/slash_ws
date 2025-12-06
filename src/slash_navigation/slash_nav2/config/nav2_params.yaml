@@ -1,43 +1,87 @@
-amcl:
+# ============================================
+# SLAM Toolbox 定位模式配置 (替代 AMCL)
+# ============================================
+slam_toolbox:
   ros__parameters:
+    # 基本参数
     use_sim_time: False
-    alpha1: 0.2
-    alpha2: 0.2
-    alpha3: 0.2
-    alpha4: 0.2
-    alpha5: 0.2
-    base_frame_id: "base_link"
-    beam_skip_distance: 0.5
-    beam_skip_error_threshold: 1.0
-    beam_skip_threshold: 0.3
-    do_beamskip: false
-    global_frame_id: "map"
-    lambda_short: 0.1
-    laser_likelihood_max_dist: 2.0
-    laser_max_range: 30.0
-    laser_min_range: -1.0
-    laser_model_type: "likelihood_field"
-    max_beams: 90
-    max_particles: 2000
-    min_particles: 300
-    odom_frame_id: "lidar_odom"
-    pf_err: 0.05
-    pf_z: 0.99
-    recovery_alpha_fast: 0.001
-    recovery_alpha_slow: 0.0005
-    resample_interval: 1 #2
-    robot_model_type: "nav2_amcl::DifferentialMotionModel"
-    save_pose_rate: 0.5
-    sigma_hit: 0.15
-    tf_broadcast: true
-    transform_tolerance: 0.2 #1.0
-    update_min_a: 0.15
-    update_min_d: 0.2
-    z_hit: 0.7
-    z_max: 0.05
-    z_rand: 0.2
-    z_short: 0.05
-    scan_topic: scan
+    odom_frame: odom              # 里程计坐标系，与车辆 TF 链匹配
+    map_frame: map                # 地图坐标系
+    base_frame: base_link         # 机器人基座坐标系
+    scan_topic: /scan             # 激光话题
+    
+    # 定位模式设置
+    mode: localization            # 纯定位模式（不建图）
+    
+    # 地图文件路径（序列化格式 .posegraph）
+    # 注意：需要先用 SLAM Toolbox 建图模式生成 .posegraph 和 .data 文件
+    # 文件名不需要扩展名，会自动加载 .posegraph 和 .data 文件
+    # 此路径会被 launch 文件中的参数替换
+    map_file_name: /home/tianbot/slash_ws/src/slash_navigation/slash_nav2/map/test1
+    map_start_at_dock: true       # 从地图原点开始
+    
+    # TF 发布
+    transform_publish_period: 0.02    # TF 发布周期 (50Hz)
+    tf_buffer_duration: 30.0          # TF 缓冲时间
+    
+    # 激光参数
+    max_laser_range: 15.0             # 最大激光距离
+    minimum_time_interval: 0.5        # 最小扫描间隔
+    
+    # 匹配参数
+    resolution: 0.05                  # 地图分辨率
+    minimum_travel_distance: 0.3      # 触发更新的最小移动距离
+    minimum_travel_heading: 0.3       # 触发更新的最小转向角度 (rad)
+    
+    # 扫描匹配器参数
+    scan_buffer_size: 10              # 扫描缓冲区大小
+    scan_buffer_maximum_scan_distance: 10.0
+    link_match_minimum_response_fine: 0.1
+    link_scan_maximum_distance: 1.5
+    loop_search_maximum_distance: 3.0
+    do_loop_closing: false            # 定位模式关闭回环检测
+    loop_match_minimum_chain_size: 10
+    loop_match_maximum_variance_coarse: 3.0
+    loop_match_minimum_response_coarse: 0.35
+    loop_match_minimum_response_fine: 0.45
+    
+    # 相关性参数
+    correlation_search_space_dimension: 0.5
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1
+    
+    # 回环闭合参数（定位模式可忽略）
+    loop_search_space_dimension: 8.0
+    loop_search_space_resolution: 0.05
+    loop_search_space_smear_deviation: 0.03
+    
+    # 距离方差惩罚（定位稳定性）
+    distance_variance_penalty: 0.5
+    angle_variance_penalty: 1.0
+    fine_search_angle_offset: 0.00349  # ~0.2 度
+    coarse_search_angle_offset: 0.349  # ~20 度
+    coarse_angle_resolution: 0.0349    # ~2 度
+    
+    # 定位匹配参数
+    use_scan_matching: true           # 使用扫描匹配
+    use_scan_barycenter: true
+    
+    # 调试
+    debug_logging: false
+    throttle_scans: 1                 # 跳过的扫描数
+    
+    # 求解器
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+    
+    # 栈大小（防止段错误）
+    stack_size_to_use: 40000000       # 40MB
+
+
 
 amcl_map_client:
   ros__parameters:
@@ -57,9 +101,9 @@ bt_navigator:
     use_sim_time: False
     global_frame: map
     robot_base_frame: base_link
-    odom_topic: /odometry
-    bt_loop_duration: 10
-    default_server_timeout: 20
+    odom_topic: /odometry/filtered
+    bt_loop_duration: 3
+    default_server_timeout: 5
     plugin_lib_names:
     - nav2_compute_path_to_pose_action_bt_node
     - nav2_compute_path_through_poses_action_bt_node
@@ -101,8 +145,8 @@ controller_server:
   ros__parameters:
     use_sim_time: False
     global_frame: map
-    odom_frame: lidar_odom
-    odom_topic: /odometry
+    odom_frame: odom
+    odom_topic: /odometry/filtered
     controller_frequency: 10.0
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.001  # 为阿克曼转向减小
@@ -113,8 +157,8 @@ controller_server:
     controller_plugins: ["FollowPath"]
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
-      required_movement_radius: 0.5
-      movement_time_allowance: 10.0
+      required_movement_radius: 1.0
+      movement_time_allowance: 5.0
     general_goal_checker:
       stateful: True
       plugin: "nav2_controller::SimpleGoalChecker"
@@ -131,7 +175,7 @@ controller_server:
       global_plan_overwrite_orientation: True
       allow_init_with_backwards_motion: True
       max_global_plan_lookahead_dist: 4.0
-      force_reinit_new_goal_dist: 1.0
+      force_reinit_new_goal_dist: 1.5
       force_reinit_new_goal_angular: 0.78
       feasibility_check_no_poses: 5
       publish_feedback: False
@@ -171,9 +215,9 @@ controller_server:
       weight_max_vel_theta: 1.0
       weight_acc_lim_x: 1.0
       weight_acc_lim_theta: 1.0
-      weight_kinematics_nh: 1000.0
-      weight_kinematics_forward_drive: 10.0
-      weight_kinematics_turning_radius: 5.0
+      weight_kinematics_nh: 300.0
+      weight_kinematics_forward_drive: 4.0
+      weight_kinematics_turning_radius: 4.0
       weight_optimaltime: 2.0
       weight_obstacle: 40.0
       weight_viapoint: 1.0
@@ -335,7 +379,7 @@ recoveries_server:
     recovery_plugins: ["wait", "backup"]  # 移除 "spin"，添加 "wait"
     wait:
       plugin: "nav2_recoveries/Wait"
-      wait_duration: 2.0
+      wait_duration: 1.0
     backup:
       plugin: "nav2_recoveries/BackUp"
       speed: 0.3  # 降低后退速度
@@ -345,7 +389,7 @@ recoveries_server:
     robot_base_frame: base_link
     transform_timeout: 0.1
     use_sim_time: False
-    simulate_ahead_time: 2.0  # 增加模拟时间
+    simulate_ahead_time: 0.8 # 增加模拟时间
     max_rotational_vel: 0.5  # 大幅降低最大旋转速度
     min_rotational_vel: 0.1  # 降低最小旋转速度
     rotational_acc_lim: 0.2  # 降低旋转加速度限制
@@ -361,7 +405,7 @@ velocity_smoother:
     velocity_timeout: 1.0
     max_accel: [0.8, 0.0, 0.4]
     max_decel: [-0.8, 0.0, -0.4]
-    odom_topic: "/odometry"  #
+    odom_topic: "/odometry/filtered"  #
     odom_duration: 0.1
 
 robot_state_publisher:
