@@ -1,5 +1,41 @@
 # Slash Navigation README
+##  环境配置
+X86 (N100)
+1. 克隆仓库
+   
+  ```sh
+    git clone git@github.com:theqiao3/slash_ws.git
+  ```
+2. 安装 [Livox SDK2](https://github.com/Livox-SDK/Livox-SDK2)
+   
+    ```sh
+    sudo apt install cmake
+    ```
 
+    ```sh
+    git clone https://github.com/Livox-SDK/Livox-SDK2.git
+    cd ./Livox-SDK2/
+    mkdir build
+    cd build
+    cmake .. && make -j
+    sudo make install
+    ```
+
+3. 安装依赖
+    ```sh
+    rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
+    ```
+    ps：大概率rosdep连接超时，手动用二进制apt安装需要的依赖
+
+4. 编译
+
+    ```sh
+    colcon build --symlink-install
+    ```
+    ps：--symlink-instal方便调试参数文件不用二次编译，
+        --packages-select编译指定包
+## 框架图
+![功能包流程图](image/nav2_optimized.png)
 ## 概述
 
 本仓库实现了基于ROS2 Humble的机器人导航系统，适用于Ubuntu 22.04环境。系统集成了多种定位算法、规划算法和感知模块，支持多种传感器输入和导航模式。
