@@ -1,0 +1,47 @@
+[  7%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/GridMapVisualization.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/GridCellsVisualization.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/MapRegionVisualization.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/OccupancyGridVisualization.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/PointCloudVisualization.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VectorVisualization.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VisualizationFactory.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VisualizationBase.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/FlatPointCloudVisualization.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/GridMapVisualizationHelpers.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libgrid_map_visualization_core.so[0m
+[ 84%] Built target grid_map_visualization_core
+[ 92%] [32mBuilding CXX object CMakeFiles/grid_map_visualization.dir/src/grid_map_visualization_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable grid_map_visualization[0m
+[100%] Built target grid_map_visualization
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/lib/libgrid_map_visualization_core.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/lib/grid_map_visualization/grid_map_visualization
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells_preview.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid_preview.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud_preview.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/vectors.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/doc/vectors_preview.jpg
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/ament_index/resource_index/package_run_dependencies/grid_map_visualization
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/ament_index/resource_index/parent_prefix_path/grid_map_visualization
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/ament_index/resource_index/packages/grid_map_visualization
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_visualization/share/grid_map_visualization/package.xml

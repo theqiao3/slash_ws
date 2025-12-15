@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_msg_costmap_plugin_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_msg_costmap_plugin_core.dir/src/msg_layer.cpp.o[0m
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_msg_costmap_plugin::MsgLayer::updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:216:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kworldx[m[K’ was not declared in this scope
+  216 |             master_grid.mapToWorld(i, j, [01;31m[Kworldx[m[K, worldy);
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:216:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kworldy[m[K’ was not declared in this scope
+  216 |             master_grid.mapToWorld(i, j, worldx, [01;31m[Kworldy[m[K);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:221:50:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kunsigned char*[<unresolved overloaded function type>][m[K’ for array subscript
+  221 |                 double origin_cost = master_array[01;31m[K[[m[Kindex];
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:257:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kunsigned char*[<unresolved overloaded function type>][m[K’ for array subscript
+  257 |                     master_array[01;31m[K[[m[Kindex] = static_cast<unsigned char>(cost);
+      |                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/nav2_msg_costmap_plugin_core.dir/build.make:76：CMakeFiles/nav2_msg_costmap_plugin_core.dir/src/msg_layer.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/nav2_msg_costmap_plugin_core.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

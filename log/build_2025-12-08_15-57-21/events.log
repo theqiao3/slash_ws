@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.000439] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000588] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000736] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000764] (-) JobUnselected: {'identifier': 'dll'}
+[0.000813] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000866] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000903] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000949] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.000984] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001030] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001066] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001101] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001146] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001191] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001225] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.001271] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001305] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001362] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001397] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001443] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001477] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001511] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001557] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001593] (icp_localization) JobQueued: {'identifier': 'icp_localization', 'dependencies': OrderedDict()}
+[0.001631] (icp_localization) JobStarted: {'identifier': 'icp_localization'}
+[0.018698] (icp_localization) JobProgress: {'identifier': 'icp_localization', 'progress': 'cmake'}
+[0.019195] (icp_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/tianbot/slash_ws/src/slash_localization/icp_localization', '-DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/icp_localization'], 'cwd': '/home/tianbot/slash_ws/build/icp_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 33236 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2fe7ad38-c72a-406e-b08f-a286d03be78a.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianbot/slash_ws/build/icp_localization'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 33236 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.099714] (-) TimerEvent: {}
+[0.200025] (-) TimerEvent: {}
+[0.230486] (icp_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300128] (-) TimerEvent: {}
+[0.367950] (icp_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.380692] (icp_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400231] (-) TimerEvent: {}
+[0.460597] (icp_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.469091] (icp_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.469594] (icp_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.471006] (icp_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.475217] (icp_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500332] (-) TimerEvent: {}
+[0.565272] (icp_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.573726] (icp_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.574030] (icp_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.574525] (icp_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.582569] (icp_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600433] (-) TimerEvent: {}
+[0.700760] (-) TimerEvent: {}
+[0.801067] (-) TimerEvent: {}
+[0.803738] (icp_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901157] (-) TimerEvent: {}
+[0.969397] (icp_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.001260] (-) TimerEvent: {}
+[1.049265] (icp_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.058394] (icp_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.073455] (icp_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.093236] (icp_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101368] (-) TimerEvent: {}
+[1.122906] (icp_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200879] (icp_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.201435] (-) TimerEvent: {}
+[1.209180] (icp_localization) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.253854] (icp_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.277778] (icp_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301568] (-) TimerEvent: {}
+[1.366229] (icp_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.366459] (icp_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401667] (-) TimerEvent: {}
+[1.450985] (icp_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.452202] (icp_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501754] (-) TimerEvent: {}
+[1.531840] (icp_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.575412] (icp_localization) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.597732] (icp_localization) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.601851] (-) TimerEvent: {}
+[1.617459] (icp_localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.701951] (-) TimerEvent: {}
+[1.750622] (icp_localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.782958] (icp_localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.784400] (icp_localization) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.784554] (icp_localization) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.789433] (icp_localization) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.16 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[1.797909] (icp_localization) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.802047] (-) TimerEvent: {}
+[1.858103] (icp_localization) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.876381] (icp_localization) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.902152] (-) TimerEvent: {}
+[1.916365] (icp_localization) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.916579] (icp_localization) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.998814] (icp_localization) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.002257] (-) TimerEvent: {}
+[2.016934] (icp_localization) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.065504] (icp_localization) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.065718] (icp_localization) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.102357] (-) TimerEvent: {}
+[2.202648] (-) TimerEvent: {}
+[2.302960] (-) TimerEvent: {}
+[2.403343] (-) TimerEvent: {}
+[2.503679] (-) TimerEvent: {}
+[2.603978] (-) TimerEvent: {}
+[2.704275] (-) TimerEvent: {}
+[2.804619] (-) TimerEvent: {}
+[2.904972] (-) TimerEvent: {}
+[3.005303] (-) TimerEvent: {}
+[3.105622] (-) TimerEvent: {}
+[3.205950] (-) TimerEvent: {}
+[3.229903] (icp_localization) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.249192] (icp_localization) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.290834] (icp_localization) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.292162] (icp_localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.306069] (-) TimerEvent: {}
+[3.363592] (icp_localization) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.406168] (-) TimerEvent: {}
+[3.506480] (-) TimerEvent: {}
+[3.538071] (icp_localization) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.544957] (icp_localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.551972] (icp_localization) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.606582] (-) TimerEvent: {}
+[3.706877] (-) TimerEvent: {}
+[3.725453] (icp_localization) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.806983] (-) TimerEvent: {}
+[3.900485] (icp_localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.907109] (-) TimerEvent: {}
+[4.007397] (-) TimerEvent: {}
+[4.074738] (icp_localization) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.076098] (icp_localization) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.077537] (icp_localization) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.079050] (icp_localization) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.080391] (icp_localization) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.081851] (icp_localization) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.082717] (icp_localization) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.083448] (icp_localization) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.084848] (icp_localization) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.086300] (icp_localization) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.087732] (icp_localization) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.088786] (icp_localization) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.090203] (icp_localization) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.091716] (icp_localization) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.093231] (icp_localization) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.094403] (icp_localization) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.095981] (icp_localization) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.097456] (icp_localization) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.098697] (icp_localization) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.099764] (icp_localization) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.101014] (icp_localization) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.101429] (icp_localization) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.101893] (icp_localization) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.103269] (icp_localization) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.104663] (icp_localization) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.107492] (-) TimerEvent: {}
+[4.120277] (icp_localization) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.147936] (icp_localization) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[4.160600] (icp_localization) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:34 (find_package):\n'}
+[4.160802] (icp_localization) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.160898] (icp_localization) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.160979] (icp_localization) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.161057] (icp_localization) StderrLine: {'line': b'\n'}
+[4.161135] (icp_localization) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.161213] (icp_localization) StderrLine: {'line': b'\n'}
+[4.161290] (icp_localization) StderrLine: {'line': b'    /usr\n'}
+[4.161367] (icp_localization) StderrLine: {'line': b'\n'}
+[4.161443] (icp_localization) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.161519] (icp_localization) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.161596] (icp_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[4.207618] (-) TimerEvent: {}
+[4.237881] (icp_localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.307727] (-) TimerEvent: {}
+[4.373303] (icp_localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.375815] (icp_localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.376365] (icp_localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tianbot/slash_ws/src/slash_localization/icp_localization/include\n'}
+[4.376491] (icp_localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.378284] (icp_localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.378410] (icp_localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.379354] (icp_localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.380512] (icp_localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.381568] (icp_localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.383364] (icp_localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.383493] (icp_localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.384494] (icp_localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.387312] (icp_localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.407827] (-) TimerEvent: {}
+[4.467061] (icp_localization) StdoutLine: {'line': b'-- Generating done\n'}
+[4.481256] (icp_localization) StdoutLine: {'line': b'-- Build files have been written to: /home/tianbot/slash_ws/build/icp_localization\n'}
+[4.497488] (icp_localization) CommandEnded: {'returncode': 0}
+[4.498369] (icp_localization) JobProgress: {'identifier': 'icp_localization', 'progress': 'build'}
+[4.499233] (icp_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/icp_localization', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/icp_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 33236 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2fe7ad38-c72a-406e-b08f-a286d03be78a.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianbot/slash_ws/build/icp_localization'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 33236 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[4.507934] (-) TimerEvent: {}
+[4.569066] (icp_localization) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/set_initial_pose_node.dir/src/set_initial_pose_node.cpp.o\x1b[0m\n'}
+[4.569307] (icp_localization) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/icp_localization_node.dir/src/icp_localization_node.cpp.o\x1b[0m\n'}
+[4.569432] (icp_localization) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/icp_localization_node.dir/src/icp_localization.cpp.o\x1b[0m\n'}
+[4.611013] (-) TimerEvent: {}
+[4.711819] (-) TimerEvent: {}
+[4.814383] (-) TimerEvent: {}
+[4.914704] (-) TimerEvent: {}
+[5.015012] (-) TimerEvent: {}
+[5.115877] (-) TimerEvent: {}
+[5.216243] (-) TimerEvent: {}
+[5.317698] (-) TimerEvent: {}
+[5.418066] (-) TimerEvent: {}
+[5.518402] (-) TimerEvent: {}
+[5.619750] (-) TimerEvent: {}
+[5.720067] (-) TimerEvent: {}
+[5.820431] (-) TimerEvent: {}
+[5.920768] (-) TimerEvent: {}
+[6.021408] (-) TimerEvent: {}
+[6.121843] (-) TimerEvent: {}
+[6.222678] (-) TimerEvent: {}
+[6.323476] (-) TimerEvent: {}
+[6.423784] (-) TimerEvent: {}
+[6.524134] (-) TimerEvent: {}
+[6.624484] (-) TimerEvent: {}
+[6.724813] (-) TimerEvent: {}
+[6.825148] (-) TimerEvent: {}
+[6.925761] (-) TimerEvent: {}
+[7.026114] (-) TimerEvent: {}
+[7.126443] (-) TimerEvent: {}
+[7.228214] (-) TimerEvent: {}
+[7.328551] (-) TimerEvent: {}
+[7.429187] (-) TimerEvent: {}
+[7.529911] (-) TimerEvent: {}
+[7.630499] (-) TimerEvent: {}
+[7.731185] (-) TimerEvent: {}
+[7.831915] (-) TimerEvent: {}
+[7.932593] (-) TimerEvent: {}
+[8.034981] (-) TimerEvent: {}
+[8.135341] (-) TimerEvent: {}
+[8.236016] (-) TimerEvent: {}
+[8.336384] (-) TimerEvent: {}
+[8.436898] (-) TimerEvent: {}
+[8.537624] (-) TimerEvent: {}
+[8.638037] (-) TimerEvent: {}
+[8.738758] (-) TimerEvent: {}
+[8.839504] (-) TimerEvent: {}
+[8.943920] (-) TimerEvent: {}
+[9.044732] (-) TimerEvent: {}
+[9.145437] (-) TimerEvent: {}
+[9.246153] (-) TimerEvent: {}
+[9.346850] (-) TimerEvent: {}
+[9.447571] (-) TimerEvent: {}
+[9.548313] (-) TimerEvent: {}
+[9.648781] (-) TimerEvent: {}
+[9.749516] (-) TimerEvent: {}
+[9.850333] (-) TimerEvent: {}
+[9.951201] (-) TimerEvent: {}
+[10.051582] (-) TimerEvent: {}
+[10.152075] (-) TimerEvent: {}
+[10.252597] (-) TimerEvent: {}
+[10.353086] (-) TimerEvent: {}
+[10.453950] (-) TimerEvent: {}
+[10.555827] (-) TimerEvent: {}
+[10.656238] (-) TimerEvent: {}
+[10.756599] (-) TimerEvent: {}
+[10.857067] (-) TimerEvent: {}
+[10.957411] (-) TimerEvent: {}
+[11.057753] (-) TimerEvent: {}
+[11.133383] (icp_localization) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable set_initial_pose_node\x1b[0m\n'}
+[11.157971] (-) TimerEvent: {}
+[11.258349] (-) TimerEvent: {}
+[11.317171] (icp_localization) StdoutLine: {'line': b'[ 80%] Built target set_initial_pose_node\n'}
+[11.358452] (-) TimerEvent: {}
+[11.458750] (-) TimerEvent: {}
+[11.559096] (-) TimerEvent: {}
+[11.659626] (-) TimerEvent: {}
+[11.760000] (-) TimerEvent: {}
+[11.860328] (-) TimerEvent: {}
+[11.960679] (-) TimerEvent: {}
+[12.061141] (-) TimerEvent: {}
+[12.161831] (-) TimerEvent: {}
+[12.262164] (-) TimerEvent: {}
+[12.362740] (-) TimerEvent: {}
+[12.463076] (-) TimerEvent: {}
+[12.563398] (-) TimerEvent: {}
+[12.663753] (-) TimerEvent: {}
+[12.764260] (-) TimerEvent: {}
+[12.864993] (-) TimerEvent: {}
+[12.965331] (-) TimerEvent: {}
+[13.065657] (-) TimerEvent: {}
+[13.166031] (-) TimerEvent: {}
+[13.266385] (-) TimerEvent: {}
+[13.352629] (icp_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:1\x1b[m\x1b[K:\n'}
+[13.352865] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kicp_localization::ICPLocalization::ICPLocalization(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.352971] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:141:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kicp_localization::ICPLocalization::has_odom_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.353065] (icp_localization) StderrLine: {'line': b'  141 |   bool \x1b[01;35m\x1b[Khas_odom_\x1b[m\x1b[K;\n'}
+[13.353147] (icp_localization) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.353227] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:137:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix4f icp_localization::ICPLocalization::map_to_odom_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.353328] (icp_localization) StderrLine: {'line': b'  137 |   Eigen::Matrix4f \x1b[01;35m\x1b[Kmap_to_odom_\x1b[m\x1b[K;\n'}
+[13.353409] (icp_localization) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.353488] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:7:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.353570] (icp_localization) StderrLine: {'line': b'    7 | \x1b[01;35m\x1b[KICPLocalization\x1b[m\x1b[K::ICPLocalization(const rclcpp::NodeOptions & options)\n'}
+[13.353661] (icp_localization) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.366486] (-) TimerEvent: {}
+[13.423928] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid icp_localization::ICPLocalization::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.424408] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:232:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.424517] (icp_localization) StderrLine: {'line': b'  232 |               odom_to_base_tf.transform.translation.z\x1b[01;31m\x1b[K}\x1b[m\x1b[K,\n'}
+[13.424604] (icp_localization) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.424695] (icp_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20\x1b[m\x1b[K,\n'}
+[13.424780] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20\x1b[m\x1b[K,\n'}
+[13.424861] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:22\x1b[m\x1b[K,\n'}
+[13.424960] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[13.425044] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:13\x1b[m\x1b[K,\n'}
+[13.425124] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:1\x1b[m\x1b[K:\n'}
+[13.425203] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.425287] (icp_localization) StderrLine: {'line': b'   47 |   explicit \x1b[01;36m\x1b[KPoint_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[13.425382] (icp_localization) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.425462] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[13.425541] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.425659] (icp_localization) StderrLine: {'line': b'   36 |   explicit \x1b[01;36m\x1b[KPoint_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[13.425762] (icp_localization) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.425844] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.425927] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(const geometry_msgs::msg::Point_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.426014] (icp_localization) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KPoint_\x1b[m\x1b[K\n'}
+[13.426098] (icp_localization) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.426179] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.426260] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(geometry_msgs::msg::Point_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.426355] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.426438] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:234:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::Pose_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.426525] (icp_localization) StderrLine: {'line': b'  234 |           \x1b[01;31m\x1b[K}\x1b[m\x1b[K);\n'}
+[13.426607] (icp_localization) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.426706] (icp_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20\x1b[m\x1b[K,\n'}
+[13.426794] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:22\x1b[m\x1b[K,\n'}
+[13.426878] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[13.426960] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:13\x1b[m\x1b[K,\n'}
+[13.427041] (icp_localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:1\x1b[m\x1b[K:\n'}
+[13.427123] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:49:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<ContainerAllocator>::Pose_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.427220] (icp_localization) StderrLine: {'line': b'   49 |   explicit \x1b[01;36m\x1b[KPose_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[13.427314] (icp_localization) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.427397] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:49:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[13.427480] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:42:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<ContainerAllocator>::Pose_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.427568] (icp_localization) StderrLine: {'line': b'   42 |   explicit \x1b[01;36m\x1b[KPose_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[13.427649] (icp_localization) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.427756] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:42:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[13.427838] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >::Pose_(const geometry_msgs::msg::Pose_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.427925] (icp_localization) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[KPose_\x1b[m\x1b[K\n'}
+[13.428008] (icp_localization) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.428088] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[13.428169] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >::Pose_(geometry_msgs::msg::Pose_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.428252] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[13.453244] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid icp_localization::ICPLocalization::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.453470] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:248:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.453596] (icp_localization) StderrLine: {'line': b'  248 | void ICPLocalization::odomCallback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::SharedPtr msg\x1b[m\x1b[K)\n'}
+[13.453695] (icp_localization) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.466595] (-) TimerEvent: {}
+[13.566934] (-) TimerEvent: {}
+[13.667271] (-) TimerEvent: {}
+[13.767922] (-) TimerEvent: {}
+[13.868273] (-) TimerEvent: {}
+[13.968592] (-) TimerEvent: {}
+[14.068927] (-) TimerEvent: {}
+[14.169256] (-) TimerEvent: {}
+[14.269609] (-) TimerEvent: {}
+[14.369938] (-) TimerEvent: {}
+[14.470624] (-) TimerEvent: {}
+[14.571019] (-) TimerEvent: {}
+[14.671434] (-) TimerEvent: {}
+[14.771805] (-) TimerEvent: {}
+[14.872395] (-) TimerEvent: {}
+[14.972775] (-) TimerEvent: {}
+[15.073129] (-) TimerEvent: {}
+[15.173454] (-) TimerEvent: {}
+[15.273821] (-) TimerEvent: {}
+[15.374402] (-) TimerEvent: {}
+[15.474727] (-) TimerEvent: {}
+[15.575061] (-) TimerEvent: {}
+[15.675365] (-) TimerEvent: {}
+[15.775678] (-) TimerEvent: {}
+[15.876032] (-) TimerEvent: {}
+[15.976354] (-) TimerEvent: {}
+[16.076675] (-) TimerEvent: {}
+[16.176997] (-) TimerEvent: {}
+[16.277300] (-) TimerEvent: {}
+[16.377635] (-) TimerEvent: {}
+[16.477967] (-) TimerEvent: {}
+[16.578308] (-) TimerEvent: {}
+[16.678656] (-) TimerEvent: {}
+[16.778984] (-) TimerEvent: {}
+[16.879313] (-) TimerEvent: {}
+[16.979618] (-) TimerEvent: {}
+[17.079972] (-) TimerEvent: {}
+[17.180313] (-) TimerEvent: {}
+[17.280630] (-) TimerEvent: {}
+[17.380961] (-) TimerEvent: {}
+[17.481266] (-) TimerEvent: {}
+[17.581593] (-) TimerEvent: {}
+[17.681968] (-) TimerEvent: {}
+[17.782277] (-) TimerEvent: {}
+[17.882579] (-) TimerEvent: {}
+[17.983036] (-) TimerEvent: {}
+[18.083347] (-) TimerEvent: {}
+[18.183695] (-) TimerEvent: {}
+[18.284047] (-) TimerEvent: {}
+[18.384392] (-) TimerEvent: {}
+[18.484705] (-) TimerEvent: {}
+[18.585047] (-) TimerEvent: {}
+[18.685391] (-) TimerEvent: {}
+[18.785749] (-) TimerEvent: {}
+[18.886098] (-) TimerEvent: {}
+[18.986412] (-) TimerEvent: {}
+[19.086761] (-) TimerEvent: {}
+[19.187069] (-) TimerEvent: {}
+[19.287401] (-) TimerEvent: {}
+[19.387751] (-) TimerEvent: {}
+[19.488058] (-) TimerEvent: {}
+[19.588418] (-) TimerEvent: {}
+[19.688768] (-) TimerEvent: {}
+[19.789087] (-) TimerEvent: {}
+[19.889402] (-) TimerEvent: {}
+[19.989757] (-) TimerEvent: {}
+[20.090087] (-) TimerEvent: {}
+[20.190413] (-) TimerEvent: {}
+[20.290750] (-) TimerEvent: {}
+[20.391094] (-) TimerEvent: {}
+[20.491445] (-) TimerEvent: {}
+[20.591792] (-) TimerEvent: {}
+[20.692129] (-) TimerEvent: {}
+[20.792481] (-) TimerEvent: {}
+[20.892822] (-) TimerEvent: {}
+[20.993167] (-) TimerEvent: {}
+[21.093474] (-) TimerEvent: {}
+[21.193814] (-) TimerEvent: {}
+[21.294115] (-) TimerEvent: {}
+[21.394425] (-) TimerEvent: {}
+[21.494798] (-) TimerEvent: {}
+[21.595117] (-) TimerEvent: {}
+[21.695460] (-) TimerEvent: {}
+[21.795781] (-) TimerEvent: {}
+[21.896085] (-) TimerEvent: {}
+[21.996391] (-) TimerEvent: {}
+[22.096741] (-) TimerEvent: {}
+[22.197059] (-) TimerEvent: {}
+[22.297410] (-) TimerEvent: {}
+[22.397782] (-) TimerEvent: {}
+[22.498128] (-) TimerEvent: {}
+[22.598483] (-) TimerEvent: {}
+[22.698860] (-) TimerEvent: {}
+[22.799186] (-) TimerEvent: {}
+[22.899492] (-) TimerEvent: {}
+[22.999783] (-) TimerEvent: {}
+[23.100112] (-) TimerEvent: {}
+[23.200413] (-) TimerEvent: {}
+[23.300735] (-) TimerEvent: {}
+[23.401058] (-) TimerEvent: {}
+[23.501364] (-) TimerEvent: {}
+[23.599295] (icp_localization) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/icp_localization_node.dir/build.make:90\xef\xbc\x9aCMakeFiles/icp_localization_node.dir/src/icp_localization.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[23.599530] (icp_localization) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/icp_localization_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[23.599700] (icp_localization) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[23.601518] (-) TimerEvent: {}
+[23.602114] (icp_localization) CommandEnded: {'returncode': 2}
+[23.615926] (icp_localization) JobEnded: {'identifier': 'icp_localization', 'rc': 2}
+[23.626538] (-) EventReactorShutdown: {}

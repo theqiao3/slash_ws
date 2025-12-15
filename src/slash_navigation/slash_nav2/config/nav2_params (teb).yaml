@@ -20,7 +20,7 @@ amcl:
     max_beams: 90
     max_particles: 3000
     min_particles: 1000
-    odom_frame_id: "lidar_odom"
+    odom_frame_id: "odom"
     pf_err: 0.05
     pf_z: 0.99
     recovery_alpha_fast: 0.001

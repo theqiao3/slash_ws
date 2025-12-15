@@ -1,0 +1,58 @@
+[35m[1mConsolidate compiler generated dependencies of target grid_map_pcl[0m
+[  5%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/PclLoaderParameters.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/PointcloudProcessor.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/helpers.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library libgrid_map_pcl.so[0m
+[ 31%] Built target grid_map_pcl
+[ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 42%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 42%] Built target gtest
+[ 47%] [32mBuilding CXX object CMakeFiles/grid_map_pcl_loader_node.dir/src/grid_map_pcl_loader_node.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable grid_map_pcl_loader_node[0m
+[ 52%] Built target grid_map_pcl_loader_node
+[ 57%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 63%] Built target gtest_main
+[ 68%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/GridMapPclLoaderTest.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/PointcloudProcessorTest.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/test_helpers.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/test_grid_map_pcl.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/PointcloudCreator.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/HelpersTest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable grid_map_pcl-test[0m
+[100%] Built target grid_map_pcl-test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/lib/libgrid_map_pcl.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/lib/grid_map_pcl/grid_map_pcl_loader_node
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/config/parameters.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/launch/grid_map_pcl_loader_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/test_data//parameters.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/test_data//plane_noisy.pcd
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/ament_index/resource_index/package_run_dependencies/grid_map_pcl
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/ament_index/resource_index/parent_prefix_path/grid_map_pcl
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/ament_index/resource_index/packages/grid_map_pcl
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/package.xml
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/GridMapPclConverter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/GridMapPclLoader.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/PclLoaderParameters.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/PointcloudProcessor.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/grid_map_pcl.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_pcl/include/grid_map_pcl/helpers.hpp

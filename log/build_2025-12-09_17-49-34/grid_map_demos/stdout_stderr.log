@@ -1,0 +1,127 @@
+[  5%] Built target simple_demo
+[ 11%] Built target tutorial_demo
+[ 19%] Built target image_to_gridmap_demo
+[ 27%] Built target iterators_demo
+[35m[1mConsolidate compiler generated dependencies of target pointcloud2_to_gridmap_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_to_gridmap_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target pcd_to_gridmap_demo[0m
+[ 33%] Built target move_demo
+[ 41%] Built target octomap_to_gridmap_demo
+[35m[1mConsolidate compiler generated dependencies of target iterator_benchmark[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/pointcloud2_to_gridmap_demo.dir/src/pointcloud2_to_gridmap_demo_node.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/pcd_to_gridmap_demo.dir/src/pcd_to_gridmap_demo_node.cpp.o[0m
+[ 52%] Built target iterator_benchmark
+[ 55%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/src/opencv_demo_node.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/pointcloud2_to_gridmap_demo.dir/src/PointCloud2ToGridmapDemo.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable opencv_demo[0m
+[ 61%] Built target opencv_demo
+[ 63%] [32mBuilding CXX object CMakeFiles/pcd_to_gridmap_demo.dir/src/PCDToGridmapDemo.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable pointcloud2_to_gridmap_demo[0m
+[ 66%] Built target pointcloud2_to_gridmap_demo
+[ 69%] [32mBuilding CXX object CMakeFiles/normal_filter_comparison_demo.dir/src/normal_filter_comparison_node.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/filters_demo_lib.dir/src/FiltersDemo.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/resolution_change_demo.dir/src/resolution_change_demo_node.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable pcd_to_gridmap_demo[0m
+[ 77%] Built target pcd_to_gridmap_demo
+[ 80%] [32m[1mLinking CXX executable resolution_change_demo[0m
+[ 80%] Built target resolution_change_demo
+[ 83%] [32m[1mLinking CXX executable normal_filter_comparison_demo[0m
+[ 83%] Built target normal_filter_comparison_demo
+[ 86%] [32m[1mLinking CXX shared library libfilters_demo_lib.so[0m
+[ 86%] Built target filters_demo_lib
+[ 88%] [32mBuilding CXX object CMakeFiles/interpolation_demo.dir/src/interpolation_demo_node.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/filters_demo.dir/src/filters_demo_node.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/interpolation_demo.dir/src/InterpolationDemo.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable filters_demo[0m
+[ 97%] Built target filters_demo
+[100%] [32m[1mLinking CXX executable interpolation_demo[0m
+[100%] Built target interpolation_demo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/filters_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/libfilters_demo_lib.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/image_to_gridmap_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/pointcloud2_to_gridmap_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/pcd_to_gridmap_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/interpolation_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/iterator_benchmark
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/iterators_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/move_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/normal_filter_comparison_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/octomap_to_gridmap_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/opencv_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/resolution_change_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/simple_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/tutorial_demo
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/filters_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/filters_demo_filter_chain.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/grid_map_loader_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/image_to_gridmap_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/interpolation_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/iterators_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/move_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/normal_filter_comparison.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/normal_filter_comparison_visualization.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/octomap_to_gridmap_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/opencv_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/pcd_grid_rviz.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/pcd_to_gridmap_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/pcl_grid_config.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/pointcloud2_to_gridmap_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/realtime_pcl_grid_config.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/resolution_change_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/simple_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/config/tutorial_demo.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/eth_logo.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/freiburg1_360.bt
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/grid_map_bag/grid_map_bag.db3
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/grid_map_bag/metadata.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/linearGradient_horizontal.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/linearGradient_oblique_and_flat.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/linearGradient_oblique_only.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/linearGradient_vertical.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/radialGradient_circle.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/radialGradient_ellipse.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/radialGradient_horizontal.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/data/terrain.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/doc/filters_demo.gif
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/doc/filters_demo_preview.gif
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/doc/image_to_grid_map_demo_result.png
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/doc/opencv_demo_result.gif
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/filters_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/grid_map_loader_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/image_to_gridmap_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/interpolation_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/iterators_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/move_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/normal_filter_comparison_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/octomap_to_gridmap_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/opencv_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/pcd_to_gridmap_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/pointcloud2_to_gridmap_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/resolution_change_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/simple_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/launch/tutorial_demo_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/filters_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/grid_map_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/grid_map_iterators_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/interpolation_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/normal_filter_comparison_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/rviz/octomap_to_gridmap_demo.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/lib/grid_map_demos/image_publisher.py
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/ament_index/resource_index/package_run_dependencies/grid_map_demos
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/ament_index/resource_index/parent_prefix_path/grid_map_demos
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/ament_index/resource_index/packages/grid_map_demos
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/cmake/grid_map_demosConfig.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/cmake/grid_map_demosConfig-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_demos/share/grid_map_demos/package.xml

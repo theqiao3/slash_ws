@@ -1,0 +1,106 @@
+[  3%] [32mBuilding CXX object CMakeFiles/threshold_filter.dir/src/ThresholdFilter.cpp.o[0m
+[  6%] [32m[1mLinking CXX shared library libthreshold_filter.so[0m
+[  6%] Built target threshold_filter
+[  9%] [32mBuilding CXX object CMakeFiles/normal_vectors_filter.dir/src/NormalVectorsFilter.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library libnormal_vectors_filter.so[0m
+[ 12%] Built target normal_vectors_filter
+[ 15%] [32mBuilding CXX object CMakeFiles/curvature_filter.dir/src/CurvatureFilter.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libcurvature_filter.so[0m
+[ 18%] Built target curvature_filter
+[ 21%] [32mBuilding CXX object CMakeFiles/normal_color_map_filter.dir/src/NormalColorMapFilter.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libnormal_color_map_filter.so[0m
+[ 25%] Built target normal_color_map_filter
+[ 28%] [32mBuilding CXX object CMakeFiles/light_intensity_filter.dir/src/LightIntensityFilter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/math_expression_filter.dir/src/MathExpressionFilter.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mean_in_radius_filter.dir/src/MeanInRadiusFilter.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/min_in_radius_filter.dir/src/MinInRadiusFilter.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library liblight_intensity_filter.so[0m
+[ 40%] Built target light_intensity_filter
+[ 43%] [32m[1mLinking CXX shared library libmean_in_radius_filter.so[0m
+[ 43%] Built target mean_in_radius_filter
+[ 46%] [32m[1mLinking CXX shared library libmin_in_radius_filter.so[0m
+[ 46%] Built target min_in_radius_filter
+[ 50%] [32mBuilding CXX object CMakeFiles/deletion_filter.dir/src/DeletionFilter.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/duplication_filter.dir/src/DuplicationFilter.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sliding_window_math_expression_filter.dir/src/SlidingWindowMathExpressionFilter.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library libdeletion_filter.so[0m
+[ 59%] Built target deletion_filter
+[ 62%] [32m[1mLinking CXX shared library libduplication_filter.so[0m
+[ 62%] Built target duplication_filter
+[ 65%] [32m[1mLinking CXX shared library libmath_expression_filter.so[0m
+[ 65%] Built target math_expression_filter
+[ 68%] [32mBuilding CXX object CMakeFiles/color_blending_filter.dir/src/ColorBlendingFilter.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/color_map_filter.dir/src/ColorMapFilter.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/color_fill_filter.dir/src/ColorFillFilter.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libcolor_map_filter.so[0m
+[ 78%] Built target color_map_filter
+[ 81%] [32m[1mLinking CXX shared library libcolor_blending_filter.so[0m
+[ 81%] Built target color_blending_filter
+[ 84%] [32m[1mLinking CXX shared library libcolor_fill_filter.so[0m
+[ 84%] Built target color_fill_filter
+[ 87%] [32m[1mLinking CXX shared library libsliding_window_math_expression_filter.so[0m
+[ 87%] Built target sliding_window_math_expression_filter
+[ 93%] [32mBuilding CXX object CMakeFiles/set_basic_layers_filter.dir/src/SetBasicLayersFilter.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/buffer_normalizer_filter.dir/src/BufferNormalizerFilter.cpp.o[0m
+[ 96%] [32m[1mLinking CXX shared library libbuffer_normalizer_filter.so[0m
+[ 96%] Built target buffer_normalizer_filter
+[100%] [32m[1mLinking CXX shared library libset_basic_layers_filter.so[0m
+[100%] Built target set_basic_layers_filter
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libthreshold_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libmin_in_radius_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libmean_in_radius_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libnormal_vectors_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libcurvature_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libnormal_color_map_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/liblight_intensity_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libmath_expression_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libsliding_window_math_expression_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libduplication_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libdeletion_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libcolor_fill_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libcolor_map_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libcolor_blending_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libset_basic_layers_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/lib/libbuffer_normalizer_filter.so
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/filter_plugins.xml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/library_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/library_path.dsv
+-- Up-to-date symlink: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters//filter_plugins.xml
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/ament_index/resource_index/package_run_dependencies/grid_map_filters
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/ament_index/resource_index/parent_prefix_path/grid_map_filters
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/ament_index/resource_index/packages/grid_map_filters
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/ament_index/resource_index/filters__pluginlib__plugin/grid_map_filters
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/package.xml
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/BufferNormalizerFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/ColorBlendingFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/ColorFillFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/ColorMapFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/CurvatureFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/DeletionFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/DuplicationFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/LightIntensityFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/MathExpressionFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/MeanInRadiusFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/MinInRadiusFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/NormalColorMapFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/NormalVectorsFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/SetBasicLayersFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/SlidingWindowMathExpressionFilter.hpp
+-- Installing: /home/tianbot/slash_ws/install/grid_map_filters/include/grid_map_filters/ThresholdFilter.hpp

@@ -1,0 +1,159 @@
+[0.043s] Invoking command in '/home/tianbot/slash_ws/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/grid_map_ros/lib:/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_pcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/grid_map_pcl
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.299s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.441s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.953s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.086s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.169s] -- Found grid_map_cmake_helpers: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.169s] -- Found grid_map_core: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_core/share/grid_map_core/cmake)
+[1.170s] -- Found grid_map_msgs: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[1.256s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.273s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.288s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.432s] -- Found grid_map_ros: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+[1.728s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.738s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.804s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.833s] -- Looking for pthread.h
+[1.974s] -- Looking for pthread.h - found
+[1.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.102s] -- Found Threads: TRUE  
+[2.442s] -- Checking for module 'eigen3'
+[2.473s] --   Found eigen3, version 3.4.0
+[2.525s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.525s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.585s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.610s] -- Checking for module 'flann'
+[2.642s] --   Found flann, version 1.9.1
+[2.727s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.728s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.806s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.818s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[3.111s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[3.111s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[3.118s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[3.137s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.184s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.217s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.425s] -- Found X11: /usr/include   
+[3.426s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.531s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.531s] -- Looking for gethostbyname
+[3.702s] -- Looking for gethostbyname - found
+[3.702s] -- Looking for connect
+[3.851s] -- Looking for connect - found
+[3.852s] -- Looking for remove
+[3.988s] -- Looking for remove - found
+[3.988s] -- Looking for shmat
+[4.149s] -- Looking for shmat - found
+[4.149s] -- Looking for IceConnectionNumber in ICE
+[4.276s] -- Looking for IceConnectionNumber in ICE - found
+[4.485s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.488s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[4.498s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[4.507s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[4.628s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[4.664s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[4.664s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[4.668s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.920s] -- Checking for module 'libusb-1.0'
+[4.975s] --   Found libusb-1.0, version 1.0.25
+[5.077s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.082s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[5.082s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.318s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[5.318s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.318s] ** WARNING ** io features related to pcap will be disabled
+[6.045s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.094s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.749s] -- Found Qhull version 8.0.2
+[7.435s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.191s] -- looking for PCL_COMMON
+[8.197s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[8.197s] -- looking for PCL_KDTREE
+[8.201s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[8.201s] -- looking for PCL_OCTREE
+[8.205s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[8.205s] -- looking for PCL_SEARCH
+[8.209s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[8.209s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.211s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[8.211s] -- looking for PCL_FILTERS
+[8.216s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[8.216s] -- looking for PCL_2D
+[8.216s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[8.217s] -- looking for PCL_GEOMETRY
+[8.223s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[8.223s] -- looking for PCL_IO
+[8.223s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[8.223s] -- looking for PCL_FEATURES
+[8.223s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[8.226s] -- looking for PCL_ML
+[8.230s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[8.230s] -- looking for PCL_SEGMENTATION
+[8.231s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[8.232s] -- looking for PCL_VISUALIZATION
+[8.233s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[8.238s] -- looking for PCL_SURFACE
+[8.238s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[8.246s] -- looking for PCL_REGISTRATION
+[8.246s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[8.246s] -- looking for PCL_KEYPOINTS
+[8.246s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[8.246s] -- looking for PCL_TRACKING
+[8.256s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[8.257s] -- looking for PCL_RECOGNITION
+[8.257s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[8.257s] -- looking for PCL_STEREO
+[8.263s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[8.263s] -- looking for PCL_APPS
+[8.263s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[8.263s] -- looking for PCL_IN_HAND_SCANNER
+[8.267s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[8.267s] -- looking for PCL_MODELER
+[8.267s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[8.267s] -- looking for PCL_POINT_CLOUD_EDITOR
+[8.267s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[8.268s] -- looking for PCL_OUTOFCORE
+[8.269s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[8.270s] -- looking for PCL_PEOPLE
+[8.271s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[8.276s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[9.387s] -- Setting build type to Release as none was specified.
+[9.840s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.405s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.469s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.473s] -- Configured cppcheck include dirs: /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_pcl/include
+[10.475s] -- Configured cppcheck exclude dirs and/or files: 
+[10.482s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.482s] -- Added test 'lint_cmake' to check CMake code style
+[10.487s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.496s] -- Added test 'uncrustify' to check C / C++ code style
+[10.496s] -- Configured uncrustify additional arguments: 
+[10.501s] -- Added test 'xmllint' to check XML markup files
+[10.522s] -- Configuring done
+[11.019s] -- Generating done
+[11.099s] -- Build files have been written to: /home/tianbot/slash_ws/build/grid_map_pcl
+[11.183s] Invoked command in '/home/tianbot/slash_ws/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/grid_map_ros/lib:/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_pcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tianbot/slash_ws/install/grid_map_pcl
+[11.184s] Invoking command in '/home/tianbot/slash_ws/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/grid_map_ros/lib:/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tianbot/slash_ws/build/grid_map_pcl -- -j4 -l4
+[11.395s] [  5%] Building CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclLoader.cpp.o
+[42.273s] [ 10%] Building CXX object CMakeFiles/grid_map_pcl.dir/src/PclLoaderParameters.cpp.o
+[64.871s] gmake[2]: *** [CMakeFiles/grid_map_pcl.dir/build.make:90: CMakeFiles/grid_map_pcl.dir/src/PclLoaderParameters.cpp.o] 中断
+[64.882s] gmake[1]: *** wait: 没有子进程。 停止。
+[64.883s] gmake[1]: *** 正在等待未完成的任务....
+[64.883s] gmake[1]: *** wait: 没有子进程。 停止。
+[64.883s] gmake: *** [Makefile:146：all] 错误 2

@@ -102,7 +102,7 @@ bt_navigator:
     global_frame: map
     robot_base_frame: base_link
     odom_topic: /odometry/filtered
-    bt_loop_duration: 3
+    bt_loop_duration: 10
     default_server_timeout: 5
     plugin_lib_names:
     - nav2_compute_path_to_pose_action_bt_node
@@ -162,45 +162,47 @@ controller_server:
     general_goal_checker:
       stateful: True
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.2
-      yaw_goal_tolerance: 0.3
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.4
     FollowPath:
       plugin: teb_local_planner::TebLocalPlannerROS
-      
+      global_plan_viapoint_sep: 0.1
       # 轨迹相关参数
       teb_autosize: 1.0
       dt_ref: 0.3
       dt_hysteresis: 0.1
       max_samples: 300
-      global_plan_overwrite_orientation: True
+      global_plan_overwrite_orientation: False
       allow_init_with_backwards_motion: True
       max_global_plan_lookahead_dist: 4.0
       force_reinit_new_goal_dist: 1.5
       force_reinit_new_goal_angular: 0.78
       feasibility_check_no_poses: 5
       publish_feedback: False
+      odom_topic: /odometry/filtered
       
       # 机器人参数
-      max_vel_x: 4.0  # 降低最大速度
-      max_vel_x_backwards: 0.5  # 降低后退速度
+      max_vel_x: 5.0  # 降低最大速度
+      max_vel_x_backwards: 0.5  # 降低后退速度 (使用正值表示速度大小)
       max_vel_theta: 0.5  # 降低最大转向速度
       acc_lim_x: 0.5  # 降低加速度限制
+      acc_lim_y: 0.0
       acc_lim_theta: 0.35
       
       # 阿克曼车辆特定参数
-      min_turning_radius: 0.85
+      min_turning_radius: 0.95
       wheelbase: 0.4
       cmd_angle_instead_rotvel: True
-      max_steering_angle: 0.52  # 最大转向角约30度(弧度)
+      max_steering_angle: 0.43  # 最大转向角约30度(弧度)
       
       # 目标容差
       xy_goal_tolerance: 0.4
       yaw_goal_tolerance: 0.4
-      free_goal_vel: False
+      free_goal_vel: True
       
       # 障碍物参数
-      min_obstacle_dist: 0.3
-      inflation_dist: 0.4
+      min_obstacle_dist: 0.5
+      inflation_dist: 0.2
       include_costmap_obstacles: True
       costmap_obstacles_behind_robot_dist: 1.0
       obstacle_poses_affected: 15
@@ -216,11 +218,11 @@ controller_server:
       weight_acc_lim_x: 1.0
       weight_acc_lim_theta: 1.0
       weight_kinematics_nh: 300.0
-      weight_kinematics_forward_drive: 4.0
-      weight_kinematics_turning_radius: 4.0
-      weight_optimaltime: 2.0
+      weight_kinematics_forward_drive: 1.0 # 降低向前驱动的权重，允许倒车
+      weight_kinematics_turning_radius: 10.0
+      weight_optimaltime: 5.0
       weight_obstacle: 40.0
-      weight_viapoint: 1.0
+      weight_viapoint: 5.0
       
       # 恢复行为
       shrink_horizon_backup: True
@@ -239,8 +241,8 @@ local_costmap:
       robot_base_frame: base_link
       use_sim_time: False
       rolling_window: true
-      width: 4
-      height: 4
+      width: 5
+      height: 5
       resolution: 0.05
       robot_radius: 0.3
       plugins: ["obstacle_layer", "inflation_layer"]
@@ -352,20 +354,20 @@ planner_server:
     planner_plugins: ["GridBased"]
     GridBased:
       # plugin: "smac_planner/SmacPlanner2D"  # 使用更适合阿克曼车辆的规划器
-      plugin: "nav2_smac_planner/SmacPlanner2D"
+      plugin: "nav2_smac_planner/SmacPlannerHybrid"
       tolerance: 0.5
       allow_unknown: true
       max_iterations: 1000000  # 增加最大迭代次数，以找到更好的路径
       max_on_approach_iterations: 1000
       max_planning_time: 5.0  # 增加最大规划时间
-      motion_model_for_search: "DUBIN"  # 使用Dubin曲线模型，适合阿克曼车辆
+      motion_model_for_search: "REEDS_SHEPP"  # 使用 Reeds-Shepp 曲线模型，支持倒车
       cost_travel_multiplier: 2.0  # 增加移动代价，使规划器更倾向于平滑路径
       angle_quantization_bins: 64  # 增加角度量化的分辨率
-      minimum_turning_radius: 0.85  # 设置最小转弯半径，根据您的车辆实际情况调整
-      reverse_penalty: 2.0  # 对倒车进行惩罚，但仍允许必要时使用
+      minimum_turning_radius: 0.95  # 设置最小转弯半径，根据您的车辆实际情况调整
+      reverse_penalty: 1.0  # 对倒车进行惩罚，但仍允许必要时使用
       change_direction_penalty: 0.5  # 对改变方向进行轻微惩罚
       non_straight_penalty: 1.2  # 对非直线路径进行轻微惩罚，鼓励更直的路径
-      cost_penalty: 2.0  # 增加代价惩罚，使规划器更倾向于寻找更优路径
+      cost_penalty: 1.0  # 增加代价惩罚，使规划器更倾向于寻找更优路径
 
 planner_server_rclcpp_node:
   ros__parameters:
@@ -382,7 +384,7 @@ recoveries_server:
       wait_duration: 1.0
     backup:
       plugin: "nav2_recoveries/BackUp"
-      speed: 0.3  # 降低后退速度
+      speed: -0.5 # 降低后退速度
       acceleration: 0.1  # 降低加速度
       distance: 0.5  # 减少后退距离
     global_frame: map

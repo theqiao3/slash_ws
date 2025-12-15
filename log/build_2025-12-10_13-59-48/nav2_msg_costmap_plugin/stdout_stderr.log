@@ -1,0 +1,24 @@
+Consolidate compiler generated dependencies of target nav2_msg_costmap_plugin_core
+[ 50%] Building CXX object CMakeFiles/nav2_msg_costmap_plugin_core.dir/src/msg_layer.cpp.o
+[100%] Linking CXX shared library libnav2_msg_costmap_plugin_core.so
+[100%] Built target nav2_msg_costmap_plugin_core
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/lib/libnav2_msg_costmap_plugin_core.so
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin//msg_layer.xml
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_msg_costmap_plugin
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_msg_costmap_plugin
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/ament_index/resource_index/packages/nav2_msg_costmap_plugin
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_msg_costmap_plugin
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/cmake/nav2_msg_costmap_pluginConfig.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/cmake/nav2_msg_costmap_pluginConfig-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/nav2_msg_costmap_plugin/share/nav2_msg_costmap_plugin/package.xml

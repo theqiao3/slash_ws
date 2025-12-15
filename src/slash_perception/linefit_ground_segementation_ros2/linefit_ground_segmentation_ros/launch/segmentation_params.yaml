@@ -23,7 +23,21 @@ ground_segmentation:
     latch: false                # latch output topics or not
     visualize: false            # visualize segmentation result - USE ONLY FOR DEBUGGING
 
-    input_topic: "/livox/lidar/pointcloud_filtered"
+    input_topic: "/livox/lidar/pointcloud"
     #input_topic: "/livox/lidar/pointcloud"
     obstacle_output_topic: "segmentation/obstacle"
     ground_output_topic: "segmentation/ground"
+
+    # PointCloud to LaserScan parameters
+    target_frame: ""            # Leave empty to output scan in pointcloud frame
+    transform_tolerance: 0.01
+    min_height: 0.00
+    max_height: 1.0
+    angle_min: -3.14159
+    angle_max: 3.14159
+    angle_increment: 0.0087     # M_PI/360.0
+    scan_time: 0.3333
+    range_min: 0.45
+    range_max: 10.0
+    use_inf: true
+    inf_epsilon: 1.0

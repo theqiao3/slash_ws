@@ -1,0 +1,4 @@
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_msg_costmap_plugin::MsgLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_navigation/nav2_msg_costmap_plugin/src/msg_layer.cpp:153:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  153 |   double robot_x, double robot_y, [01;35m[Kdouble robot_yaw[m[K, double * min_x,
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~[m[K

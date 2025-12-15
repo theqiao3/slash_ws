@@ -31,7 +31,7 @@ def generate_launch_description():
     
     # 坐标系配置
     base_frame_id = LaunchConfiguration('base_frame_id', default='base_link')
-    odom_frame_id = LaunchConfiguration('odom_frame_id', default='lidar_odom')
+    odom_frame_id = LaunchConfiguration('odom_frame_id', default='odom')
     global_frame_id = LaunchConfiguration('global_frame_id', default='map')
     
     # 初始位姿
@@ -92,7 +92,7 @@ def generate_launch_description():
         remappings=[
             ('initial_pose', '/initialpose'),  # 与RViz兼容
             ('imu/data', '/imu'),      # IMU数据话题
-            ('odom', '/odometry'),        # 里程计话题
+            ('odom', '/odometry/filtered'),        # 里程计话题
         ]
     )
     

@@ -1,0 +1,11 @@
+{
+  "package_name": "grid_map_msgs",
+  "non_idl_tuples": [
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:msg/GridMapInfo.msg",
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:msg/GridMap.msg",
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:srv/SetGridMap.srv",
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:srv/GetGridMap.srv",
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:srv/GetGridMapInfo.srv",
+    "/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_msgs:srv/ProcessFile.srv"
+  ]
+}

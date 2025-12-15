@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tianbot/slash_ws/build/slash_nav2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/lib/slash_nav2/publish_pcd.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/lib/slash_nav2/pcd_to_pgm.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/lib/slash_nav2/cmd_vel_relay.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/lib/slash_nav2/vel_corrector.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/bringup_all.launch.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/bringup_real.launch.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/navigation_full.launch.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/__pycache__/tianracer_full_stack.launch.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_all.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_all_mapping.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_gridmap_toolbox.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_real.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_with_dll.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_with_slam_toolbox.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/grid_map_bridge.launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/localization_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/launch/navigation_launch.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/grid_map_processing.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/grid_map_visualization.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/mapping.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params (mppi_slam_toolbox).yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params (teb).yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params (teb_slam_toolbox) .yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params(mppi).yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_dll_mppi.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_dll_teb.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params_gridmap.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.data
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.pgm
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.posegraph
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.data
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.pgm
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.posegraph
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.data
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.pgm
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.posegraph
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/map/test1.yaml
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUC.pcd
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUL.pcd
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/PCD/test1.pcd
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/rviz/fastlio.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/rviz/nav2.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/rviz/pointlio.rviz
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_real.xacro
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_sim.xacro
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/__pycache__/cmd_vel_relay.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/__pycache__/pcd_publisher.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/__pycache__/pcd_to_pgm.cpython-310.pyc
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/check_tf.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/cmd_vel_relay.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/pcd_to_pgm copy.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/pcd_to_pgm.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/pcd_to_pgm_slope.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/publish_pcd.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/scripts/vel_corrector.py
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/ament_index/resource_index/package_run_dependencies/slash_nav2
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/ament_index/resource_index/parent_prefix_path/slash_nav2
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.sh
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.bash
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.sh
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.zsh
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/package.dsv
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/ament_index/resource_index/packages/slash_nav2
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config-version.cmake
+-- Symlinking: /home/tianbot/slash_ws/install/slash_nav2/share/slash_nav2/package.xml

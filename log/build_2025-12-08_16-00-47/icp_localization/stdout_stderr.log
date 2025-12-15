@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target set_initial_pose_node[0m
+[35m[1mConsolidate compiler generated dependencies of target icp_localization_node[0m
+[ 40%] Built target set_initial_pose_node
+[ 60%] [32mBuilding CXX object CMakeFiles/icp_localization_node.dir/src/icp_localization.cpp.o[0m
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:1[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:[m[K In constructor ‘[01m[Kicp_localization::ICPLocalization::ICPLocalization(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:141:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kicp_localization::ICPLocalization::has_odom_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  141 |   bool [01;35m[Khas_odom_[m[K;
+      |        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:137:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KEigen::Matrix4f icp_localization::ICPLocalization::map_to_odom_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  137 |   Eigen::Matrix4f [01;35m[Kmap_to_odom_[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    7 | [01;35m[KICPLocalization[m[K::ICPLocalization(const rclcpp::NodeOptions & options)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:[m[K In member function ‘[01m[Kvoid icp_localization::ICPLocalization::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:204:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinitial_guess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  204 |   Eigen::Matrix4f [01;35m[Kinitial_guess[m[K = current_pose_;
+      |                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:[m[K In member function ‘[01m[Kvoid icp_localization::ICPLocalization::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:247:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  247 | void ICPLocalization::odomCallback([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K)
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 80%] [32m[1mLinking CXX executable icp_localization_node[0m
+[100%] Built target icp_localization_node
+-- Install configuration: "Release"
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/icp_localization_node
+-- Set runtime path of "/home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/icp_localization_node" to ""
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/set_initial_pose_node
+-- Set runtime path of "/home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/set_initial_pose_node" to ""
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/launch
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/launch/icp_localization.launch.py
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/config
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/config/icp_localization.yaml
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/rviz
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/rviz/icp_localization.rviz
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/include
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/include/icp_localization
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/include/icp_localization/icp_localization.hpp
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/package_run_dependencies/icp_localization
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/parent_prefix_path/icp_localization
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/ament_prefix_path.sh
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/ament_prefix_path.dsv
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/path.sh
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/path.dsv
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.bash
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.sh
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.zsh
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.dsv
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/package.dsv
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/packages/icp_localization
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/cmake/icp_localizationConfig.cmake
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/cmake/icp_localizationConfig-version.cmake
+-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/package.xml

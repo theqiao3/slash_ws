@@ -21,12 +21,13 @@ TF链: map -> odom -> base_link
 
 import os
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, GroupAction
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, GroupAction, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch.conditions import IfCondition
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+
 
 
 def generate_launch_description():
@@ -43,8 +44,11 @@ def generate_launch_description():
     # 可以使用 RMUC.posegraph 作为示例（如果存在）
     default_map_posegraph = os.path.join(slash_nav2_dir, 'map', 'test1')  # 不带扩展名
     
-    # PCD可视化文件路径
+    # PCD点云地图参数 - 直接指定FAST_LIO生成的点云文件
     pcd_file_path = '/home/tianbot/slash_ws/src/slash_navigation/slash_nav2/PCD/test1.pcd'
+    # Launch substitutions (PCD file and enabling flag)
+    pcd_file = LaunchConfiguration('pcd_file', default=pcd_file_path)
+    enable_pcd = LaunchConfiguration('enable_pcd', default='true')  # 默认启用PCD发布
     
     # Launch配置
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
@@ -53,7 +57,6 @@ def generate_launch_description():
     params_file = LaunchConfiguration('params_file', default=nav2_param_path)
 
     # 可视化开关
-    enable_pcd = LaunchConfiguration('enable_pcd', default='true')
     enable_rviz = LaunchConfiguration('enable_rviz', default='true')
     
     # ==================== RViz ====================
@@ -83,23 +86,6 @@ def generate_launch_description():
         output='screen'
     )
     
-    # ==================== PCD 可视化 ====================
-    pcd_publish_cmd = GroupAction(
-        condition=IfCondition(enable_pcd),
-        actions=[
-            Node(
-                package='slash_nav2',
-                executable='publish_pcd.py',
-                name='pcd_publisher',
-                output='screen',
-                parameters=[{
-                    'pcd_file': pcd_file_path,
-                    'topic': '/pcd_map',
-                    'frame_id': 'map',
-                }]
-            )
-        ]
-    )
     
     return LaunchDescription([
         # ===== 参数声明 =====
@@ -135,7 +121,12 @@ def generate_launch_description():
         # vel_corrector_node,  # 按需启用
         
         # ===== PCD 可视化 =====
-        pcd_publish_cmd,
+                # PCD点云发布节点（使用 ros2 run 命令）
+        ExecuteProcess(
+            condition=IfCondition(enable_pcd),
+            cmd=['bash', '-c', 'source /home/tianbot/slash_ws/install/setup.bash && ros2 run slash_nav2 publish_pcd.py --pcd-file /home/tianbot/slash_ws/src/slash_navigation/slash_nav2/PCD/test1.pcd  --topic /pcd_map --frame-id map'],
+            output='screen'
+        ),
         
         # ===== RViz =====
         rviz_node,

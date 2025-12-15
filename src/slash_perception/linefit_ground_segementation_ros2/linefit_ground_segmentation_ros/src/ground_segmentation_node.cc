@@ -5,11 +5,14 @@
 #include <pcl/io/ply_io.h>
 #include <pcl_conversions/pcl_conversions.h>
 #include <pcl/point_cloud.h>
+#include <sensor_msgs/msg/laser_scan.hpp>
 #include <rclcpp/qos.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <tf2_ros/buffer.h>
 #include <tf2_ros/transform_listener.h>
+#include <cmath>
+#include <limits>
 
 #include "ground_segmentation/ground_segmentation.h"
 
@@ -20,12 +23,23 @@ public:
 
   rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr ground_pub_;
   rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr obstacle_pub_;
+  rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr scan_pub_;
   std::shared_ptr<tf2_ros::Buffer> tf_buffer_;
   std::shared_ptr<tf2_ros::TransformListener> tf_listener_;
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr cloud_sub_;
   GroundSegmentationParams params_;
   std::shared_ptr<GroundSegmentation> segmenter_;
   std::string gravity_aligned_frame_;
+
+  // LaserScan parameters
+  std::string target_frame_;
+  double tolerance_;
+  double min_height_, max_height_;
+  double angle_min_, angle_max_, angle_increment_;
+  double scan_time_;
+  double range_min_, range_max_;
+  bool use_inf_;
+  double inf_epsilon_;
 };
 
 SegmentationNode::SegmentationNode(const rclcpp::NodeOptions &node_options)
@@ -69,6 +83,21 @@ SegmentationNode::SegmentationNode(const rclcpp::NodeOptions &node_options)
   obstacle_topic =
       this->declare_parameter("obstacle_output_topic", "obstacle_cloud");
   input_topic = this->declare_parameter("input_topic", "input_cloud");
+  
+  // LaserScan parameters initialization
+  target_frame_ = this->declare_parameter("target_frame", "");
+  tolerance_ = this->declare_parameter("transform_tolerance", 0.01);
+  min_height_ = this->declare_parameter("min_height", std::numeric_limits<double>::min());
+  max_height_ = this->declare_parameter("max_height", std::numeric_limits<double>::max());
+  angle_min_ = this->declare_parameter("angle_min", -M_PI);
+  angle_max_ = this->declare_parameter("angle_max", M_PI);
+  angle_increment_ = this->declare_parameter("angle_increment", M_PI / 180.0);
+  scan_time_ = this->declare_parameter("scan_time", 1.0 / 30.0);
+  range_min_ = this->declare_parameter("range_min", 0.0);
+  range_max_ = this->declare_parameter("range_max", std::numeric_limits<double>::max());
+  use_inf_ = this->declare_parameter("use_inf", true);
+  inf_epsilon_ = this->declare_parameter("inf_epsilon", 1.0);
+
   // 使用 RELIABLE QoS 以兼容 RViz2
   auto qos_profile = rclcpp::QoS(rclcpp::KeepLast(10))
       .reliable()
@@ -81,6 +110,8 @@ SegmentationNode::SegmentationNode(const rclcpp::NodeOptions &node_options)
       ground_topic, qos_profile);
   obstacle_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>(
       obstacle_topic, qos_profile);
+  scan_pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>(
+      "scan", qos_profile);
   tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
   tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
   RCLCPP_INFO(this->get_logger(), "Segmentation node initialized");
@@ -140,6 +171,78 @@ void SegmentationNode::scanCallback(
   obstacle_msg->header = msg->header;
   ground_pub_->publish(*ground_msg);
   obstacle_pub_->publish(*obstacle_msg);
+
+  // PointCloud to LaserScan conversion
+  auto scan_msg = std::make_unique<sensor_msgs::msg::LaserScan>();
+  scan_msg->header = msg->header;
+  if (!target_frame_.empty()) {
+    scan_msg->header.frame_id = target_frame_;
+  }
+
+  scan_msg->angle_min = angle_min_;
+  scan_msg->angle_max = angle_max_;
+  scan_msg->angle_increment = angle_increment_;
+  scan_msg->time_increment = 0.0;
+  scan_msg->scan_time = scan_time_;
+  scan_msg->range_min = range_min_;
+  scan_msg->range_max = range_max_;
+
+  uint32_t ranges_size = std::ceil(
+    (scan_msg->angle_max - scan_msg->angle_min) / scan_msg->angle_increment);
+
+  if (use_inf_) {
+    scan_msg->ranges.assign(ranges_size, std::numeric_limits<double>::infinity());
+  } else {
+    scan_msg->ranges.assign(ranges_size, scan_msg->range_max + inf_epsilon_);
+  }
+
+  // Transform cloud if necessary
+  pcl::PointCloud<pcl::PointXYZ> cloud_for_scan;
+  bool transform_success = true;
+
+  if (!target_frame_.empty() && target_frame_ != msg->header.frame_id) {
+    try {
+      geometry_msgs::msg::TransformStamped tf_stamped = tf_buffer_->lookupTransform(
+          target_frame_, msg->header.frame_id, msg->header.stamp,
+          rclcpp::Duration::from_seconds(tolerance_));
+      
+      Eigen::Affine3d tf;
+      tf = Eigen::Translation3d(tf_stamped.transform.translation.x,
+                                tf_stamped.transform.translation.y,
+                                tf_stamped.transform.translation.z) *
+           Eigen::Quaterniond(tf_stamped.transform.rotation.w,
+                              tf_stamped.transform.rotation.x,
+                              tf_stamped.transform.rotation.y,
+                              tf_stamped.transform.rotation.z);
+      pcl::transformPointCloud(obstacle_cloud, cloud_for_scan, tf);
+    } catch (tf2::TransformException &ex) {
+      RCLCPP_ERROR(this->get_logger(), "Transform failure: %s", ex.what());
+      transform_success = false;
+    }
+  } else {
+    cloud_for_scan = obstacle_cloud;
+  }
+
+  if (transform_success) {
+    for (const auto& point : cloud_for_scan) {
+      if (std::isnan(point.x) || std::isnan(point.y) || std::isnan(point.z)) continue;
+      if (point.z > max_height_ || point.z < min_height_) continue;
+
+      double range = std::hypot(point.x, point.y);
+      if (range < range_min_ || range > range_max_) continue;
+
+      double angle = std::atan2(point.y, point.x);
+      if (angle < scan_msg->angle_min || angle > scan_msg->angle_max) continue;
+
+      int index = (angle - scan_msg->angle_min) / scan_msg->angle_increment;
+      if (index >= 0 && index < (int)ranges_size) {
+        if (range < scan_msg->ranges[index]) {
+          scan_msg->ranges[index] = range;
+        }
+      }
+    }
+    scan_pub_->publish(std::move(scan_msg));
+  }
 }
 
 int main(int argc, char **argv) {

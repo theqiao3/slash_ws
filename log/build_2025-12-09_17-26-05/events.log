@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000402] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000552] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000690] (-) JobUnselected: {'identifier': 'dll'}
+[0.000739] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000789] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000831] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.000868] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.000916] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.000958] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.000985] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.001009] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.001029] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.001082] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.001124] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.001149] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.001185] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.001207] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.001227] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.001266] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.001302] (-) JobUnselected: {'identifier': 'icp_localization'}
+[0.001347] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001410] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001472] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001507] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001541] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001568] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001613] (-) JobUnselected: {'identifier': 'nav2_msg_costmap_plugin'}
+[0.001636] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001655] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001676] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.001711] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001752] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001791] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001827] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001860] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001893] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001926] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001984] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002020] (grid_map_ros) JobQueued: {'identifier': 'grid_map_ros', 'dependencies': OrderedDict([('grid_map_cmake_helpers', '/home/tianbot/slash_ws/install/grid_map_cmake_helpers'), ('grid_map_core', '/home/tianbot/slash_ws/install/grid_map_core'), ('grid_map_msgs', '/home/tianbot/slash_ws/install/grid_map_msgs'), ('grid_map_cv', '/home/tianbot/slash_ws/install/grid_map_cv')])}
+[0.002063] (grid_map_ros) JobStarted: {'identifier': 'grid_map_ros'}
+[0.028514] (grid_map_ros) JobProgress: {'identifier': 'grid_map_ros', 'progress': 'cmake'}
+[0.029213] (grid_map_ros) JobProgress: {'identifier': 'grid_map_ros', 'progress': 'build'}
+[0.030265] (grid_map_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/grid_map_ros', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/grid_map_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 46584 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-85a7ce92-0878-414d-9536-9db99c598a69.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/tianbot/slash_ws/build/grid_map_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 46584 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.094437] (grid_map_ros) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gtest_main\n'}
+[0.096130] (grid_map_ros) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gtest\n'}
+[0.099928] (-) TimerEvent: {}
+[0.118575] (grid_map_ros) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target grid_map_ros\n'}
+[0.120335] (grid_map_ros) StdoutLine: {'line': b'[ 18%] Built target gtest\n'}
+[0.126170] (grid_map_ros) StdoutLine: {'line': b'[ 36%] Built target gtest_main\n'}
+[0.144298] (grid_map_ros) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o\n'}
+[0.200061] (-) TimerEvent: {}
+[0.302297] (-) TimerEvent: {}
+[0.402483] (-) TimerEvent: {}
+[0.502672] (-) TimerEvent: {}
+[0.602858] (-) TimerEvent: {}
+[0.703053] (-) TimerEvent: {}
+[0.803256] (-) TimerEvent: {}
+[0.903435] (-) TimerEvent: {}
+[1.003637] (-) TimerEvent: {}
+[1.103841] (-) TimerEvent: {}
+[1.204043] (-) TimerEvent: {}
+[1.304248] (-) TimerEvent: {}
+[1.404449] (-) TimerEvent: {}
+[1.504647] (-) TimerEvent: {}
+[1.604840] (-) TimerEvent: {}
+[1.705035] (-) TimerEvent: {}
+[1.805264] (-) TimerEvent: {}
+[1.905460] (-) TimerEvent: {}
+[2.005657] (-) TimerEvent: {}
+[2.105850] (-) TimerEvent: {}
+[2.206045] (-) TimerEvent: {}
+[2.306260] (-) TimerEvent: {}
+[2.406463] (-) TimerEvent: {}
+[2.506654] (-) TimerEvent: {}
+[2.606852] (-) TimerEvent: {}
+[2.707054] (-) TimerEvent: {}
+[2.807424] (-) TimerEvent: {}
+[2.907637] (-) TimerEvent: {}
+[3.007993] (-) TimerEvent: {}
+[3.108181] (-) TimerEvent: {}
+[3.208376] (-) TimerEvent: {}
+[3.308574] (-) TimerEvent: {}
+[3.408913] (-) TimerEvent: {}
+[3.509222] (-) TimerEvent: {}
+[3.609469] (-) TimerEvent: {}
+[3.709654] (-) TimerEvent: {}
+[3.809883] (-) TimerEvent: {}
+[3.910091] (-) TimerEvent: {}
+[4.010313] (-) TimerEvent: {}
+[4.110520] (-) TimerEvent: {}
+[4.210726] (-) TimerEvent: {}
+[4.310922] (-) TimerEvent: {}
+[4.411149] (-) TimerEvent: {}
+[4.511350] (-) TimerEvent: {}
+[4.611884] (-) TimerEvent: {}
+[4.712086] (-) TimerEvent: {}
+[4.812294] (-) TimerEvent: {}
+[4.912489] (-) TimerEvent: {}
+[5.012714] (-) TimerEvent: {}
+[5.112913] (-) TimerEvent: {}
+[5.213113] (-) TimerEvent: {}
+[5.313314] (-) TimerEvent: {}
+[5.413509] (-) TimerEvent: {}
+[5.513782] (-) TimerEvent: {}
+[5.613983] (-) TimerEvent: {}
+[5.714172] (-) TimerEvent: {}
+[5.814370] (-) TimerEvent: {}
+[5.914653] (-) TimerEvent: {}
+[6.014982] (-) TimerEvent: {}
+[6.115373] (-) TimerEvent: {}
+[6.215741] (-) TimerEvent: {}
+[6.316154] (-) TimerEvent: {}
+[6.416483] (-) TimerEvent: {}
+[6.516692] (-) TimerEvent: {}
+[6.616891] (-) TimerEvent: {}
+[6.717080] (-) TimerEvent: {}
+[6.817281] (-) TimerEvent: {}
+[6.917477] (-) TimerEvent: {}
+[7.017669] (-) TimerEvent: {}
+[7.117851] (-) TimerEvent: {}
+[7.218032] (-) TimerEvent: {}
+[7.318233] (-) TimerEvent: {}
+[7.418924] (-) TimerEvent: {}
+[7.519134] (-) TimerEvent: {}
+[7.619420] (-) TimerEvent: {}
+[7.719608] (-) TimerEvent: {}
+[7.819800] (-) TimerEvent: {}
+[7.919981] (-) TimerEvent: {}
+[8.020171] (-) TimerEvent: {}
+[8.120371] (-) TimerEvent: {}
+[8.220567] (-) TimerEvent: {}
+[8.320761] (-) TimerEvent: {}
+[8.420961] (-) TimerEvent: {}
+[8.521185] (-) TimerEvent: {}
+[8.621407] (-) TimerEvent: {}
+[8.721572] (-) TimerEvent: {}
+[8.806622] (grid_map_ros) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libgrid_map_ros.so\n'}
+[8.821676] (-) TimerEvent: {}
+[8.921836] (-) TimerEvent: {}
+[9.022051] (-) TimerEvent: {}
+[9.047940] (grid_map_ros) StdoutLine: {'line': b'[ 72%] Built target grid_map_ros\n'}
+[9.077634] (grid_map_ros) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/grid_map_ros-test.dir/test/GridMapRosTest.cpp.o\n'}
+[9.077844] (grid_map_ros) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/grid_map_ros-test.dir/test/test_grid_map_ros.cpp.o\n'}
+[9.122168] (-) TimerEvent: {}
+[9.222369] (-) TimerEvent: {}
+[9.322555] (-) TimerEvent: {}
+[9.422757] (-) TimerEvent: {}
+[9.522973] (-) TimerEvent: {}
+[9.623182] (-) TimerEvent: {}
+[9.723426] (-) TimerEvent: {}
+[9.823660] (-) TimerEvent: {}
+[9.923857] (-) TimerEvent: {}
+[10.024050] (-) TimerEvent: {}
+[10.124261] (-) TimerEvent: {}
+[10.224460] (-) TimerEvent: {}
+[10.324663] (-) TimerEvent: {}
+[10.424868] (-) TimerEvent: {}
+[10.525058] (-) TimerEvent: {}
+[10.625250] (-) TimerEvent: {}
+[10.725433] (-) TimerEvent: {}
+[10.825623] (-) TimerEvent: {}
+[10.925812] (-) TimerEvent: {}
+[11.026007] (-) TimerEvent: {}
+[11.126179] (-) TimerEvent: {}
+[11.226379] (-) TimerEvent: {}
+[11.326577] (-) TimerEvent: {}
+[11.426780] (-) TimerEvent: {}
+[11.526970] (-) TimerEvent: {}
+[11.627178] (-) TimerEvent: {}
+[11.727372] (-) TimerEvent: {}
+[11.827578] (-) TimerEvent: {}
+[11.927779] (-) TimerEvent: {}
+[12.027970] (-) TimerEvent: {}
+[12.128178] (-) TimerEvent: {}
+[12.228380] (-) TimerEvent: {}
+[12.328578] (-) TimerEvent: {}
+[12.428771] (-) TimerEvent: {}
+[12.528965] (-) TimerEvent: {}
+[12.629163] (-) TimerEvent: {}
+[12.729356] (-) TimerEvent: {}
+[12.829560] (-) TimerEvent: {}
+[12.929752] (-) TimerEvent: {}
+[13.029947] (-) TimerEvent: {}
+[13.130161] (-) TimerEvent: {}
+[13.230367] (-) TimerEvent: {}
+[13.330563] (-) TimerEvent: {}
+[13.430763] (-) TimerEvent: {}
+[13.530987] (-) TimerEvent: {}
+[13.631173] (-) TimerEvent: {}
+[13.731392] (-) TimerEvent: {}
+[13.831596] (-) TimerEvent: {}
+[13.931800] (-) TimerEvent: {}
+[14.032001] (-) TimerEvent: {}
+[14.132188] (-) TimerEvent: {}
+[14.232380] (-) TimerEvent: {}
+[14.332591] (-) TimerEvent: {}
+[14.432795] (-) TimerEvent: {}
+[14.532982] (-) TimerEvent: {}
+[14.633177] (-) TimerEvent: {}
+[14.733374] (-) TimerEvent: {}
+[14.833572] (-) TimerEvent: {}
+[14.933765] (-) TimerEvent: {}
+[15.033961] (-) TimerEvent: {}
+[15.134176] (-) TimerEvent: {}
+[15.234374] (-) TimerEvent: {}
+[15.334563] (-) TimerEvent: {}
+[15.434756] (-) TimerEvent: {}
+[15.534957] (-) TimerEvent: {}
+[15.635163] (-) TimerEvent: {}
+[15.735387] (-) TimerEvent: {}
+[15.835574] (-) TimerEvent: {}
+[15.935769] (-) TimerEvent: {}
+[16.035963] (-) TimerEvent: {}
+[16.136179] (-) TimerEvent: {}
+[16.236393] (-) TimerEvent: {}
+[16.337394] (-) TimerEvent: {}
+[16.437598] (-) TimerEvent: {}
+[16.537757] (-) TimerEvent: {}
+[16.637962] (-) TimerEvent: {}
+[16.738184] (-) TimerEvent: {}
+[16.838408] (-) TimerEvent: {}
+[16.938612] (-) TimerEvent: {}
+[17.038815] (-) TimerEvent: {}
+[17.139030] (-) TimerEvent: {}
+[17.239244] (-) TimerEvent: {}
+[17.339436] (-) TimerEvent: {}
+[17.439634] (-) TimerEvent: {}
+[17.539833] (-) TimerEvent: {}
+[17.640029] (-) TimerEvent: {}
+[17.740207] (-) TimerEvent: {}
+[17.826870] (grid_map_ros) StdoutLine: {'line': b'[100%] Linking CXX executable grid_map_ros-test\n'}
+[17.840309] (-) TimerEvent: {}
+[17.940523] (-) TimerEvent: {}
+[18.040739] (-) TimerEvent: {}
+[18.140922] (-) TimerEvent: {}
+[18.241112] (-) TimerEvent: {}
+[18.329062] (grid_map_ros) StdoutLine: {'line': b'[100%] Built target grid_map_ros-test\n'}
+[18.341187] (-) TimerEvent: {}
+[18.343651] (grid_map_ros) CommandEnded: {'returncode': 0}
+[18.345718] (grid_map_ros) JobProgress: {'identifier': 'grid_map_ros', 'progress': 'install'}
+[18.356205] (grid_map_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tianbot/slash_ws/build/grid_map_ros'], 'cwd': '/home/tianbot/slash_ws/build/grid_map_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 46584 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-85a7ce92-0878-414d-9536-9db99c598a69.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/tianbot/slash_ws/build/grid_map_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 46584 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[18.366634] (grid_map_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.367481] (grid_map_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.367830] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/lib/libgrid_map_ros.so\n'}
+[18.379907] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/library_path.sh\n'}
+[18.391125] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/library_path.dsv\n'}
+[18.403156] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/ament_index/resource_index/package_run_dependencies/grid_map_ros\n'}
+[18.415806] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/ament_index/resource_index/parent_prefix_path/grid_map_ros\n'}
+[18.427208] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/ament_prefix_path.sh\n'}
+[18.438399] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/ament_prefix_path.dsv\n'}
+[18.441255] (-) TimerEvent: {}
+[18.450093] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/path.sh\n'}
+[18.461235] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/environment/path.dsv\n'}
+[18.472269] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/local_setup.bash\n'}
+[18.483854] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/local_setup.sh\n'}
+[18.495554] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/local_setup.zsh\n'}
+[18.507327] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/local_setup.dsv\n'}
+[18.518905] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/package.dsv\n'}
+[18.530104] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/ament_index/resource_index/packages/grid_map_ros\n'}
+[18.541351] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.541539] (-) TimerEvent: {}
+[18.553261] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.564628] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.576055] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake/grid_map_rosConfig.cmake\n'}
+[18.587992] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake/grid_map_rosConfig-version.cmake\n'}
+[18.599726] (grid_map_ros) StdoutLine: {'line': b'-- Symlinking: /home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/package.xml\n'}
+[18.611285] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros\n'}
+[18.611646] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros/GridMapMsgHelpers.hpp\n'}
+[18.611750] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp\n'}
+[18.612041] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros/PolygonRosConverter.hpp\n'}
+[18.612164] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros/grid_map_ros.hpp\n'}
+[18.612254] (grid_map_ros) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/grid_map_ros/include/grid_map_ros/message_traits.hpp\n'}
+[18.613869] (grid_map_ros) CommandEnded: {'returncode': 0}
+[18.637047] (grid_map_ros) JobEnded: {'identifier': 'grid_map_ros', 'rc': 0}
+[18.637584] (-) EventReactorShutdown: {}

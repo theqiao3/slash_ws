@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000465] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000608] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000751] (-) JobUnselected: {'identifier': 'dll'}
+[0.000802] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000857] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000894] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.000943] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.001000] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.001052] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.001102] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.001152] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.001199] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.001236] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.001281] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.001316] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.001362] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.001396] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.001440] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.001476] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.001509] (-) JobUnselected: {'identifier': 'icp_localization'}
+[0.001554] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001588] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001621] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001665] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001699] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001733] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001767] (-) JobUnselected: {'identifier': 'nav2_msg_costmap_plugin'}
+[0.001827] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001889] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001946] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.002041] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.002077] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.002099] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002174] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002240] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002264] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002285] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002306] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002330] (grid_map_ros) JobQueued: {'identifier': 'grid_map_ros', 'dependencies': OrderedDict([('grid_map_cmake_helpers', '/home/tianbot/slash_ws/install/grid_map_cmake_helpers'), ('grid_map_core', '/home/tianbot/slash_ws/install/grid_map_core'), ('grid_map_msgs', '/home/tianbot/slash_ws/install/grid_map_msgs'), ('grid_map_cv', '/home/tianbot/slash_ws/install/grid_map_cv')])}
+[0.002373] (grid_map_ros) JobStarted: {'identifier': 'grid_map_ros'}
+[0.028159] (grid_map_ros) JobProgress: {'identifier': 'grid_map_ros', 'progress': 'cmake'}
+[0.028870] (grid_map_ros) JobProgress: {'identifier': 'grid_map_ros', 'progress': 'build'}
+[0.029659] (grid_map_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/grid_map_ros', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/grid_map_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 46584 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-85a7ce92-0878-414d-9536-9db99c598a69.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/tianbot/slash_ws/build/grid_map_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 46584 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.099871] (-) TimerEvent: {}
+[0.102028] (grid_map_ros) StdoutLine: {'line': b'[  9%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[0.102439] (grid_map_ros) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target grid_map_ros\n'}
+[0.107521] (grid_map_ros) StdoutLine: {'line': b'[ 18%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[0.126255] (grid_map_ros) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/grid_map_ros.dir/src/GridMapMsgHelpers.cpp.o\n'}
+[0.127586] (grid_map_ros) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o\n'}
+[0.201256] (-) TimerEvent: {}
+[0.301461] (-) TimerEvent: {}
+[0.401662] (-) TimerEvent: {}
+[0.501861] (-) TimerEvent: {}
+[0.605374] (-) TimerEvent: {}
+[0.705621] (-) TimerEvent: {}
+[0.805831] (-) TimerEvent: {}
+[0.906047] (-) TimerEvent: {}
+[1.006249] (-) TimerEvent: {}
+[1.106562] (-) TimerEvent: {}
+[1.208376] (-) TimerEvent: {}
+[1.308590] (-) TimerEvent: {}
+[1.408811] (-) TimerEvent: {}
+[1.509031] (-) TimerEvent: {}
+[1.609244] (-) TimerEvent: {}
+[1.692061] (grid_map_ros) StdoutLine: {'line': b'[ 45%] Linking CXX static library libgtest_main.a\n'}
+[1.712261] (-) TimerEvent: {}
+[1.749898] (grid_map_ros) StdoutLine: {'line': b'[ 45%] Built target gtest_main\n'}
+[1.765478] (grid_map_ros) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/grid_map_ros.dir/src/PolygonRosConverter.cpp.o\n'}
+[1.812363] (-) TimerEvent: {}
+[1.912585] (-) TimerEvent: {}
+[2.012810] (-) TimerEvent: {}
+[2.115874] (-) TimerEvent: {}
+[2.216083] (-) TimerEvent: {}
+[2.316302] (-) TimerEvent: {}
+[2.416515] (-) TimerEvent: {}
+[2.516829] (-) TimerEvent: {}
+[2.618267] (-) TimerEvent: {}
+[2.721728] (-) TimerEvent: {}
+[2.821942] (-) TimerEvent: {}
+[2.922160] (-) TimerEvent: {}
+[3.022377] (-) TimerEvent: {}
+[3.122589] (-) TimerEvent: {}
+[3.222805] (-) TimerEvent: {}
+[3.327896] (-) TimerEvent: {}
+[3.428141] (-) TimerEvent: {}
+[3.530376] (-) TimerEvent: {}
+[3.630566] (-) TimerEvent: {}
+[3.730849] (-) TimerEvent: {}
+[3.831070] (-) TimerEvent: {}
+[3.931254] (-) TimerEvent: {}
+[4.031467] (-) TimerEvent: {}
+[4.134593] (-) TimerEvent: {}
+[4.234804] (-) TimerEvent: {}
+[4.335613] (-) TimerEvent: {}
+[4.435829] (-) TimerEvent: {}
+[4.536210] (-) TimerEvent: {}
+[4.637389] (-) TimerEvent: {}
+[4.738028] (-) TimerEvent: {}
+[4.838432] (-) TimerEvent: {}
+[4.940251] (-) TimerEvent: {}
+[5.040462] (-) TimerEvent: {}
+[5.140691] (-) TimerEvent: {}
+[5.240914] (-) TimerEvent: {}
+[5.342251] (-) TimerEvent: {}
+[5.442475] (-) TimerEvent: {}
+[5.545400] (-) TimerEvent: {}
+[5.645620] (-) TimerEvent: {}
+[5.745833] (-) TimerEvent: {}
+[5.846034] (-) TimerEvent: {}
+[5.946342] (-) TimerEvent: {}
+[6.046614] (-) TimerEvent: {}
+[6.146821] (-) TimerEvent: {}
+[6.247640] (-) TimerEvent: {}
+[6.347836] (-) TimerEvent: {}
+[6.448052] (-) TimerEvent: {}
+[6.549252] (-) TimerEvent: {}
+[6.649571] (-) TimerEvent: {}
+[6.749885] (-) TimerEvent: {}
+[6.850214] (-) TimerEvent: {}
+[6.950536] (-) TimerEvent: {}
+[7.050863] (-) TimerEvent: {}
+[7.107257] (grid_map_ros) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[7.107609] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[7.107736] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[7.107840] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[7.107938] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[7.108073] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[7.108168] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[7.108291] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[7.108383] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[7.108496] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[7.108585] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[7.108689] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/include/grid_map_ros/GridMapMsgHelpers.hpp:13,\n'}
+[7.108774] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:33:\n'}
+[7.108858] (grid_map_ros) StderrLine: {'line': b'/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp: In static member function \xe2\x80\x98static bool grid_map::GridMapRosConverter::fromOccupancyGrid(const OccupancyGrid&, const string&, grid_map::GridMap&)\xe2\x80\x99:\n'}
+[7.108975] (grid_map_ros) StderrLine: {'line': b'/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:278:39: error: \xe2\x80\x98std::string rosidl_generator_traits::to_yaml(const Quaternion&)\xe2\x80\x99 is deprecated: use geometry_msgs::msg::to_yaml() instead [-Werror=deprecated-declarations]\n'}
+[7.109079] (grid_map_ros) StderrLine: {'line': b'  278 |       rosidl_generator_traits::to_yaml(occupancyGrid.info.origin.orientation).c_str());\n'}
+[7.109169] (grid_map_ros) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.109276] (grid_map_ros) StderrLine: {'line': b'In file included from /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp:9,\n'}
+[7.109363] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:12:\n'}
+[7.109449] (grid_map_ros) StderrLine: {'line': b'/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:129:20: note: declared here\n'}
+[7.109538] (grid_map_ros) StderrLine: {'line': b'  129 | inline std::string to_yaml(const geometry_msgs::msg::Quaternion & msg)\n'}
+[7.113071] (grid_map_ros) StderrLine: {'line': b'      |                    ^~~~~~~\n'}
+[7.153256] (-) TimerEvent: {}
+[7.165157] (grid_map_ros) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[7.165398] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[7.165509] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[7.165608] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[7.165706] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[7.165800] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[7.165892] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[7.165983] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[7.166105] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[7.166212] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[7.166327] (grid_map_ros) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[7.166417] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/include/grid_map_ros/GridMapMsgHelpers.hpp:13,\n'}
+[7.166516] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:33:\n'}
+[7.166633] (grid_map_ros) StderrLine: {'line': b'/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp: In static member function \xe2\x80\x98static bool grid_map::GridMapRosConverter::fromCostmap(const Costmap&, const string&, grid_map::GridMap&)\xe2\x80\x99:\n'}
+[7.166777] (grid_map_ros) StderrLine: {'line': b'/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:377:39: error: \xe2\x80\x98std::string rosidl_generator_traits::to_yaml(const Quaternion&)\xe2\x80\x99 is deprecated: use geometry_msgs::msg::to_yaml() instead [-Werror=deprecated-declarations]\n'}
+[7.166880] (grid_map_ros) StderrLine: {'line': b'  377 |       rosidl_generator_traits::to_yaml(costmap.metadata.origin.orientation).c_str());\n'}
+[7.166971] (grid_map_ros) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.167089] (grid_map_ros) StderrLine: {'line': b'In file included from /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp:9,\n'}
+[7.170663] (grid_map_ros) StderrLine: {'line': b'                 from /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_ros/src/GridMapRosConverter.cpp:12:\n'}
+[7.171279] (grid_map_ros) StderrLine: {'line': b'/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:129:20: note: declared here\n'}
+[7.171444] (grid_map_ros) StderrLine: {'line': b'  129 | inline std::string to_yaml(const geometry_msgs::msg::Quaternion & msg)\n'}
+[7.171539] (grid_map_ros) StderrLine: {'line': b'      |                    ^~~~~~~\n'}
+[7.253362] (-) TimerEvent: {}
+[7.353586] (-) TimerEvent: {}
+[7.453794] (-) TimerEvent: {}
+[7.556253] (-) TimerEvent: {}
+[7.656450] (-) TimerEvent: {}
+[7.756650] (-) TimerEvent: {}
+[7.856862] (-) TimerEvent: {}
+[7.957067] (-) TimerEvent: {}
+[8.057242] (-) TimerEvent: {}
+[8.157445] (-) TimerEvent: {}
+[8.257641] (-) TimerEvent: {}
+[8.357847] (-) TimerEvent: {}
+[8.458062] (-) TimerEvent: {}
+[8.558245] (-) TimerEvent: {}
+[8.658454] (-) TimerEvent: {}
+[8.758755] (-) TimerEvent: {}
+[8.859042] (-) TimerEvent: {}
+[8.960689] (-) TimerEvent: {}
+[9.061014] (-) TimerEvent: {}
+[9.161387] (-) TimerEvent: {}
+[9.261680] (-) TimerEvent: {}
+[9.362057] (-) TimerEvent: {}
+[9.462401] (-) TimerEvent: {}
+[9.563051] (-) TimerEvent: {}
+[9.663357] (-) TimerEvent: {}
+[9.763656] (-) TimerEvent: {}
+[9.863988] (-) TimerEvent: {}
+[9.964431] (-) TimerEvent: {}
+[10.064667] (-) TimerEvent: {}
+[10.164870] (-) TimerEvent: {}
+[10.265073] (-) TimerEvent: {}
+[10.365282] (-) TimerEvent: {}
+[10.465566] (-) TimerEvent: {}
+[10.565767] (-) TimerEvent: {}
+[10.665965] (-) TimerEvent: {}
+[10.766162] (-) TimerEvent: {}
+[10.866539] (-) TimerEvent: {}
+[10.966742] (-) TimerEvent: {}
+[11.066950] (-) TimerEvent: {}
+[11.167715] (-) TimerEvent: {}
+[11.241321] (grid_map_ros) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[11.267826] (-) TimerEvent: {}
+[11.276850] (grid_map_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/grid_map_ros.dir/build.make:76\xef\xbc\x9aCMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[11.277215] (grid_map_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:157\xef\xbc\x9aCMakeFiles/grid_map_ros.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.277339] (grid_map_ros) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[11.289777] (grid_map_ros) StdoutLine: {'line': b'[ 63%] Linking CXX static library libgtest.a\n'}
+[11.340742] (grid_map_ros) StdoutLine: {'line': b'[ 63%] Built target gtest\n'}
+[11.341874] (grid_map_ros) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.343838] (grid_map_ros) CommandEnded: {'returncode': 2}
+[11.354635] (grid_map_ros) JobEnded: {'identifier': 'grid_map_ros', 'rc': 2}
+[11.365076] (-) EventReactorShutdown: {}

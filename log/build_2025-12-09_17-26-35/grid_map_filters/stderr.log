@@ -1,0 +1,15 @@
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:245：CMakeFiles/normal_vectors_filter.dir/all] 错误 2
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/threshold_filter.dir/all] 错误 2
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:219：CMakeFiles/mean_in_radius_filter.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/min_in_radius_filter.dir/build.make:76: CMakeFiles/min_in_radius_filter.dir/src/MinInRadiusFilter.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/min_in_radius_filter.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

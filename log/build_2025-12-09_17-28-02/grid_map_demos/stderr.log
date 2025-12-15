@@ -1,0 +1,28 @@
+[33mCMake Warning (dev) at CMakeLists.txt:28 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pcd_to_gridmap_demo_node.cpp:11[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PCDToGridmapDemo.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Ktf2_eigen/tf2_eigen.h: 没有那个文件或目录
+   31 | #include [01;31m[K<tf2_eigen/tf2_eigen.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pcd_to_gridmap_demo.dir/build.make:76：CMakeFiles/pcd_to_gridmap_demo.dir/src/pcd_to_gridmap_demo_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:321：CMakeFiles/pcd_to_gridmap_demo.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pointcloud2_to_gridmap_demo_node.cpp:11[m[K:
+[01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PointCloud2ToGridmapDemo.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Ktf2_eigen/tf2_eigen.h: 没有那个文件或目录
+   31 | #include [01;31m[K<tf2_eigen/tf2_eigen.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pointcloud2_to_gridmap_demo.dir/build.make:76：CMakeFiles/pointcloud2_to_gridmap_demo.dir/src/pointcloud2_to_gridmap_demo_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:295：CMakeFiles/pointcloud2_to_gridmap_demo.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

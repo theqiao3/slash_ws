@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tianbot/slash_ws/build/nav2_msg_costmap_plugin/libnav2_msg_costmap_plugin_core.so" "TARGETS" "nav2_msg_costmap_plugin_core" "DESTINATION" "lib")

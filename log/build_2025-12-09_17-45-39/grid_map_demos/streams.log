@@ -1,0 +1,124 @@
+[0.051s] Invoking command in '/home/tianbot/slash_ws/build/grid_map_demos': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_visualization:/home/tianbot/slash_ws/install/grid_map_rviz_plugin:/home/tianbot/slash_ws/install/grid_map_pcl:/home/tianbot/slash_ws/install/grid_map_loader:/home/tianbot/slash_ws/install/grid_map_filters:/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_octomap:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_visualization:/home/tianbot/slash_ws/install/grid_map_rviz_plugin:/home/tianbot/slash_ws/install/grid_map_pcl:/home/tianbot/slash_ws/install/grid_map_loader:/home/tianbot/slash_ws/install/grid_map_filters:/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_octomap:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/grid_map_visualization/lib:/home/tianbot/slash_ws/install/grid_map_rviz_plugin/lib:/home/tianbot/slash_ws/install/grid_map_pcl/lib:/home/tianbot/slash_ws/install/grid_map_loader/lib:/home/tianbot/slash_ws/install/grid_map_filters/lib:/home/tianbot/slash_ws/install/grid_map_ros/lib:/home/tianbot/slash_ws/install/grid_map_octomap/lib:/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tianbot/slash_ws/build/grid_map_demos -- -j4 -l4
+[0.089s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.285s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.320s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.323s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.329s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found filters: 2.2.2 (/opt/ros/humble/share/filters/cmake)
+[0.481s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.510s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.554s] -- Found grid_map_cmake_helpers: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.554s] -- Found grid_map_core: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.556s] -- Found grid_map_cv: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_cv/share/grid_map_cv/cmake)
+[0.561s] -- Found grid_map_msgs: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[0.578s] -- Found grid_map_octomap: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_octomap/share/grid_map_octomap/cmake)
+[0.581s] -- Found grid_map_pcl: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_pcl/share/grid_map_pcl/cmake)
+[0.583s] -- Found grid_map_ros: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+[0.697s] -- Found grid_map_filters: 2.1.0 (/home/tianbot/slash_ws/install/grid_map_filters/share/grid_map_filters/cmake)
+[0.708s] -- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)
+[0.724s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.785s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.789s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.792s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.794s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.795s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.836s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.881s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.282s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.289s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.492s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.500s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.509s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.704s] -- Found Qhull version 8.0.2
+[1.910s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.125s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[2.125s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.125s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.125s]   command to set the policy and suppress this warning.
+[2.125s] 
+[2.125s]   CMake variable PCL_ROOT is set to:
+[2.125s] 
+[2.126s]     /usr
+[2.126s] 
+[2.126s]   For compatibility, CMake is ignoring the variable.
+[2.126s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.126s] [0m
+[3.429s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.543s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.548s] -- Configured cppcheck include dirs: /home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include
+[3.548s] -- Configured cppcheck exclude dirs and/or files: 
+[3.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.550s] -- Added test 'lint_cmake' to check CMake code style
+[3.550s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.554s] -- Added test 'uncrustify' to check C / C++ code style
+[3.554s] -- Configured uncrustify additional arguments: 
+[3.555s] -- Added test 'xmllint' to check XML markup files
+[3.557s] -- Configuring done
+[4.232s] -- Generating done
+[4.333s] -- Build files have been written to: /home/tianbot/slash_ws/build/grid_map_demos
+[4.387s] [35m[1mConsolidate compiler generated dependencies of target tutorial_demo[0m
+[4.392s] [35m[1mConsolidate compiler generated dependencies of target iterators_demo[0m
+[4.392s] [35m[1mConsolidate compiler generated dependencies of target simple_demo[0m
+[4.431s] [  5%] Built target tutorial_demo
+[4.437s] [ 11%] Built target simple_demo
+[4.442s] [ 19%] Built target iterators_demo
+[4.458s] [35m[1mConsolidate compiler generated dependencies of target image_to_gridmap_demo[0m
+[4.467s] [35m[1mConsolidate compiler generated dependencies of target pointcloud2_to_gridmap_demo[0m
+[4.471s] [35m[1mConsolidate compiler generated dependencies of target octomap_to_gridmap_demo[0m
+[4.509s] [ 27%] Built target image_to_gridmap_demo
+[4.524s] [ 30%] [32mBuilding CXX object CMakeFiles/octomap_to_gridmap_demo.dir/src/octomap_to_gridmap_demo_node.cpp.o[0m
+[4.530s] [ 33%] [32mBuilding CXX object CMakeFiles/pointcloud2_to_gridmap_demo.dir/src/pointcloud2_to_gridmap_demo_node.cpp.o[0m
+[4.533s] [35m[1mConsolidate compiler generated dependencies of target pcd_to_gridmap_demo[0m
+[4.615s] [ 36%] [32mBuilding CXX object CMakeFiles/pcd_to_gridmap_demo.dir/src/pcd_to_gridmap_demo_node.cpp.o[0m
+[5.624s] [35m[1mConsolidate compiler generated dependencies of target move_demo[0m
+[5.706s] [ 41%] Built target move_demo
+[5.728s] [ 44%] [32mBuilding CXX object CMakeFiles/pcd_to_gridmap_demo.dir/src/PCDToGridmapDemo.cpp.o[0m
+[7.735s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PointCloud2ToGridmapDemo.hpp:31[m[K,
+[7.735s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pointcloud2_to_gridmap_demo_node.cpp:11[m[K:
+[7.736s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[7.736s]    32 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[7.736s]       |  [01;31m[K^~~~~~~[m[K
+[7.744s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PointCloud2ToGridmapDemo.hpp:34[m[K,
+[7.744s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pointcloud2_to_gridmap_demo_node.cpp:11[m[K:
+[7.744s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[7.744s]    35 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[7.744s]       |  [01;31m[K^~~~~~~[m[K
+[8.009s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PCDToGridmapDemo.hpp:31[m[K,
+[8.010s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pcd_to_gridmap_demo_node.cpp:11[m[K:
+[8.010s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[8.011s]    32 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[8.011s]       |  [01;31m[K^~~~~~~[m[K
+[8.020s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PCDToGridmapDemo.hpp:34[m[K,
+[8.022s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/pcd_to_gridmap_demo_node.cpp:11[m[K:
+[8.022s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[8.022s]    35 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[8.022s]       |  [01;31m[K^~~~~~~[m[K
+[8.989s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PCDToGridmapDemo.hpp:31[m[K,
+[8.989s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/PCDToGridmapDemo.cpp:14[m[K:
+[8.989s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[8.989s]    32 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[8.989s]       |  [01;31m[K^~~~~~~[m[K
+[8.999s] In file included from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/include/grid_map_demos/PCDToGridmapDemo.hpp:34[m[K,
+[9.000s]                  from [01m[K/home/tianbot/slash_ws/src/slash_perception/grid_map/grid_map_demos/src/PCDToGridmapDemo.cpp:14[m[K:
+[9.000s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+[9.000s]    35 | #[01;31m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[9.000s]       |  [01;31m[K^~~~~~~[m[K
+[47.744s] [ 47%] [32mBuilding CXX object CMakeFiles/octomap_to_gridmap_demo.dir/src/OctomapToGridmapDemo.cpp.o[0m
+[101.150s] cc1plus: all warnings being treated as errors
+[101.201s] gmake[2]: *** [CMakeFiles/pcd_to_gridmap_demo.dir/build.make:76：CMakeFiles/pcd_to_gridmap_demo.dir/src/pcd_to_gridmap_demo_node.cpp.o] 错误 1
+[101.202s] gmake[2]: *** 正在等待未完成的任务....
+[101.861s] cc1plus: all warnings being treated as errors
+[101.910s] gmake[2]: *** [CMakeFiles/pointcloud2_to_gridmap_demo.dir/build.make:76：CMakeFiles/pointcloud2_to_gridmap_demo.dir/src/pointcloud2_to_gridmap_demo_node.cpp.o] 错误 1
+[101.911s] gmake[1]: *** [CMakeFiles/Makefile2:295：CMakeFiles/pointcloud2_to_gridmap_demo.dir/all] 错误 2
+[101.911s] gmake[1]: *** 正在等待未完成的任务....
+[122.414s] [ 50%] [32m[1mLinking CXX executable octomap_to_gridmap_demo[0m
+[123.350s] [ 50%] Built target octomap_to_gridmap_demo
+[134.217s] cc1plus: all warnings being treated as errors
+[134.267s] gmake[2]: *** [CMakeFiles/pcd_to_gridmap_demo.dir/build.make:90：CMakeFiles/pcd_to_gridmap_demo.dir/src/PCDToGridmapDemo.cpp.o] 错误 1
+[134.267s] gmake[1]: *** [CMakeFiles/Makefile2:321：CMakeFiles/pcd_to_gridmap_demo.dir/all] 错误 2
+[134.267s] gmake: *** [Makefile:146：all] 错误 2
+[134.270s] Invoked command in '/home/tianbot/slash_ws/build/grid_map_demos' returned '2': AMENT_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_visualization:/home/tianbot/slash_ws/install/grid_map_rviz_plugin:/home/tianbot/slash_ws/install/grid_map_pcl:/home/tianbot/slash_ws/install/grid_map_loader:/home/tianbot/slash_ws/install/grid_map_filters:/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_octomap:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianbot/slash_ws/install/grid_map_visualization:/home/tianbot/slash_ws/install/grid_map_rviz_plugin:/home/tianbot/slash_ws/install/grid_map_pcl:/home/tianbot/slash_ws/install/grid_map_loader:/home/tianbot/slash_ws/install/grid_map_filters:/home/tianbot/slash_ws/install/grid_map_ros:/home/tianbot/slash_ws/install/grid_map_octomap:/home/tianbot/slash_ws/install/grid_map_cv:/home/tianbot/slash_ws/install/grid_map_msgs:/home/tianbot/slash_ws/install/grid_map_core:/home/tianbot/slash_ws/install/grid_map_cmake_helpers:/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/icp_localization:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/tianbot/slash_ws/install/grid_map_visualization/lib:/home/tianbot/slash_ws/install/grid_map_rviz_plugin/lib:/home/tianbot/slash_ws/install/grid_map_pcl/lib:/home/tianbot/slash_ws/install/grid_map_loader/lib:/home/tianbot/slash_ws/install/grid_map_filters/lib:/home/tianbot/slash_ws/install/grid_map_ros/lib:/home/tianbot/slash_ws/install/grid_map_octomap/lib:/home/tianbot/slash_ws/install/grid_map_cv/lib:/home/tianbot/slash_ws/install/grid_map_msgs/lib:/home/tianbot/slash_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tianbot/slash_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tianbot/slash_ws/build/grid_map_demos -- -j4 -l4

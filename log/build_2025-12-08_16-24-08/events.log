@@ -1,0 +1,508 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000622] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000783] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000839] (-) JobUnselected: {'identifier': 'dll'}
+[0.000913] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000967] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.001047] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001090] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001154] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.001204] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.001242] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001315] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001352] (-) JobUnselected: {'identifier': 'pointcloud_filter'}
+[0.001398] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001433] (-) JobUnselected: {'identifier': 'slash_nav2'}
+[0.001469] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001515] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001551] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001586] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001632] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001667] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001710] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001759] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001809] (icp_localization) JobQueued: {'identifier': 'icp_localization', 'dependencies': OrderedDict()}
+[0.001849] (icp_localization) JobStarted: {'identifier': 'icp_localization'}
+[0.017291] (icp_localization) JobProgress: {'identifier': 'icp_localization', 'progress': 'cmake'}
+[0.018278] (icp_localization) JobProgress: {'identifier': 'icp_localization', 'progress': 'build'}
+[0.019161] (icp_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianbot/slash_ws/build/icp_localization', '--', '-j4', '-l4'], 'cwd': '/home/tianbot/slash_ws/build/icp_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 33236 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2fe7ad38-c72a-406e-b08f-a286d03be78a.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianbot/slash_ws/build/icp_localization'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 33236 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[0.090608] (icp_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target icp_localization_node\x1b[0m\n'}
+[0.098778] (icp_localization) StdoutLine: {'line': b'[ 40%] Built target set_initial_pose_node\n'}
+[0.099668] (-) TimerEvent: {}
+[0.149913] (icp_localization) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/icp_localization_node.dir/src/icp_localization_node.cpp.o\x1b[0m\n'}
+[0.151229] (icp_localization) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/icp_localization_node.dir/src/icp_localization.cpp.o\x1b[0m\n'}
+[0.199745] (-) TimerEvent: {}
+[0.300936] (-) TimerEvent: {}
+[0.401240] (-) TimerEvent: {}
+[0.502953] (-) TimerEvent: {}
+[0.603273] (-) TimerEvent: {}
+[0.703895] (-) TimerEvent: {}
+[0.804712] (-) TimerEvent: {}
+[0.907004] (-) TimerEvent: {}
+[1.007474] (-) TimerEvent: {}
+[1.107881] (-) TimerEvent: {}
+[1.208262] (-) TimerEvent: {}
+[1.308648] (-) TimerEvent: {}
+[1.409051] (-) TimerEvent: {}
+[1.509436] (-) TimerEvent: {}
+[1.609841] (-) TimerEvent: {}
+[1.710226] (-) TimerEvent: {}
+[1.810654] (-) TimerEvent: {}
+[1.911157] (-) TimerEvent: {}
+[2.011543] (-) TimerEvent: {}
+[2.111902] (-) TimerEvent: {}
+[2.212200] (-) TimerEvent: {}
+[2.312505] (-) TimerEvent: {}
+[2.412827] (-) TimerEvent: {}
+[2.513130] (-) TimerEvent: {}
+[2.613444] (-) TimerEvent: {}
+[2.713742] (-) TimerEvent: {}
+[2.814063] (-) TimerEvent: {}
+[2.914745] (-) TimerEvent: {}
+[3.015068] (-) TimerEvent: {}
+[3.115910] (-) TimerEvent: {}
+[3.216435] (-) TimerEvent: {}
+[3.316867] (-) TimerEvent: {}
+[3.417190] (-) TimerEvent: {}
+[3.517836] (-) TimerEvent: {}
+[3.618228] (-) TimerEvent: {}
+[3.718567] (-) TimerEvent: {}
+[3.818922] (-) TimerEvent: {}
+[3.919249] (-) TimerEvent: {}
+[4.019585] (-) TimerEvent: {}
+[4.119918] (-) TimerEvent: {}
+[4.220242] (-) TimerEvent: {}
+[4.320729] (-) TimerEvent: {}
+[4.422203] (-) TimerEvent: {}
+[4.522528] (-) TimerEvent: {}
+[4.622855] (-) TimerEvent: {}
+[4.723547] (-) TimerEvent: {}
+[4.823889] (-) TimerEvent: {}
+[4.925746] (-) TimerEvent: {}
+[5.026090] (-) TimerEvent: {}
+[5.126414] (-) TimerEvent: {}
+[5.226746] (-) TimerEvent: {}
+[5.327075] (-) TimerEvent: {}
+[5.427411] (-) TimerEvent: {}
+[5.527735] (-) TimerEvent: {}
+[5.628058] (-) TimerEvent: {}
+[5.728555] (-) TimerEvent: {}
+[5.830741] (-) TimerEvent: {}
+[5.931099] (-) TimerEvent: {}
+[6.031645] (-) TimerEvent: {}
+[6.132069] (-) TimerEvent: {}
+[6.232388] (-) TimerEvent: {}
+[6.332726] (-) TimerEvent: {}
+[6.433048] (-) TimerEvent: {}
+[6.533346] (-) TimerEvent: {}
+[6.634053] (-) TimerEvent: {}
+[6.734731] (-) TimerEvent: {}
+[6.835430] (-) TimerEvent: {}
+[6.936382] (-) TimerEvent: {}
+[7.038570] (-) TimerEvent: {}
+[7.139827] (-) TimerEvent: {}
+[7.240269] (-) TimerEvent: {}
+[7.340736] (-) TimerEvent: {}
+[7.441232] (-) TimerEvent: {}
+[7.542280] (-) TimerEvent: {}
+[7.643146] (-) TimerEvent: {}
+[7.743902] (-) TimerEvent: {}
+[7.845004] (-) TimerEvent: {}
+[7.946784] (-) TimerEvent: {}
+[8.047167] (-) TimerEvent: {}
+[8.147947] (-) TimerEvent: {}
+[8.248451] (-) TimerEvent: {}
+[8.349811] (-) TimerEvent: {}
+[8.450174] (-) TimerEvent: {}
+[8.542939] (icp_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:1\x1b[m\x1b[K:\n'}
+[8.543259] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kicp_localization::ICPLocalization::ICPLocalization(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.543383] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:141:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kicp_localization::ICPLocalization::has_odom_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.543510] (icp_localization) StderrLine: {'line': b'  141 |   bool \x1b[01;35m\x1b[Khas_odom_\x1b[m\x1b[K;\n'}
+[8.543608] (icp_localization) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543714] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/include/icp_localization/icp_localization.hpp:137:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix4f icp_localization::ICPLocalization::map_to_odom_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.544482] (icp_localization) StderrLine: {'line': b'  137 |   Eigen::Matrix4f \x1b[01;35m\x1b[Kmap_to_odom_\x1b[m\x1b[K;\n'}
+[8.544606] (icp_localization) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.544723] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:7:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.544834] (icp_localization) StderrLine: {'line': b'    7 | \x1b[01;35m\x1b[KICPLocalization\x1b[m\x1b[K::ICPLocalization(const rclcpp::NodeOptions & options)\n'}
+[8.544933] (icp_localization) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.551812] (-) TimerEvent: {}
+[8.652474] (-) TimerEvent: {}
+[8.679471] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid icp_localization::ICPLocalization::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.679707] (icp_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianbot/slash_ws/src/slash_localization/icp_localization/src/icp_localization.cpp:271:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.679823] (icp_localization) StderrLine: {'line': b'  271 | void ICPLocalization::odomCallback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::SharedPtr msg\x1b[m\x1b[K)\n'}
+[8.679920] (icp_localization) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.752581] (-) TimerEvent: {}
+[8.853140] (-) TimerEvent: {}
+[8.953477] (-) TimerEvent: {}
+[9.054022] (-) TimerEvent: {}
+[9.154350] (-) TimerEvent: {}
+[9.254862] (-) TimerEvent: {}
+[9.355178] (-) TimerEvent: {}
+[9.455678] (-) TimerEvent: {}
+[9.556092] (-) TimerEvent: {}
+[9.656739] (-) TimerEvent: {}
+[9.757547] (-) TimerEvent: {}
+[9.857887] (-) TimerEvent: {}
+[9.958315] (-) TimerEvent: {}
+[10.059815] (-) TimerEvent: {}
+[10.160678] (-) TimerEvent: {}
+[10.261368] (-) TimerEvent: {}
+[10.361722] (-) TimerEvent: {}
+[10.462042] (-) TimerEvent: {}
+[10.562597] (-) TimerEvent: {}
+[10.663092] (-) TimerEvent: {}
+[10.763476] (-) TimerEvent: {}
+[10.863945] (-) TimerEvent: {}
+[10.966977] (-) TimerEvent: {}
+[11.067313] (-) TimerEvent: {}
+[11.167629] (-) TimerEvent: {}
+[11.267975] (-) TimerEvent: {}
+[11.368291] (-) TimerEvent: {}
+[11.468595] (-) TimerEvent: {}
+[11.568952] (-) TimerEvent: {}
+[11.669295] (-) TimerEvent: {}
+[11.769609] (-) TimerEvent: {}
+[11.870233] (-) TimerEvent: {}
+[11.970565] (-) TimerEvent: {}
+[12.070887] (-) TimerEvent: {}
+[12.171323] (-) TimerEvent: {}
+[12.272182] (-) TimerEvent: {}
+[12.372518] (-) TimerEvent: {}
+[12.472839] (-) TimerEvent: {}
+[12.573153] (-) TimerEvent: {}
+[12.673459] (-) TimerEvent: {}
+[12.773740] (-) TimerEvent: {}
+[12.875805] (-) TimerEvent: {}
+[12.976123] (-) TimerEvent: {}
+[13.076432] (-) TimerEvent: {}
+[13.176741] (-) TimerEvent: {}
+[13.277043] (-) TimerEvent: {}
+[13.377349] (-) TimerEvent: {}
+[13.477645] (-) TimerEvent: {}
+[13.577959] (-) TimerEvent: {}
+[13.678272] (-) TimerEvent: {}
+[13.778573] (-) TimerEvent: {}
+[13.878896] (-) TimerEvent: {}
+[13.979398] (-) TimerEvent: {}
+[14.079734] (-) TimerEvent: {}
+[14.180045] (-) TimerEvent: {}
+[14.280647] (-) TimerEvent: {}
+[14.380973] (-) TimerEvent: {}
+[14.481292] (-) TimerEvent: {}
+[14.582042] (-) TimerEvent: {}
+[14.682362] (-) TimerEvent: {}
+[14.782668] (-) TimerEvent: {}
+[14.883480] (-) TimerEvent: {}
+[14.984741] (-) TimerEvent: {}
+[15.086220] (-) TimerEvent: {}
+[15.186535] (-) TimerEvent: {}
+[15.287033] (-) TimerEvent: {}
+[15.387355] (-) TimerEvent: {}
+[15.487655] (-) TimerEvent: {}
+[15.587955] (-) TimerEvent: {}
+[15.688254] (-) TimerEvent: {}
+[15.789277] (-) TimerEvent: {}
+[15.889725] (-) TimerEvent: {}
+[15.990198] (-) TimerEvent: {}
+[16.090958] (-) TimerEvent: {}
+[16.191408] (-) TimerEvent: {}
+[16.291730] (-) TimerEvent: {}
+[16.392042] (-) TimerEvent: {}
+[16.492453] (-) TimerEvent: {}
+[16.592739] (-) TimerEvent: {}
+[16.693048] (-) TimerEvent: {}
+[16.793352] (-) TimerEvent: {}
+[16.893664] (-) TimerEvent: {}
+[16.993992] (-) TimerEvent: {}
+[17.094288] (-) TimerEvent: {}
+[17.194584] (-) TimerEvent: {}
+[17.294923] (-) TimerEvent: {}
+[17.395224] (-) TimerEvent: {}
+[17.495533] (-) TimerEvent: {}
+[17.595854] (-) TimerEvent: {}
+[17.696163] (-) TimerEvent: {}
+[17.796477] (-) TimerEvent: {}
+[17.896838] (-) TimerEvent: {}
+[17.997313] (-) TimerEvent: {}
+[18.097996] (-) TimerEvent: {}
+[18.198288] (-) TimerEvent: {}
+[18.298583] (-) TimerEvent: {}
+[18.398910] (-) TimerEvent: {}
+[18.499216] (-) TimerEvent: {}
+[18.599516] (-) TimerEvent: {}
+[18.699815] (-) TimerEvent: {}
+[18.800131] (-) TimerEvent: {}
+[18.900447] (-) TimerEvent: {}
+[19.000751] (-) TimerEvent: {}
+[19.101072] (-) TimerEvent: {}
+[19.201376] (-) TimerEvent: {}
+[19.301695] (-) TimerEvent: {}
+[19.402016] (-) TimerEvent: {}
+[19.502317] (-) TimerEvent: {}
+[19.602620] (-) TimerEvent: {}
+[19.703596] (-) TimerEvent: {}
+[19.803902] (-) TimerEvent: {}
+[19.904207] (-) TimerEvent: {}
+[20.004527] (-) TimerEvent: {}
+[20.104946] (-) TimerEvent: {}
+[20.205242] (-) TimerEvent: {}
+[20.305542] (-) TimerEvent: {}
+[20.405807] (-) TimerEvent: {}
+[20.506109] (-) TimerEvent: {}
+[20.606416] (-) TimerEvent: {}
+[20.706734] (-) TimerEvent: {}
+[20.807041] (-) TimerEvent: {}
+[20.907349] (-) TimerEvent: {}
+[21.007648] (-) TimerEvent: {}
+[21.107954] (-) TimerEvent: {}
+[21.208244] (-) TimerEvent: {}
+[21.308652] (-) TimerEvent: {}
+[21.409207] (-) TimerEvent: {}
+[21.509735] (-) TimerEvent: {}
+[21.610036] (-) TimerEvent: {}
+[21.710328] (-) TimerEvent: {}
+[21.810622] (-) TimerEvent: {}
+[21.910930] (-) TimerEvent: {}
+[22.011241] (-) TimerEvent: {}
+[22.111539] (-) TimerEvent: {}
+[22.211855] (-) TimerEvent: {}
+[22.312161] (-) TimerEvent: {}
+[22.412464] (-) TimerEvent: {}
+[22.512741] (-) TimerEvent: {}
+[22.613082] (-) TimerEvent: {}
+[22.713382] (-) TimerEvent: {}
+[22.813716] (-) TimerEvent: {}
+[22.914028] (-) TimerEvent: {}
+[23.014358] (-) TimerEvent: {}
+[23.114650] (-) TimerEvent: {}
+[23.214962] (-) TimerEvent: {}
+[23.315309] (-) TimerEvent: {}
+[23.415616] (-) TimerEvent: {}
+[23.515968] (-) TimerEvent: {}
+[23.616269] (-) TimerEvent: {}
+[23.716575] (-) TimerEvent: {}
+[23.816909] (-) TimerEvent: {}
+[23.917217] (-) TimerEvent: {}
+[24.017531] (-) TimerEvent: {}
+[24.117847] (-) TimerEvent: {}
+[24.218156] (-) TimerEvent: {}
+[24.318464] (-) TimerEvent: {}
+[24.418745] (-) TimerEvent: {}
+[24.519052] (-) TimerEvent: {}
+[24.619320] (-) TimerEvent: {}
+[24.719657] (-) TimerEvent: {}
+[24.819981] (-) TimerEvent: {}
+[24.920297] (-) TimerEvent: {}
+[25.020598] (-) TimerEvent: {}
+[25.120936] (-) TimerEvent: {}
+[25.221235] (-) TimerEvent: {}
+[25.321504] (-) TimerEvent: {}
+[25.421865] (-) TimerEvent: {}
+[25.522159] (-) TimerEvent: {}
+[25.622458] (-) TimerEvent: {}
+[25.722751] (-) TimerEvent: {}
+[25.823191] (-) TimerEvent: {}
+[25.923515] (-) TimerEvent: {}
+[26.023861] (-) TimerEvent: {}
+[26.124214] (-) TimerEvent: {}
+[26.224699] (-) TimerEvent: {}
+[26.325011] (-) TimerEvent: {}
+[26.425342] (-) TimerEvent: {}
+[26.525663] (-) TimerEvent: {}
+[26.625977] (-) TimerEvent: {}
+[26.726263] (-) TimerEvent: {}
+[26.826555] (-) TimerEvent: {}
+[26.926871] (-) TimerEvent: {}
+[27.027173] (-) TimerEvent: {}
+[27.127481] (-) TimerEvent: {}
+[27.227817] (-) TimerEvent: {}
+[27.328124] (-) TimerEvent: {}
+[27.428421] (-) TimerEvent: {}
+[27.528728] (-) TimerEvent: {}
+[27.629014] (-) TimerEvent: {}
+[27.729301] (-) TimerEvent: {}
+[27.829592] (-) TimerEvent: {}
+[27.929909] (-) TimerEvent: {}
+[28.030215] (-) TimerEvent: {}
+[28.130502] (-) TimerEvent: {}
+[28.230791] (-) TimerEvent: {}
+[28.331089] (-) TimerEvent: {}
+[28.431398] (-) TimerEvent: {}
+[28.531703] (-) TimerEvent: {}
+[28.631993] (-) TimerEvent: {}
+[28.732291] (-) TimerEvent: {}
+[28.832707] (-) TimerEvent: {}
+[28.933003] (-) TimerEvent: {}
+[29.033304] (-) TimerEvent: {}
+[29.133598] (-) TimerEvent: {}
+[29.233906] (-) TimerEvent: {}
+[29.334203] (-) TimerEvent: {}
+[29.434488] (-) TimerEvent: {}
+[29.535052] (-) TimerEvent: {}
+[29.635335] (-) TimerEvent: {}
+[29.735598] (-) TimerEvent: {}
+[29.835900] (-) TimerEvent: {}
+[29.936179] (-) TimerEvent: {}
+[30.036466] (-) TimerEvent: {}
+[30.136731] (-) TimerEvent: {}
+[30.237036] (-) TimerEvent: {}
+[30.337363] (-) TimerEvent: {}
+[30.437673] (-) TimerEvent: {}
+[30.538011] (-) TimerEvent: {}
+[30.638283] (-) TimerEvent: {}
+[30.738576] (-) TimerEvent: {}
+[30.838895] (-) TimerEvent: {}
+[30.939248] (-) TimerEvent: {}
+[31.039543] (-) TimerEvent: {}
+[31.139846] (-) TimerEvent: {}
+[31.240153] (-) TimerEvent: {}
+[31.340440] (-) TimerEvent: {}
+[31.440731] (-) TimerEvent: {}
+[31.541045] (-) TimerEvent: {}
+[31.641338] (-) TimerEvent: {}
+[31.741760] (-) TimerEvent: {}
+[31.842069] (-) TimerEvent: {}
+[31.942354] (-) TimerEvent: {}
+[32.042663] (-) TimerEvent: {}
+[32.142969] (-) TimerEvent: {}
+[32.243258] (-) TimerEvent: {}
+[32.343553] (-) TimerEvent: {}
+[32.443870] (-) TimerEvent: {}
+[32.544266] (-) TimerEvent: {}
+[32.644548] (-) TimerEvent: {}
+[32.744840] (-) TimerEvent: {}
+[32.845142] (-) TimerEvent: {}
+[32.945449] (-) TimerEvent: {}
+[33.045738] (-) TimerEvent: {}
+[33.146030] (-) TimerEvent: {}
+[33.246329] (-) TimerEvent: {}
+[33.346624] (-) TimerEvent: {}
+[33.446927] (-) TimerEvent: {}
+[33.547223] (-) TimerEvent: {}
+[33.647516] (-) TimerEvent: {}
+[33.747809] (-) TimerEvent: {}
+[33.848105] (-) TimerEvent: {}
+[33.948399] (-) TimerEvent: {}
+[34.048707] (-) TimerEvent: {}
+[34.149010] (-) TimerEvent: {}
+[34.249302] (-) TimerEvent: {}
+[34.349608] (-) TimerEvent: {}
+[34.449929] (-) TimerEvent: {}
+[34.550221] (-) TimerEvent: {}
+[34.650519] (-) TimerEvent: {}
+[34.750865] (-) TimerEvent: {}
+[34.851160] (-) TimerEvent: {}
+[34.951464] (-) TimerEvent: {}
+[35.051735] (-) TimerEvent: {}
+[35.152027] (-) TimerEvent: {}
+[35.252317] (-) TimerEvent: {}
+[35.352608] (-) TimerEvent: {}
+[35.452906] (-) TimerEvent: {}
+[35.553217] (-) TimerEvent: {}
+[35.653530] (-) TimerEvent: {}
+[35.753845] (-) TimerEvent: {}
+[35.854159] (-) TimerEvent: {}
+[35.955001] (-) TimerEvent: {}
+[36.055376] (-) TimerEvent: {}
+[36.155764] (-) TimerEvent: {}
+[36.256286] (-) TimerEvent: {}
+[36.356665] (-) TimerEvent: {}
+[36.456961] (-) TimerEvent: {}
+[36.557247] (-) TimerEvent: {}
+[36.657597] (-) TimerEvent: {}
+[36.757918] (-) TimerEvent: {}
+[36.858183] (-) TimerEvent: {}
+[36.958499] (-) TimerEvent: {}
+[37.058811] (-) TimerEvent: {}
+[37.159108] (-) TimerEvent: {}
+[37.259441] (-) TimerEvent: {}
+[37.359801] (-) TimerEvent: {}
+[37.460183] (-) TimerEvent: {}
+[37.562529] (-) TimerEvent: {}
+[37.662849] (-) TimerEvent: {}
+[37.763186] (-) TimerEvent: {}
+[37.863525] (-) TimerEvent: {}
+[37.963977] (-) TimerEvent: {}
+[38.064588] (-) TimerEvent: {}
+[38.165027] (-) TimerEvent: {}
+[38.267203] (-) TimerEvent: {}
+[38.367531] (-) TimerEvent: {}
+[38.468044] (-) TimerEvent: {}
+[38.568362] (-) TimerEvent: {}
+[38.668666] (-) TimerEvent: {}
+[38.772741] (-) TimerEvent: {}
+[38.873037] (-) TimerEvent: {}
+[38.973360] (-) TimerEvent: {}
+[39.073678] (-) TimerEvent: {}
+[39.174048] (-) TimerEvent: {}
+[39.274349] (-) TimerEvent: {}
+[39.374661] (-) TimerEvent: {}
+[39.474985] (-) TimerEvent: {}
+[39.575946] (-) TimerEvent: {}
+[39.676261] (-) TimerEvent: {}
+[39.776585] (-) TimerEvent: {}
+[39.876909] (-) TimerEvent: {}
+[39.977207] (-) TimerEvent: {}
+[40.077497] (-) TimerEvent: {}
+[40.177800] (-) TimerEvent: {}
+[40.278100] (-) TimerEvent: {}
+[40.378537] (-) TimerEvent: {}
+[40.479510] (-) TimerEvent: {}
+[40.582865] (-) TimerEvent: {}
+[40.683157] (-) TimerEvent: {}
+[40.783454] (-) TimerEvent: {}
+[40.845457] (icp_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable icp_localization_node\x1b[0m\n'}
+[40.883563] (-) TimerEvent: {}
+[40.983894] (-) TimerEvent: {}
+[41.084217] (-) TimerEvent: {}
+[41.184534] (-) TimerEvent: {}
+[41.284900] (-) TimerEvent: {}
+[41.385458] (-) TimerEvent: {}
+[41.485791] (-) TimerEvent: {}
+[41.586134] (-) TimerEvent: {}
+[41.686494] (-) TimerEvent: {}
+[41.786899] (-) TimerEvent: {}
+[41.887253] (-) TimerEvent: {}
+[41.987588] (-) TimerEvent: {}
+[42.087913] (-) TimerEvent: {}
+[42.188292] (-) TimerEvent: {}
+[42.288600] (-) TimerEvent: {}
+[42.388931] (-) TimerEvent: {}
+[42.489236] (-) TimerEvent: {}
+[42.540556] (icp_localization) StdoutLine: {'line': b'[100%] Built target icp_localization_node\n'}
+[42.554651] (icp_localization) CommandEnded: {'returncode': 0}
+[42.555379] (icp_localization) JobProgress: {'identifier': 'icp_localization', 'progress': 'install'}
+[42.567271] (icp_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tianbot/slash_ws/build/icp_localization'], 'cwd': '/home/tianbot/slash_ws/build/icp_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tianbot'), ('SSH_CLIENT', '192.168.0.135 33236 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('TIANRACER_LIDAR_PORT', '/dev/ttyUSB1'), ('TIANRACER_VIDEO_DEVICE', 'none'), ('ROS_PACKAGE_PATH', '/home/tianbot/tianracer_ros2_ws/install/tianracer/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('TIANRACER_JOY_MODE', 'dji_dt7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann/lib:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller/lib:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/lib:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/lib:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner/lib:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/lib:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/lib:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins/lib:/home/tianbot/slash_ws/install/vesc_driver/lib:/home/tianbot/slash_ws/install/vesc_ackermann/lib:/home/tianbot/slash_ws/install/vesc_msgs/lib:/home/tianbot/slash_ws/install/teleop_tools_msgs/lib:/home/tianbot/slash_ws/install/teb_local_planner/lib:/home/tianbot/slash_ws/install/teb_msgs/lib:/home/tianbot/slash_ws/install/pointcloud_to_laserscan/lib:/home/tianbot/slash_ws/install/fast_lio/lib:/home/tianbot/slash_ws/install/livox_ros_driver2/lib:/home/tianbot/slash_ws/install/linefit_ground_segmentation/lib:/home/tianbot/slash_ws/install/costmap_converter/lib:/home/tianbot/slash_ws/install/costmap_converter_msgs/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tianbot'), ('CYCLONEDDS_URI', 'file:///lib/systemd/system/tianbot_core.service.d/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('TIANRACER_LIDAR_MODEL', 'a1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2fe7ad38-c72a-406e-b08f-a286d03be78a.sock'), ('TIANRACER_BASE', 'compact'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('TIANRACER_STEERING_DIRECTION', 'normal'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('TIANRACER_LIDAR', 'richbeam'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tianbot/slash_ws/install:/home/tianbot/tianracer_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianbot'), ('JOURNAL_STREAM', '8:18157'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/x86_64-linux-gnu/pkgconfig:/home/tianbot/tianracer_ros2_ws/install/tianracer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tianbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tianbot/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/home/tianbot/.local/bin:/home/tianbot/tianracer_ros2_ws/install/costmap_converter/bin:/home/tianbot/slash_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/tianbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('TIANRACER_RGBD_CAMERA_MODEL', 'none'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TIANRACER_LIDAR_IP', '192.168.198.2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e153c1f8b4.sock'), ('TIANRACER_RGBD_CAMERA', 'none'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/key_teleop:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TIANRACER_THROTTLE_DIRECTION', 'normal'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianbot/slash_ws/build/icp_localization'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('TIANBOT_NAME', 'tianbot'), ('SSH_CONNECTION', '192.168.0.135 33236 192.168.0.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tianbot_core/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/tianracer_ros2_ws/build/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/build/key_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/f1tenth_stack:/home/tianbot/slash_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/joy_teleop:/home/tianbot/slash_ws/install/joy_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/mouse_teleop:/home/tianbot/slash_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/tianbot/slash_ws/build/key_teleop:/home/tianbot/slash_ws/install/key_teleop/lib/python3.10/site-packages:/home/tianbot/slash_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('TIANRACER_BRIDGE', 'disabled'), ('TIANRACER_GPS', 'none'), ('CMAKE_PREFIX_PATH', '/home/tianbot/tianracer_ros2_ws/install/vesc_ackermann:/home/tianbot/tianracer_ros2_ws/install/vesc_msgs:/home/tianbot/tianracer_ros2_ws/install/vector_pursuit_controller:/home/tianbot/tianracer_ros2_ws/install/tianracer_slam:/home/tianbot/tianracer_ros2_ws/install/tianracer_rviz:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation2:/home/tianbot/tianracer_ros2_ws/install/tianracer_navigation:/home/tianbot/tianracer_ros2_ws/install/tianracer_jetson:/home/tianbot/tianracer_ros2_ws/install/tianracer_description:/home/tianbot/tianracer_ros2_ws/install/tianracer_core:/home/tianbot/tianracer_ros2_ws/install/tianracer_competition:/home/tianbot/tianracer_ros2_ws/install/tianracer_bringup:/home/tianbot/tianracer_ros2_ws/install/twist_to_ackermann:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher_py:/home/tianbot/tianracer_ros2_ws/install/joy_teleop:/home/tianbot/tianracer_ros2_ws/install/mouse_teleop:/home/tianbot/tianracer_ros2_ws/install/key_teleop:/home/tianbot/slash_ws/install/f1tenth_stack:/home/tianbot/slash_ws/install/joy_teleop:/home/tianbot/slash_ws/install/mouse_teleop:/home/tianbot/slash_ws/install/key_teleop:/opt/ros/humble:/home/tianbot/tianracer_ros2_ws/install/tianracer:/home/tianbot/tianracer_ros2_ws/install/tianbot_core:/home/tianbot/tianracer_ros2_ws/install/tf2_web_republisher:/home/tianbot/tianracer_ros2_ws/install/teleop_tools:/home/tianbot/tianracer_ros2_ws/install/teleop_tools_msgs:/home/tianbot/tianracer_ros2_ws/install/teb_local_planner:/home/tianbot/tianracer_ros2_ws/install/teb_msgs:/home/tianbot/tianracer_ros2_ws/install/slam_gmapping:/home/tianbot/tianracer_ros2_ws/install/openslam_gmapping:/home/tianbot/tianracer_ros2_ws/install/lakibeam1:/home/tianbot/tianracer_ros2_ws/install/costmap_intensity:/home/tianbot/tianracer_ros2_ws/install/costmap_converter:/home/tianbot/tianracer_ros2_ws/install/costmap_converter_msgs:/home/tianbot/tianracer_ros2_ws/install/behavior_ext_plugins:/home/tianbot/tianracer_ros2_ws/install/ackermann_mux:/home/tianbot/slash_ws/install/vesc:/home/tianbot/slash_ws/install/vesc_driver:/home/tianbot/slash_ws/install/vesc_ackermann:/home/tianbot/slash_ws/install/vesc_msgs:/home/tianbot/slash_ws/install/teleop_tools:/home/tianbot/slash_ws/install/teleop_tools_msgs:/home/tianbot/slash_ws/install/teb_local_planner:/home/tianbot/slash_ws/install/teb_msgs:/home/tianbot/slash_ws/install/slash_nav2:/home/tianbot/slash_ws/install/pointcloud_to_laserscan:/home/tianbot/slash_ws/install/pointcloud_filter:/home/tianbot/slash_ws/install/fast_lio:/home/tianbot/slash_ws/install/livox_ros_driver2:/home/tianbot/slash_ws/install/linefit_ground_segmentation_ros:/home/tianbot/slash_ws/install/linefit_ground_segmentation:/home/tianbot/slash_ws/install/dll:/home/tianbot/slash_ws/install/costmap_converter:/home/tianbot/slash_ws/install/costmap_converter_msgs:/home/tianbot/slash_ws/install/ackermann_mux'), ('TIANRACER_BASE_PORT', '/dev/tianbot_base')]), 'shell': False}
+[42.578085] (icp_localization) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[42.578423] (icp_localization) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/icp_localization_node\n'}
+[42.585801] (icp_localization) StdoutLine: {'line': b'-- Set runtime path of "/home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/icp_localization_node" to ""\n'}
+[42.586033] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/lib/icp_localization/set_initial_pose_node\n'}
+[42.586221] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/launch\n'}
+[42.586334] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/launch/icp_localization.launch.py\n'}
+[42.586537] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/config\n'}
+[42.586630] (icp_localization) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/config/icp_localization.yaml\n'}
+[42.586746] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/rviz\n'}
+[42.586919] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/rviz/icp_localization.rviz\n'}
+[42.587093] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/include\n'}
+[42.587181] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/include/icp_localization\n'}
+[42.587264] (icp_localization) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/icp_localization/include/icp_localization/icp_localization.hpp\n'}
+[42.587454] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/package_run_dependencies/icp_localization\n'}
+[42.587542] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/parent_prefix_path/icp_localization\n'}
+[42.587715] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/ament_prefix_path.sh\n'}
+[42.587801] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/ament_prefix_path.dsv\n'}
+[42.587896] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/path.sh\n'}
+[42.587976] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/environment/path.dsv\n'}
+[42.588056] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.bash\n'}
+[42.588137] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.sh\n'}
+[42.588217] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.zsh\n'}
+[42.588298] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/local_setup.dsv\n'}
+[42.588378] (icp_localization) StdoutLine: {'line': b'-- Installing: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/package.dsv\n'}
+[42.588458] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/ament_index/resource_index/packages/icp_localization\n'}
+[42.588540] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/cmake/icp_localizationConfig.cmake\n'}
+[42.588694] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/cmake/icp_localizationConfig-version.cmake\n'}
+[42.589030] (icp_localization) StdoutLine: {'line': b'-- Up-to-date: /home/tianbot/slash_ws/install/icp_localization/share/icp_localization/package.xml\n'}
+[42.589274] (-) TimerEvent: {}
+[42.590145] (icp_localization) CommandEnded: {'returncode': 0}
+[42.609852] (icp_localization) JobEnded: {'identifier': 'icp_localization', 'rc': 0}
+[42.610609] (-) EventReactorShutdown: {}

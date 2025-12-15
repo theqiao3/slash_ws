@@ -1,0 +1,10 @@
+[  9%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Consolidate compiler generated dependencies of target grid_map_ros
+[ 18%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 27%] Building CXX object CMakeFiles/grid_map_ros.dir/src/GridMapMsgHelpers.cpp.o
+[ 36%] Building CXX object CMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o
+[ 45%] Linking CXX static library libgtest_main.a
+[ 45%] Built target gtest_main
+[ 54%] Building CXX object CMakeFiles/grid_map_ros.dir/src/PolygonRosConverter.cpp.o
+[ 63%] Linking CXX static library libgtest.a
+[ 63%] Built target gtest

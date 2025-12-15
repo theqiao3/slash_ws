@@ -10,7 +10,7 @@
         map_file_path: "/home/tianbot/slash_ws/src/slash_navigation/slash_nav2/PCD/test1.pcd"
 
         common:
-            lid_topic:  "/livox/lidar_filtered"
+            lid_topic:  "/livox/lidar"
             #lid_topic:  "/livox/lidar"
             imu_topic:  "/livox/imu"
             time_sync_en: false         # ONLY turn on when external time synchronization is really not possible
